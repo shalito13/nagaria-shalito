@@ -1,4 +1,4 @@
-@keyframes colorBlackAndWhite{0%{background:#ffffff}25%{background:#000000}50%{background:#ffffff}75%{background:#000000}to{background:#ffffff}}@charset "UTF-8";/*!
+.main-container{height:81vh}@keyframes colorBlackAndWhite{0%{background:#ffffff}25%{background:#000000}50%{background:#ffffff}75%{background:#000000}to{background:#ffffff}}@charset "UTF-8";/*!
 * Bootstrap  v5.2.3 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
 * Copyright 2011-2022 Twitter, Inc.
