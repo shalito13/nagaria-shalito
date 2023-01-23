@@ -1,757 +1,289 @@
 [
     {
         "title": "bathroom00 (1)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/bathroom00 (1)/00000700.jpg",
-            "/assets/img/products/bathroom/bathroom00 (1)/00000701.jpg",
-            "/assets/img/products/bathroom/bathroom00 (1)/00000702.jpg",
-            "/assets/img/products/bathroom/bathroom00 (1)/P1210095.JPG",
-            "/assets/img/products/bathroom/bathroom00 (1)/P1210096.JPG"
-        ],
-        "category": "bathroom"
-    },
-    {
-        "title": "bathroom00 (2)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/bathroom/bathroom00 (2)/00000131.jpg",
-            "/assets/img/products/bathroom/bathroom00 (2)/00000132.jpg",
-            "/assets/img/products/bathroom/bathroom00 (2)/00000133.jpg",
-            "/assets/img/products/bathroom/bathroom00 (2)/00000134.jpg"
+            "/assets/img/products/bathroom/bathroom00 (1)/P1210095_normal.webp"
         ],
         "category": "bathroom"
     },
     {
         "title": "bathroom00 (3)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/bathroom00 (3)/00000584.jpg"
+            "/assets/img/products/bathroom/bathroom00 (3)/00000584_normal.webp"
         ],
         "category": "bathroom"
     },
     {
         "title": "bathroom00 (4)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160253.jpg",
-            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160308.jpg",
-            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160320.jpg"
+            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160253_normal.webp",
+            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160308_normal.webp",
+            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160320_normal.webp"
         ],
         "category": "bathroom"
     },
     {
         "title": "buffet00 (1)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (1)/0 (1).jpg",
-            "/assets/img/products/buffet/buffet00 (1)/0 (2).jpg",
-            "/assets/img/products/buffet/buffet00 (1)/0 (3).jpg",
-            "/assets/img/products/buffet/buffet00 (1)/0 (4).jpg",
-            "/assets/img/products/buffet/buffet00 (1)/0 (5).jpg"
+            "/assets/img/products/buffet/buffet00 (1)/00001063_normal.webp",
+            "/assets/img/products/buffet/buffet00 (1)/00001067_normal.webp"
         ],
         "category": "buffet"
     },
     {
         "title": "buffet00 (2)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (2)/00001069.jpg",
-            "/assets/img/products/buffet/buffet00 (2)/00001070.jpg",
-            "/assets/img/products/buffet/buffet00 (2)/00001071.jpg",
-            "/assets/img/products/buffet/buffet00 (2)/00001072.jpg",
-            "/assets/img/products/buffet/buffet00 (2)/00001073.jpg",
-            "/assets/img/products/buffet/buffet00 (2)/20190628_105948.jpg"
+            "/assets/img/products/buffet/buffet00 (2)/00001069_normal.webp",
+            "/assets/img/products/buffet/buffet00 (2)/00001073_normal.webp",
+            "/assets/img/products/buffet/buffet00 (2)/20190628_105948_normal.webp"
         ],
         "category": "buffet"
     },
     {
         "title": "buffet00 (3)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (3)/00000519.jpg"
+            "/assets/img/products/buffet/buffet00 (3)/00000519_normal.webp"
         ],
         "category": "buffet"
     },
     {
         "title": "buffet00 (4)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (4)/00000519.jpg",
-            "/assets/img/products/buffet/buffet00 (4)/00000712.jpg",
-            "/assets/img/products/buffet/buffet00 (4)/01182431-efbc-4ec4-b0d7-a42466cd76ae.jpg",
-            "/assets/img/products/buffet/buffet00 (4)/16.jpg",
-            "/assets/img/products/buffet/buffet00 (4)/2.jpg",
-            "/assets/img/products/buffet/buffet00 (4)/P1210070.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210071.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210072.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210073.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210074.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210075.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210076.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210077.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210078.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210079.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210080.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210081.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210082.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210083.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210084.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210085.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210086.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210103.JPG",
-            "/assets/img/products/buffet/buffet00 (4)/P1210104.JPG"
+            "/assets/img/products/buffet/buffet00 (4)/00000712_normal.webp"
         ],
         "category": "buffet"
     },
     {
         "title": "buffet00 (5)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (5)/20191203_205317.jpg",
-            "/assets/img/products/buffet/buffet00 (5)/20191203_205330.jpg"
+            "/assets/img/products/buffet/buffet00 (5)/20191203_205317_normal.webp",
+            "/assets/img/products/buffet/buffet00 (5)/20191203_205330_normal.webp"
         ],
         "category": "buffet"
     },
     {
         "title": "buffet00 (6)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (6)/00000927.jpg",
-            "/assets/img/products/buffet/buffet00 (6)/00000928.jpg",
-            "/assets/img/products/buffet/buffet00 (6)/00000929.jpg",
-            "/assets/img/products/buffet/buffet00 (6)/00000930.jpg",
-            "/assets/img/products/buffet/buffet00 (6)/00000932.jpg"
+            "/assets/img/products/buffet/buffet00 (6)/00000927_normal.webp",
+            "/assets/img/products/buffet/buffet00 (6)/00000928_normal.webp",
+            "/assets/img/products/buffet/buffet00 (6)/00000929_normal.webp",
+            "/assets/img/products/buffet/buffet00 (6)/00000930_normal.webp",
+            "/assets/img/products/buffet/buffet00 (6)/00000932_normal.webp"
         ],
         "category": "buffet"
     },
     {
         "title": "buffet00 (7)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (7)/20200905_222329.jpg",
-            "/assets/img/products/buffet/buffet00 (7)/20200912_173846.jpg"
+            "/assets/img/products/buffet/buffet00 (7)/20200905_222329_normal.webp",
+            "/assets/img/products/buffet/buffet00 (7)/20200912_173846_normal.webp"
         ],
         "category": "buffet"
     },
     {
         "title": "closet00 (1)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (1)/00000703.jpg",
-            "/assets/img/products/closet/closet00 (1)/00000704.jpg"
+            "/assets/img/products/closet/closet00 (1)/00000703_normal.webp",
+            "/assets/img/products/closet/closet00 (1)/00000704_normal.webp"
         ],
         "category": "closet"
     },
     {
         "title": "closet00 (2)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (2)/20200202_213131.jpg",
-            "/assets/img/products/closet/closet00 (2)/20200202_213155.jpg"
+            "/assets/img/products/closet/closet00 (2)/20200202_213131_normal.webp",
+            "/assets/img/products/closet/closet00 (2)/20200202_213155_normal.webp"
         ],
         "category": "closet"
     },
     {
         "title": "closet00 (3)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (3)/00000484.jpg"
+            "/assets/img/products/closet/closet00 (3)/00000484_normal.webp"
         ],
         "category": "closet"
     },
     {
         "title": "closet00 (4)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (4)/00000714.jpg",
-            "/assets/img/products/closet/closet00 (4)/00000715.jpg"
+            "/assets/img/products/closet/closet00 (4)/00000714_normal.webp"
         ],
         "category": "closet"
     },
     {
         "title": "closet00 (5)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (5)/00000128.jpg",
-            "/assets/img/products/closet/closet00 (5)/00000129.jpg",
-            "/assets/img/products/closet/closet00 (5)/00000130.jpg"
+            "/assets/img/products/closet/closet00 (5)/00000129_normal.webp",
+            "/assets/img/products/closet/closet00 (5)/00000130_normal.webp"
         ],
         "category": "closet"
     },
     {
         "title": "closet00 (6)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (6)/00000627.jpg",
-            "/assets/img/products/closet/closet00 (6)/00000628.jpg",
-            "/assets/img/products/closet/closet00 (6)/00000629.jpg"
+            "/assets/img/products/closet/closet00 (6)/00000627_normal.webp",
+            "/assets/img/products/closet/closet00 (6)/00000628_normal.webp",
+            "/assets/img/products/closet/closet00 (6)/00000629_normal.webp"
         ],
         "category": "closet"
     },
     {
         "title": "kitchen00 (1)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0000.jpg",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0001.jpg",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0002.jpg",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0003.jpg",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0004.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (10)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221618.jpg",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221630.jpg",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221639.jpg",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221654.jpg",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221717.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (11)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141439.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141457.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141555.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141624.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141901.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141923.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141925.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141938.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_142004.jpg",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_142022.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (12)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184050.jpg",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184101.jpg",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184130.jpg",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184158.jpg",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184238.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (13)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105738.jpg",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105852.jpg",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105856.jpg",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105909.jpg",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105915.jpg",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105920.jpg",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105925.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (14)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192303.jpg",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192339.jpg",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192400.jpg",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192418.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (15)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195313.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195323.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195333.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195338.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195352.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195402.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195413.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195421.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195437.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115303.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115314.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115331.jpg",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115339.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (16)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122232.jpg",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122246.jpg",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122343.jpg",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122351.jpg",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122457.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (17)",
-        "description": "desc bla bla bla\r\n",
-        "images": [],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (18)",
-        "description": "desc bla bla bla\r\n",
-        "images": [],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (19)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (19)/11411875_10207442135960029_8768475067792942298_o.jpg",
-            "/assets/img/products/kitchen/kitchen00 (19)/11412049_10207442133239961_1036777759790969628_o.jpg",
-            "/assets/img/products/kitchen/kitchen00 (19)/11703308_10207442134920003_2269400078146192655_o.jpg",
-            "/assets/img/products/kitchen/kitchen00 (19)/11703478_10207442133359964_825557161240584677_o.jpg",
-            "/assets/img/products/kitchen/kitchen00 (19)/11705502_10207442136680047_2540974920362268929_o.jpg",
-            "/assets/img/products/kitchen/kitchen00 (19)/11713868_10207442140000130_6793707842229696433_o.jpg",
-            "/assets/img/products/kitchen/kitchen00 (19)/11722318_10207442134719998_2083789825194816529_o.jpg"
+            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0000_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0001_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0002_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0003_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0004_normal.webp"
         ],
         "category": "kitchen"
     },
     {
         "title": "kitchen00 (2)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215217.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215259.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215311.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215322.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215335.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215409.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220035.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220040.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220354.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220401.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220717.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220736.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220739.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220815.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220833.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220846.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220853.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220856.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220910.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220935.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220948.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221016.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221101.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221108.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221219.jpg",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221227.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (20)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (20)/2bc57149-2e5b-437a-8795-e67abb312059.jpg",
-            "/assets/img/products/kitchen/kitchen00 (20)/5ae0c444-1df2-4876-aa24-f9fdcc7bf415.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (21)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190061.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190062.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190063.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190064.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190065.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190066.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190067.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190068.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190069.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190070.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190071.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190072.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190073.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190075.JPG",
-            "/assets/img/products/kitchen/kitchen00 (21)/P7190076.JPG"
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215217_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215259_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215311_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215322_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215335_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215409_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220035_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220040_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220354_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220401_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220717_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220736_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220739_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220815_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220833_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220846_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220853_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220856_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220910_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220935_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220948_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221016_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221101_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221108_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221219_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221227_normal.webp"
         ],
         "category": "kitchen"
     },
     {
         "title": "kitchen00 (3)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191314.jpg",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191540.jpg",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191544.jpg",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_191918.jpg",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_191931.jpg",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192054.jpg",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192102.jpg",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192218.jpg"
+            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191314_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191540_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191544_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (3)/20200808_191918_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (3)/20200808_191931_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192054_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192102_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192218_normal.webp"
         ],
         "category": "kitchen"
     },
     {
         "title": "kitchen00 (4)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201624.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201647.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201709.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201722.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142334.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142346.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142403.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142442.jpg",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142452.jpg"
+            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201624_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201647_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201709_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201722_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142334_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142346_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142403_normal.webp"
         ],
         "category": "kitchen"
     },
     {
         "title": "kitchen00 (5)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125146.jpg",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125155.jpg",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125201.jpg",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125214.jpg",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125301.jpg",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125304.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (6)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (6)/20180312_194155.jpg",
-            "/assets/img/products/kitchen/kitchen00 (6)/20180312_194213.jpg",
-            "/assets/img/products/kitchen/kitchen00 (6)/20180312_194237.jpg",
-            "/assets/img/products/kitchen/kitchen00 (6)/20180312_194247.jpg",
-            "/assets/img/products/kitchen/kitchen00 (6)/20180312_194254.jpg",
-            "/assets/img/products/kitchen/kitchen00 (6)/20180312_194305.jpg",
-            "/assets/img/products/kitchen/kitchen00 (6)/20180312_194338.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (7)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (7)/00001498.jpg",
-            "/assets/img/products/kitchen/kitchen00 (7)/00001500.jpg",
-            "/assets/img/products/kitchen/kitchen00 (7)/00001513.jpg",
-            "/assets/img/products/kitchen/kitchen00 (7)/00001515.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (8)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144341.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144418.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144429.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144453.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144457.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144743.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144756.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181210_144810.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181229_201501.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181229_201505.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181229_201529.jpg",
-            "/assets/img/products/kitchen/kitchen00 (8)/20181229_201543.jpg"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (9)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (9)/20171227_214716.jpg",
-            "/assets/img/products/kitchen/kitchen00 (9)/20171227_214727.jpg",
-            "/assets/img/products/kitchen/kitchen00 (9)/20171227_214734.jpg",
-            "/assets/img/products/kitchen/kitchen00 (9)/20171227_214812.jpg",
-            "/assets/img/products/kitchen/kitchen00 (9)/20171227_214839.jpg",
-            "/assets/img/products/kitchen/kitchen00 (9)/20171227_214911.jpg",
-            "/assets/img/products/kitchen/kitchen00 (9)/20171227_214930.jpg"
+            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125146_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125155_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125201_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125214_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125301_normal.webp",
+            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125304_normal.webp"
         ],
         "category": "kitchen"
     },
     {
         "title": "office00 (1)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/office00 (1)/00000124.jpg",
-            "/assets/img/products/office/office00 (1)/00000125.jpg",
-            "/assets/img/products/office/office00 (1)/00000126.jpg"
+            "/assets/img/products/office/office00 (1)/00000124_normal.webp",
+            "/assets/img/products/office/office00 (1)/00000125_normal.webp",
+            "/assets/img/products/office/office00 (1)/00000126_normal.webp"
         ],
         "category": "office"
     },
     {
         "title": "office00 (2)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/office00 (2)/00000124.jpg",
-            "/assets/img/products/office/office00 (2)/00000125.jpg",
-            "/assets/img/products/office/office00 (2)/00000126.jpg"
+            "/assets/img/products/office/office00 (2)/00000124_normal.webp",
+            "/assets/img/products/office/office00 (2)/00000125_normal.webp",
+            "/assets/img/products/office/office00 (2)/00000126_normal.webp"
         ],
         "category": "office"
     },
     {
         "title": "office00 (3)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/office00 (3)/20190318_184541.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_184633.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_184634.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_190155.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_190157.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_190159.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_190209.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_190211.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_212826.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_212830.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_212845.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_213030.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_213037.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_221909.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_221929.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_221941.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_221951.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_221956.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_222009.jpg",
-            "/assets/img/products/office/office00 (3)/20190318_222022.jpg"
+            "/assets/img/products/office/office00 (3)/20190318_184541_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_184633_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_184634_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_190155_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_190157_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_190159_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_190209_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_190211_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_212826_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_212830_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_212845_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_213030_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_213037_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_221909_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_221929_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_221941_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_221951_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_221956_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_222009_normal.webp",
+            "/assets/img/products/office/office00 (3)/20190318_222022_normal.webp"
         ],
         "category": "office"
     },
     {
         "title": "office00 (4)",
-        "description": "desc bla bla bla\r\n",
+        "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/office00 (4)/00000556.jpg",
-            "/assets/img/products/office/office00 (4)/00000557.jpg"
+            "/assets/img/products/office/office00 (4)/00000556_normal.webp",
+            "/assets/img/products/office/office00 (4)/00000557_normal.webp"
         ],
         "category": "office"
-    },
-    {
-        "title": "other00 (1)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (1)/IMG-20181207-WA0000.jpg",
-            "/assets/img/products/other/other00 (1)/IMG-20181207-WA0001.jpg",
-            "/assets/img/products/other/other00 (1)/IMG-20181207-WA0002.jpg",
-            "/assets/img/products/other/other00 (1)/IMG-20181207-WA0003.jpg",
-            "/assets/img/products/other/other00 (1)/IMG-20181207-WA0004.jpg",
-            "/assets/img/products/other/other00 (1)/IMG-20181207-WA0005.jpg",
-            "/assets/img/products/other/other00 (1)/IMG-20181207-WA0006.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (10)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0007.jpg",
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0008.jpg",
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0009.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (11)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (11)/20200615_192720.jpg",
-            "/assets/img/products/other/other00 (11)/20200615_231403.jpg",
-            "/assets/img/products/other/other00 (11)/20200615_231426.jpg",
-            "/assets/img/products/other/other00 (11)/20200615_231433.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (12)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (12)/20200905_222204.jpg",
-            "/assets/img/products/other/other00 (12)/20200905_222257.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (13)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (13)/20171211_132559.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (14)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (14)/20171211_132559.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (15)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (15)/20171123_210452.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (16)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (16)/00001516.jpg",
-            "/assets/img/products/other/other00 (16)/00001517.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (17)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (17)/20171211_132559.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (18)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (18)/00000167.jpg",
-            "/assets/img/products/other/other00 (18)/00000168.jpg",
-            "/assets/img/products/other/other00 (18)/00000169.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (19)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (19)/20191028_222633.jpg",
-            "/assets/img/products/other/other00 (19)/20191028_222638.jpg",
-            "/assets/img/products/other/other00 (19)/20191028_222657.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (2)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (2)/20190219_210145.jpg",
-            "/assets/img/products/other/other00 (2)/20190219_210150.jpg",
-            "/assets/img/products/other/other00 (2)/20190219_210213.jpg",
-            "/assets/img/products/other/other00 (2)/20190219_210628.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (20)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (20)/00001310.jpg",
-            "/assets/img/products/other/other00 (20)/00001311.jpg",
-            "/assets/img/products/other/other00 (20)/00001312.jpg",
-            "/assets/img/products/other/other00 (20)/00001313.jpg",
-            "/assets/img/products/other/other00 (20)/00001314.jpg",
-            "/assets/img/products/other/other00 (20)/00001315.jpg",
-            "/assets/img/products/other/other00 (20)/00001316.jpg",
-            "/assets/img/products/other/other00 (20)/00001317.jpg",
-            "/assets/img/products/other/other00 (20)/00001318.jpg",
-            "/assets/img/products/other/other00 (20)/00001319.jpg",
-            "/assets/img/products/other/other00 (20)/00001320.jpg",
-            "/assets/img/products/other/other00 (20)/00001321.jpg",
-            "/assets/img/products/other/other00 (20)/00001322.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (3)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (3)/20181218_213516.jpg",
-            "/assets/img/products/other/other00 (3)/20181218_213527.jpg",
-            "/assets/img/products/other/other00 (3)/20181218_214542.jpg",
-            "/assets/img/products/other/other00 (3)/20181218_214554.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (4)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (4)/20190205_133824.jpg",
-            "/assets/img/products/other/other00 (4)/20190205_133835.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (5)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (5)/00000805.jpg",
-            "/assets/img/products/other/other00 (5)/00000806.jpg",
-            "/assets/img/products/other/other00 (5)/00000807.jpg",
-            "/assets/img/products/other/other00 (5)/00000808.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (6)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (6)/00000780.jpg",
-            "/assets/img/products/other/other00 (6)/00000781.jpg",
-            "/assets/img/products/other/other00 (6)/00000782.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (7)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (7)/00000137.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (8)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (8)/00000630.jpg",
-            "/assets/img/products/other/other00 (8)/00000631.jpg",
-            "/assets/img/products/other/other00 (8)/00000632.jpg",
-            "/assets/img/products/other/other00 (8)/00000633.jpg",
-            "/assets/img/products/other/other00 (8)/00000634.jpg"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "other00 (9)",
-        "description": "desc bla bla bla\r\n",
-        "images": [
-            "/assets/img/products/other/other00 (9)/00000809.jpg",
-            "/assets/img/products/other/other00 (9)/00000810.jpg",
-            "/assets/img/products/other/other00 (9)/00000811.jpg"
-        ],
-        "category": "other"
     }
 ]

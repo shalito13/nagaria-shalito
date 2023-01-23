@@ -1,1 +1,1 @@
-desc bla bla bla
+This is a description file.
