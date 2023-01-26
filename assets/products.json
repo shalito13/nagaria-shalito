@@ -1,1018 +1,1263 @@
 [
     {
-        "title": "bathroom00 (1)",
+        "title": "bathroom-closet",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/bathroom00 (1)/P1210095_normal.webp"
+            "/assets/img/products/bathroom-closet/bathroom-closet/20181231_160253_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet/20181231_160308_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet/20181231_160320_normal.webp"
         ],
         "lowResImages": [],
-        "category": "bathroom"
+        "category": "bathroom-closet"
     },
     {
-        "title": "bathroom00 (3)",
+        "title": "bathroom-closet (2)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/bathroom00 (3)/00000584_normal.webp"
+            "/assets/img/products/bathroom-closet/bathroom-closet (2)/00000584_normal.webp"
         ],
         "lowResImages": [],
-        "category": "bathroom"
+        "category": "bathroom-closet"
     },
     {
-        "title": "bathroom00 (4)",
+        "title": "bathroom-closet (3)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160253_normal.webp",
-            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160308_normal.webp",
-            "/assets/img/products/bathroom/bathroom00 (4)/20181231_160320_normal.webp"
+            "/assets/img/products/bathroom-closet/bathroom-closet (3)/00000131_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet (3)/00000132_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet (3)/00000133_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet (3)/00000134_normal.webp"
         ],
         "lowResImages": [],
-        "category": "bathroom"
+        "category": "bathroom-closet"
     },
     {
-        "title": "ארון אמבטיה",
+        "title": "bathroom-closet (4)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/ארון אמבטיה/00000584_normal.webp"
+            "/assets/img/products/bathroom-closet/bathroom-closet (4)/00000700_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet (4)/00000701_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet (4)/00000702_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet (4)/P1210095_normal.webp",
+            "/assets/img/products/bathroom-closet/bathroom-closet (4)/P1210096_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/bathroom/ארון אמבטיה/00000584_half.webp"
-        ],
-        "category": "bathroom"
+        "lowResImages": [],
+        "category": "bathroom-closet"
     },
     {
-        "title": "בוצ'ר כיור עגול",
+        "title": "buffet",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/00000700_normal.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/00000701_normal.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/00000702_normal.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/P1210095_normal.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/P1210096_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/00000700_half.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/00000701_half.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/00000702_half.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/P1210095_half.webp",
-            "/assets/img/products/bathroom/בוצ'ר כיור עגול/P1210096_half.webp"
-        ],
-        "category": "bathroom"
-    },
-    {
-        "title": "חבוי לבן",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/bathroom/חבוי לבן/20181231_160253_normal.webp",
-            "/assets/img/products/bathroom/חבוי לבן/20181231_160308_normal.webp",
-            "/assets/img/products/bathroom/חבוי לבן/20181231_160320_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/bathroom/חבוי לבן/20181231_160253_half.webp",
-            "/assets/img/products/bathroom/חבוי לבן/20181231_160308_half.webp",
-            "/assets/img/products/bathroom/חבוי לבן/20181231_160320_half.webp"
-        ],
-        "category": "bathroom"
-    },
-    {
-        "title": "כיור משולש",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/bathroom/כיור משולש/00000131_normal.webp",
-            "/assets/img/products/bathroom/כיור משולש/00000132_normal.webp",
-            "/assets/img/products/bathroom/כיור משולש/00000133_normal.webp",
-            "/assets/img/products/bathroom/כיור משולש/00000134_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/bathroom/כיור משולש/00000131_half.webp",
-            "/assets/img/products/bathroom/כיור משולש/00000132_half.webp",
-            "/assets/img/products/bathroom/כיור משולש/00000133_half.webp",
-            "/assets/img/products/bathroom/כיור משולש/00000134_half.webp"
-        ],
-        "category": "bathroom"
-    },
-    {
-        "title": "buffet00 (1)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/buffet/buffet00 (1)/0 (1)_normal.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (2)_normal.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (3)_normal.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (4)_normal.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (5)_normal.webp",
-            "/assets/img/products/buffet/buffet00 (1)/00001067_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/buffet/buffet00 (1)/0 (1)_half.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (2)_half.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (3)_half.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (4)_half.webp",
-            "/assets/img/products/buffet/buffet00 (1)/0 (5)_half.webp"
-        ],
-        "category": "buffet"
-    },
-    {
-        "title": "buffet00 (2)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/buffet/buffet00 (2)/00001069_normal.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001070_normal.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001071_normal.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001072_normal.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001073_normal.webp",
-            "/assets/img/products/buffet/buffet00 (2)/20190628_105948_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/buffet/buffet00 (2)/00001069_half.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001070_half.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001071_half.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001072_half.webp",
-            "/assets/img/products/buffet/buffet00 (2)/00001073_half.webp",
-            "/assets/img/products/buffet/buffet00 (2)/20190628_105948_half.webp"
-        ],
-        "category": "buffet"
-    },
-    {
-        "title": "buffet00 (3)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/buffet/buffet00 (3)/00000519_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/buffet/buffet00 (3)/00000519_half.webp"
-        ],
-        "category": "buffet"
-    },
-    {
-        "title": "buffet00 (5)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/buffet/buffet00 (5)/20191203_205317_normal.webp",
-            "/assets/img/products/buffet/buffet00 (5)/20191203_205330_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/buffet/buffet00 (5)/20191203_205317_half.webp",
-            "/assets/img/products/buffet/buffet00 (5)/20191203_205330_half.webp"
-        ],
-        "category": "buffet"
-    },
-    {
-        "title": "buffet00 (6)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/buffet/buffet00 (6)/00000927_normal.webp",
-            "/assets/img/products/buffet/buffet00 (6)/00000928_normal.webp",
-            "/assets/img/products/buffet/buffet00 (6)/00000929_normal.webp",
-            "/assets/img/products/buffet/buffet00 (6)/00000930_normal.webp",
-            "/assets/img/products/buffet/buffet00 (6)/00000932_normal.webp"
+            "/assets/img/products/buffet/buffet/00000519_normal.webp"
         ],
         "lowResImages": [],
         "category": "buffet"
     },
     {
-        "title": "buffet00 (7)",
+        "title": "buffet (2)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/buffet00 (7)/20200905_222329_normal.webp",
-            "/assets/img/products/buffet/buffet00 (7)/20200912_173846_normal.webp"
+            "/assets/img/products/buffet/buffet (2)/00000927_normal.webp",
+            "/assets/img/products/buffet/buffet (2)/00000928_normal.webp",
+            "/assets/img/products/buffet/buffet (2)/00000929_normal.webp",
+            "/assets/img/products/buffet/buffet (2)/00000930_normal.webp",
+            "/assets/img/products/buffet/buffet (2)/00000932_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/buffet/buffet00 (7)/20200905_222329_half.webp",
-            "/assets/img/products/buffet/buffet00 (7)/20200912_173846_half.webp"
-        ],
+        "lowResImages": [],
         "category": "buffet"
     },
     {
-        "title": "מזנון צף לבן",
+        "title": "buffet (3)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/מזנון צף לבן/00000927_normal.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000928_normal.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000929_normal.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000930_normal.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000932_normal.webp"
+            "/assets/img/products/buffet/buffet (3)/20200905_215833_normal.webp",
+            "/assets/img/products/buffet/buffet (3)/20200905_215836_normal.webp",
+            "/assets/img/products/buffet/buffet (3)/20200905_215846_normal.webp",
+            "/assets/img/products/buffet/buffet (3)/20200905_222329_normal.webp",
+            "/assets/img/products/buffet/buffet (3)/20200912_173846_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/buffet/מזנון צף לבן/00000927_half.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000928_half.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000929_half.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000930_half.webp",
-            "/assets/img/products/buffet/מזנון צף לבן/00000932_half.webp"
-        ],
+        "lowResImages": [],
         "category": "buffet"
     },
     {
-        "title": "מזנון צף קמין",
+        "title": "buffet (4)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/buffet/מזנון צף קמין/00000712_normal.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/2_normal.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210070_normal.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210072_normal.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210079_normal.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210082_normal.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210085_normal.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210086_normal.webp"
+            "/assets/img/products/buffet/buffet (4)/00001063_normal.webp",
+            "/assets/img/products/buffet/buffet (4)/00001064_normal.webp",
+            "/assets/img/products/buffet/buffet (4)/00001065_normal.webp",
+            "/assets/img/products/buffet/buffet (4)/00001066_normal.webp",
+            "/assets/img/products/buffet/buffet (4)/00001067_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/buffet/מזנון צף קמין/00000712_half.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/2_half.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210070_half.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210072_half.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210079_half.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210082_half.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210085_half.webp",
-            "/assets/img/products/buffet/מזנון צף קמין/P1210086_half.webp"
-        ],
+        "lowResImages": [],
         "category": "buffet"
     },
     {
-        "title": "closet00 (1)",
+        "title": "buffet (5)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (1)/00000703_normal.webp",
-            "/assets/img/products/closet/closet00 (1)/00000704_normal.webp"
+            "/assets/img/products/buffet/buffet (5)/00001069_normal.webp",
+            "/assets/img/products/buffet/buffet (5)/00001070_normal.webp",
+            "/assets/img/products/buffet/buffet (5)/00001071_normal.webp",
+            "/assets/img/products/buffet/buffet (5)/00001072_normal.webp",
+            "/assets/img/products/buffet/buffet (5)/00001073_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "buffet"
+    },
+    {
+        "title": "New folder",
+        "description": "",
+        "images": [
+            "/assets/img/products/buffet/New folder/00000712_normal.webp",
+            "/assets/img/products/buffet/New folder/00000713_normal.webp",
+            "/assets/img/products/buffet/New folder/20151206_221948_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "buffet"
+    },
+    {
+        "title": "New folder (2)",
+        "description": "",
+        "images": [
+            "/assets/img/products/buffet/New folder (2)/00000510_normal.webp",
+            "/assets/img/products/buffet/New folder (2)/00000511_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "buffet"
+    },
+    {
+        "title": "New folder (3)",
+        "description": "",
+        "images": [
+            "/assets/img/products/buffet/New folder (3)/20171123_210438_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20171123_210447_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20181026_122246_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20181026_122254_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20181026_122258_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20181026_122308_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190628_105948_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190628_110000_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190628_110005_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190628_110015_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190821_163436_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190821_163502_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190821_163536_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20190821_163538_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20191203_205317_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20191203_205330_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20200227_114800_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20200725_201141_normal.webp",
+            "/assets/img/products/buffet/New folder (3)/20200727_230958_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "buffet"
+    },
+    {
+        "title": "closet",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/closet/closet/00000627-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/closet/closet/00000627_normal.webp",
+            "/assets/img/products/closet/closet/00000628_normal.webp",
+            "/assets/img/products/closet/closet/00000629_normal.webp"
         ],
         "lowResImages": [],
         "category": "closet"
     },
     {
-        "title": "closet00 (2)",
+        "title": "closet (2)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (2)/20200202_213131_normal.webp",
-            "/assets/img/products/closet/closet00 (2)/20200202_213155_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/closet/closet00 (2)/20200202_213131_half.webp",
-            "/assets/img/products/closet/closet00 (2)/20200202_213155_half.webp"
-        ],
-        "category": "closet"
-    },
-    {
-        "title": "closet00 (3)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/closet/closet00 (3)/00000484_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/closet/closet00 (3)/00000484_half.webp"
-        ],
-        "category": "closet"
-    },
-    {
-        "title": "closet00 (4)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/closet/closet00 (4)/00000714_normal.webp",
-            "/assets/img/products/closet/closet00 (4)/00000715_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/closet/closet00 (4)/00000714_half.webp",
-            "/assets/img/products/closet/closet00 (4)/00000715_half.webp"
-        ],
-        "category": "closet"
-    },
-    {
-        "title": "closet00 (5)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/closet/closet00 (5)/00000129_normal.webp",
-            "/assets/img/products/closet/closet00 (5)/00000130_normal.webp"
+            "/assets/img/products/closet/closet (2)/00000703_normal.webp",
+            "/assets/img/products/closet/closet (2)/00000704_normal.webp"
         ],
         "lowResImages": [],
         "category": "closet"
     },
     {
-        "title": "closet00 (6)",
+        "title": "closet (3)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/closet00 (6)/00000627_normal.webp",
-            "/assets/img/products/closet/closet00 (6)/00000628_normal.webp",
-            "/assets/img/products/closet/closet00 (6)/00000629_normal.webp"
+            "/assets/img/products/closet/closet (3)/20200202_213131_normal.webp",
+            "/assets/img/products/closet/closet (3)/20200202_213155_normal.webp"
         ],
         "lowResImages": [],
         "category": "closet"
     },
     {
-        "title": "ארון כפרי אינטגרלי",
+        "title": "closet (4)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/closet/ארון כפרי אינטגרלי/00000627_normal.webp"
+            "/assets/img/products/closet/closet (4)/00000484_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/closet/ארון כפרי אינטגרלי/00000627_half.webp"
-        ],
+        "lowResImages": [],
         "category": "closet"
     },
-    null,
-    null,
     {
-        "title": "kitchen00 (1)",
+        "title": "closet (5)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0000_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0001_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0002_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0003_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (1)/IMG-20210617-WA0004_normal.webp"
+            "/assets/img/products/closet/closet (5)/00000714_normal.webp",
+            "/assets/img/products/closet/closet (5)/00000715_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "closet"
+    },
+    {
+        "title": "closet (6)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/closet/closet (6)/00000128_normal.webp",
+            "/assets/img/products/closet/closet (6)/00000129_normal.webp",
+            "/assets/img/products/closet/closet (6)/00000130_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "closet"
+    },
+    {
+        "title": "kitchen",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen/00000147_normal.webp",
+            "/assets/img/products/kitchen/kitchen/00000148_normal.webp",
+            "/assets/img/products/kitchen/kitchen/00000149_normal.webp",
+            "/assets/img/products/kitchen/kitchen/00000150-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen/00000150_normal.webp"
         ],
         "lowResImages": [],
         "category": "kitchen"
     },
     {
-        "title": "kitchen00 (10)",
+        "title": "kitchen (10)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221618_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221630_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221639_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221654_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221717_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221618_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221630_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221639_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221654_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (10)/20180605_221717_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (11)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141439_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141457_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141555_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141624_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141901_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141923_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141925_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141938_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_142004_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_142022_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141439_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141457_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141555_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141624_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141901_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141923_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141925_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_141938_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_142004_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (11)/20180809_142022_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (12)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184050_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184101_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184130_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184158_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184238_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184050_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184101_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184130_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184158_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (12)/20200618_184238_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (13)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105738_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105852_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105856_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105909_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105915_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105920_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105925_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105738_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105852_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105856_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105909_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105915_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105920_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (13)/20190628_105925_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (14)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192303_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192339_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192400_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192418_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192303_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192339_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192400_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (14)/20190823_192418_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (15)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195313_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195323_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195333_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195338_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195352_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195402_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195413_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195421_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195437_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115303_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115314_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115331_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115339_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195313_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195323_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195333_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195338_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195352_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195402_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195413_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195421_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200405_195437_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115303_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115314_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115331_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (15)/20200428_115339_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (16)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122232_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122246_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122343_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122351_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122457_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122232_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122246_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122343_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122351_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (16)/20171124_122457_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    null,
-    null,
-    {
-        "title": "kitchen00 (19)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (19)/11411875_10207442135960029_8768475067792942298_o_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11412049_10207442133239961_1036777759790969628_o_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11703308_10207442134920003_2269400078146192655_o_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11703478_10207442133359964_825557161240584677_o_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11705502_10207442136680047_2540974920362268929_o_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11713868_10207442140000130_6793707842229696433_o_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11722318_10207442134719998_2083789825194816529_o_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (19)/11411875_10207442135960029_8768475067792942298_o_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11412049_10207442133239961_1036777759790969628_o_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11703308_10207442134920003_2269400078146192655_o_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11703478_10207442133359964_825557161240584677_o_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11705502_10207442136680047_2540974920362268929_o_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11713868_10207442140000130_6793707842229696433_o_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (19)/11722318_10207442134719998_2083789825194816529_o_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (2)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215217_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215259_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215311_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215322_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215335_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215409_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220035_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220040_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220354_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220401_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220717_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220736_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220739_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220815_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220833_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220846_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220853_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220856_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220910_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220935_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220948_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221016_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221101_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221108_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221219_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221227_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215217_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215259_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215311_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215322_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215335_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_215409_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220035_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220040_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220354_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220401_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220717_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220736_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220739_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220815_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220833_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220846_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220853_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220856_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220910_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220935_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_220948_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221016_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221101_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221108_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221219_half.webp",
-            "/assets/img/products/kitchen/kitchen00 (2)/20180209_221227_half.webp"
-        ],
-        "category": "kitchen"
-    },
-    {
-        "title": "kitchen00 (3)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191314_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191540_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200801_191544_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_191918_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_191931_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192054_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192102_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (3)/20200808_192218_normal.webp"
+            "/assets/img/products/kitchen/kitchen (10)/00000716_normal.webp",
+            "/assets/img/products/kitchen/kitchen (10)/00000717_normal.webp",
+            "/assets/img/products/kitchen/kitchen (10)/00000718_normal.webp",
+            "/assets/img/products/kitchen/kitchen (10)/00000719_normal.webp",
+            "/assets/img/products/kitchen/kitchen (10)/00000720_normal.webp",
+            "/assets/img/products/kitchen/kitchen (10)/00000721_normal.webp",
+            "/assets/img/products/kitchen/kitchen (10)/00000722_normal.webp"
         ],
         "lowResImages": [],
         "category": "kitchen"
     },
     {
-        "title": "kitchen00 (4)",
+        "title": "kitchen (11)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201624_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201647_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201709_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201722_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142334_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142346_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (4)/20210816_142403_normal.webp"
+            "/assets/img/products/kitchen/kitchen (11)/20200607_111146_normal.webp",
+            "/assets/img/products/kitchen/kitchen (11)/20200607_111214_normal.webp",
+            "/assets/img/products/kitchen/kitchen (11)/20200607_122221_normal.webp",
+            "/assets/img/products/kitchen/kitchen (11)/20200607_122243_normal.webp",
+            "/assets/img/products/kitchen/kitchen (11)/20200607_122316_normal.webp",
+            "/assets/img/products/kitchen/kitchen (11)/20200607_122356_normal.webp",
+            "/assets/img/products/kitchen/kitchen (11)/20200607_122431_normal.webp",
+            "/assets/img/products/kitchen/kitchen (11)/20200607_122450_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/kitchen/kitchen00 (4)/20210730_201624_half.webp"
-        ],
+        "lowResImages": [],
         "category": "kitchen"
     },
     {
-        "title": "kitchen00 (5)",
+        "title": "kitchen (12)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125146_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125155_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125201_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125214_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125301_normal.webp",
-            "/assets/img/products/kitchen/kitchen00 (5)/20180629_125304_normal.webp"
+            "/assets/img/products/kitchen/kitchen (12)/20180209_215217_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_215259_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_215311_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_215322_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_215335_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_215409_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220035_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220040_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220354_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220401_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220717_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220736_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220739_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220815_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220833_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220846_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220853_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220856_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220910_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220935_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_220948_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_221016_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_221101_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_221108_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_221219_normal.webp",
+            "/assets/img/products/kitchen/kitchen (12)/20180209_221227_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (13)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (13)/00001304_normal.webp",
+            "/assets/img/products/kitchen/kitchen (13)/00001305_normal.webp",
+            "/assets/img/products/kitchen/kitchen (13)/00001306_normal.webp",
+            "/assets/img/products/kitchen/kitchen (13)/00001307_normal.webp",
+            "/assets/img/products/kitchen/kitchen (13)/00001308_normal.webp",
+            "/assets/img/products/kitchen/kitchen (13)/00001309_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (14)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (14)/20200801_191314_normal.webp",
+            "/assets/img/products/kitchen/kitchen (14)/20200801_191540_normal.webp",
+            "/assets/img/products/kitchen/kitchen (14)/20200801_191544_normal.webp",
+            "/assets/img/products/kitchen/kitchen (14)/20200808_191918_normal.webp",
+            "/assets/img/products/kitchen/kitchen (14)/20200808_191931_normal.webp",
+            "/assets/img/products/kitchen/kitchen (14)/20200808_192054_normal.webp",
+            "/assets/img/products/kitchen/kitchen (14)/20200808_192102_normal.webp",
+            "/assets/img/products/kitchen/kitchen (14)/20200808_192218_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (15)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (15)/20210730_201709-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210730_201709_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210730_201722_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210816_142334_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210816_142346_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210816_142403_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210816_142442_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210816_142452 - Copy_normal.webp",
+            "/assets/img/products/kitchen/kitchen (15)/20210816_142452_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (16)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (16)/00000545_normal.webp",
+            "/assets/img/products/kitchen/kitchen (16)/00000546_normal.webp",
+            "/assets/img/products/kitchen/kitchen (16)/00000547_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (17)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (17)/00001505_normal.webp",
+            "/assets/img/products/kitchen/kitchen (17)/00001506_normal.webp",
+            "/assets/img/products/kitchen/kitchen (17)/00001508_normal.webp",
+            "/assets/img/products/kitchen/kitchen (17)/00001509_normal.webp",
+            "/assets/img/products/kitchen/kitchen (17)/00001511-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen (17)/00001511_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (18)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (18)/20180629_125146_normal.webp",
+            "/assets/img/products/kitchen/kitchen (18)/20180629_125155_normal.webp",
+            "/assets/img/products/kitchen/kitchen (18)/20180629_125201_normal.webp",
+            "/assets/img/products/kitchen/kitchen (18)/20180629_125214_normal.webp",
+            "/assets/img/products/kitchen/kitchen (18)/20180629_125301_normal.webp",
+            "/assets/img/products/kitchen/kitchen (18)/20180629_125304_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (19)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (19)/20180312_194155_normal.webp",
+            "/assets/img/products/kitchen/kitchen (19)/20180312_194213_normal.webp",
+            "/assets/img/products/kitchen/kitchen (19)/20180312_194237_normal.webp",
+            "/assets/img/products/kitchen/kitchen (19)/20180312_194247_normal.webp",
+            "/assets/img/products/kitchen/kitchen (19)/20180312_194254_normal.webp",
+            "/assets/img/products/kitchen/kitchen (19)/20180312_194305_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (2)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (2)/00000162_normal.webp",
+            "/assets/img/products/kitchen/kitchen (2)/00000163_normal.webp",
+            "/assets/img/products/kitchen/kitchen (2)/00000164_normal.webp",
+            "/assets/img/products/kitchen/kitchen (2)/00000165-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen (2)/00000165_normal.webp",
+            "/assets/img/products/kitchen/kitchen (2)/00000166_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (20)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (20)/20180607_121414_normal.webp",
+            "/assets/img/products/kitchen/kitchen (20)/20180607_121418_normal.webp",
+            "/assets/img/products/kitchen/kitchen (20)/20180607_121434_normal.webp",
+            "/assets/img/products/kitchen/kitchen (20)/20180607_121501_normal.webp",
+            "/assets/img/products/kitchen/kitchen (20)/20180607_121516_normal.webp",
+            "/assets/img/products/kitchen/kitchen (20)/20180607_121537_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (21)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (21)/00000723_normal.webp",
+            "/assets/img/products/kitchen/kitchen (21)/00000724_normal.webp",
+            "/assets/img/products/kitchen/kitchen (21)/00000725_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (22)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (22)/00000742_normal.webp",
+            "/assets/img/products/kitchen/kitchen (22)/00000743_normal.webp",
+            "/assets/img/products/kitchen/kitchen (22)/00000744_normal.webp",
+            "/assets/img/products/kitchen/kitchen (22)/00000745_normal.webp",
+            "/assets/img/products/kitchen/kitchen (22)/00000746_normal.webp",
+            "/assets/img/products/kitchen/kitchen (22)/00000747_normal.webp",
+            "/assets/img/products/kitchen/kitchen (22)/00000748_normal.webp",
+            "/assets/img/products/kitchen/kitchen (22)/00000749_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (23)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (23)/00000170_normal.webp",
+            "/assets/img/products/kitchen/kitchen (23)/00000171_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (24)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (24)/00001498_normal.webp",
+            "/assets/img/products/kitchen/kitchen (24)/00001500_normal.webp",
+            "/assets/img/products/kitchen/kitchen (24)/00001513_normal.webp",
+            "/assets/img/products/kitchen/kitchen (24)/00001515_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (25)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (25)/20181229_201501_normal.webp",
+            "/assets/img/products/kitchen/kitchen (25)/20181229_201505_normal.webp",
+            "/assets/img/products/kitchen/kitchen (25)/20181229_201529_normal.webp",
+            "/assets/img/products/kitchen/kitchen (25)/20181229_201543_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (26)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (26)/00000767_normal.webp",
+            "/assets/img/products/kitchen/kitchen (26)/00000768_normal.webp",
+            "/assets/img/products/kitchen/kitchen (26)/00000769_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (27)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (27)/20171227_214716_normal.webp",
+            "/assets/img/products/kitchen/kitchen (27)/20171227_214727_normal.webp",
+            "/assets/img/products/kitchen/kitchen (27)/20171227_214734_normal.webp",
+            "/assets/img/products/kitchen/kitchen (27)/20171227_214812_normal.webp",
+            "/assets/img/products/kitchen/kitchen (27)/20171227_214839_normal.webp",
+            "/assets/img/products/kitchen/kitchen (27)/20171227_214911_normal.webp",
+            "/assets/img/products/kitchen/kitchen (27)/20171227_214930_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (28)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (28)/20180605_221618_normal.webp",
+            "/assets/img/products/kitchen/kitchen (28)/20180605_221630_normal.webp",
+            "/assets/img/products/kitchen/kitchen (28)/20180605_221639_normal.webp",
+            "/assets/img/products/kitchen/kitchen (28)/20180605_221654_normal.webp",
+            "/assets/img/products/kitchen/kitchen (28)/20180605_221717-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen (28)/20180605_221717_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (29)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141439_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141457_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141555_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141624_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141901_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141923_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141925_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_141938_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_142004_normal.webp",
+            "/assets/img/products/kitchen/kitchen (29)/20180809_142022_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (3)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (3)/00000176_normal.webp",
+            "/assets/img/products/kitchen/kitchen (3)/00000177_normal.webp",
+            "/assets/img/products/kitchen/kitchen (3)/00000178_normal.webp",
+            "/assets/img/products/kitchen/kitchen (3)/00000179_normal.webp",
+            "/assets/img/products/kitchen/kitchen (3)/00000180_normal.webp",
+            "/assets/img/products/kitchen/kitchen (3)/00000181_normal.webp",
+            "/assets/img/products/kitchen/kitchen (3)/00000182_normal.webp",
+            "/assets/img/products/kitchen/kitchen (3)/00000183_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (30)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (30)/00000869_normal.webp",
+            "/assets/img/products/kitchen/kitchen (30)/00000870_normal.webp",
+            "/assets/img/products/kitchen/kitchen (30)/00000923_normal.webp",
+            "/assets/img/products/kitchen/kitchen (30)/00000924_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (31)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144341_normal.webp",
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144418_normal.webp",
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144429_normal.webp",
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144453_normal.webp",
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144457_normal.webp",
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144743_normal.webp",
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144756_normal.webp",
+            "/assets/img/products/kitchen/kitchen (31)/20181210_144810_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (32)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (32)/20200618_184050_normal.webp",
+            "/assets/img/products/kitchen/kitchen (32)/20200618_184101_normal.webp",
+            "/assets/img/products/kitchen/kitchen (32)/20200618_184130_normal.webp",
+            "/assets/img/products/kitchen/kitchen (32)/20200618_184158_normal.webp",
+            "/assets/img/products/kitchen/kitchen (32)/20200618_184238_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (33)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (33)/00000792_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (34)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (34)/20190628_105738_normal.webp",
+            "/assets/img/products/kitchen/kitchen (34)/20190628_105852_normal.webp",
+            "/assets/img/products/kitchen/kitchen (34)/20190628_105856_normal.webp",
+            "/assets/img/products/kitchen/kitchen (34)/20190628_105909_normal.webp",
+            "/assets/img/products/kitchen/kitchen (34)/20190628_105915_normal.webp",
+            "/assets/img/products/kitchen/kitchen (34)/20190628_105920_normal.webp",
+            "/assets/img/products/kitchen/kitchen (34)/20190628_105925_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (35)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (35)/20191002_234527_normal.webp",
+            "/assets/img/products/kitchen/kitchen (35)/20191002_234553_normal.webp",
+            "/assets/img/products/kitchen/kitchen (35)/20191002_234610_normal.webp",
+            "/assets/img/products/kitchen/kitchen (35)/20191002_234614_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (36)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (36)/20190823_192303_normal.webp",
+            "/assets/img/products/kitchen/kitchen (36)/20190823_192339_normal.webp",
+            "/assets/img/products/kitchen/kitchen (36)/20190823_192400_normal.webp",
+            "/assets/img/products/kitchen/kitchen (36)/20190823_192418_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (37)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (37)/20200401_214905_normal.webp",
+            "/assets/img/products/kitchen/kitchen (37)/20200401_214932_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (38)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (38)/20200419_185516_normal.webp",
+            "/assets/img/products/kitchen/kitchen (38)/20200419_185550_normal.webp",
+            "/assets/img/products/kitchen/kitchen (38)/20200419_185555_normal.webp",
+            "/assets/img/products/kitchen/kitchen (38)/20200419_185601_normal.webp",
+            "/assets/img/products/kitchen/kitchen (38)/20200422_141835_normal.webp",
+            "/assets/img/products/kitchen/kitchen (38)/20200422_141841_normal.webp",
+            "/assets/img/products/kitchen/kitchen (38)/20200422_141916_normal.webp",
+            "/assets/img/products/kitchen/kitchen (38)/20200425_180536_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (39)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195313_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195323_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195338_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195352_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195402_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195413_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195421_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200405_195437_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200428_115314_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200428_115331_normal.webp",
+            "/assets/img/products/kitchen/kitchen (39)/20200428_115339_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (4)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (4)/00000142_normal.webp",
+            "/assets/img/products/kitchen/kitchen (4)/00000143_normal.webp",
+            "/assets/img/products/kitchen/kitchen (4)/00000144_normal.webp",
+            "/assets/img/products/kitchen/kitchen (4)/00000145_normal.webp",
+            "/assets/img/products/kitchen/kitchen (4)/00000146_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (40)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (40)/20201114_174059_normal.webp",
+            "/assets/img/products/kitchen/kitchen (40)/20201114_174113_normal.webp",
+            "/assets/img/products/kitchen/kitchen (40)/20201114_174125_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (41)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122232_normal.webp",
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122246_normal.webp",
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122343-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122343_normal.webp",
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122351-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122351_normal.webp",
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122457-LAPTOP-T36I76BJ_normal.webp",
+            "/assets/img/products/kitchen/kitchen (41)/20171124_122457_normal.webp"
         ],
         "lowResImages": [],
         "category": "kitchen"
     },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
-        "title": "office00 (1)",
+        "title": "kitchen (44)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/office00 (1)/00000124_normal.webp",
-            "/assets/img/products/office/office00 (1)/00000125_normal.webp",
-            "/assets/img/products/office/office00 (1)/00000126_normal.webp"
+            "/assets/img/products/kitchen/kitchen (44)/PC140031_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140033_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140035_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140037_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140045_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140046_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140047_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140050_normal.webp",
+            "/assets/img/products/kitchen/kitchen (44)/PC140051_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/office/office00 (1)/00000124_half.webp",
-            "/assets/img/products/office/office00 (1)/00000125_half.webp",
-            "/assets/img/products/office/office00 (1)/00000126_half.webp"
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (45)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (45)/P9090030_normal.webp",
+            "/assets/img/products/kitchen/kitchen (45)/P9090033_normal.webp"
         ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (46)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (46)/11411875_10207442135960029_8768475067792942298_o_normal.webp",
+            "/assets/img/products/kitchen/kitchen (46)/11412049_10207442133239961_1036777759790969628_o_normal.webp",
+            "/assets/img/products/kitchen/kitchen (46)/11703308_10207442134920003_2269400078146192655_o_normal.webp",
+            "/assets/img/products/kitchen/kitchen (46)/11703478_10207442133359964_825557161240584677_o_normal.webp",
+            "/assets/img/products/kitchen/kitchen (46)/11705502_10207442136680047_2540974920362268929_o_normal.webp",
+            "/assets/img/products/kitchen/kitchen (46)/11713868_10207442140000130_6793707842229696433_o_normal.webp",
+            "/assets/img/products/kitchen/kitchen (46)/11722318_10207442134719998_2083789825194816529_o_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (47)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (47)/P5010125_normal.webp",
+            "/assets/img/products/kitchen/kitchen (47)/P5010126_normal.webp",
+            "/assets/img/products/kitchen/kitchen (47)/P5010127_normal.webp",
+            "/assets/img/products/kitchen/kitchen (47)/P5010128_normal.webp",
+            "/assets/img/products/kitchen/kitchen (47)/P5010129_normal.webp",
+            "/assets/img/products/kitchen/kitchen (47)/P5010130_normal.webp",
+            "/assets/img/products/kitchen/kitchen (47)/P5010131_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (48)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (48)/PB030018_normal.webp",
+            "/assets/img/products/kitchen/kitchen (48)/PB030021_normal.webp",
+            "/assets/img/products/kitchen/kitchen (48)/PB030022_normal.webp",
+            "/assets/img/products/kitchen/kitchen (48)/PB030024_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (49)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (49)/2bc57149-2e5b-437a-8795-e67abb312059_normal.webp",
+            "/assets/img/products/kitchen/kitchen (49)/5ae0c444-1df2-4876-aa24-f9fdcc7bf415_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (5)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (5)/00000512_normal.webp",
+            "/assets/img/products/kitchen/kitchen (5)/00000513_normal.webp",
+            "/assets/img/products/kitchen/kitchen (5)/00000514_normal.webp",
+            "/assets/img/products/kitchen/kitchen (5)/00000515_normal.webp",
+            "/assets/img/products/kitchen/kitchen (5)/00000516_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (50)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (50)/P7050010_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050012_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050014_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050016_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050020_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050021_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050022_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050023_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050025_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050026_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050028_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050030_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050031_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050032_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050033_normal.webp",
+            "/assets/img/products/kitchen/kitchen (50)/P7050034_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (51)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (51)/P7190061_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190062_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190063_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190064_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190065_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190066_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190067_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190068_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190069_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190070_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190071_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190072_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190073_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190075_normal.webp",
+            "/assets/img/products/kitchen/kitchen (51)/P7190076_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (52)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (52)/P5110135_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110136_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110137_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110138_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110139_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110146_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110148_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110149_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110151_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110153_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110154_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110155_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110157_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110159_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110160_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110161_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110162_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110163_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110164_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110165_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110166_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110167_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110168_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110169_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110170_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110171_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110172_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110173_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110175_normal.webp",
+            "/assets/img/products/kitchen/kitchen (52)/P5110176_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (53)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (53)/IMG-20200404-WA0004_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (6)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (6)/00000635_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000643_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000648_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000649_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000650_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000651_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000652_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000653_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000654_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000655_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000656_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000657_normal.webp",
+            "/assets/img/products/kitchen/kitchen (6)/00000658_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (7)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (7)/IMG-20210617-WA0000_normal.webp",
+            "/assets/img/products/kitchen/kitchen (7)/IMG-20210617-WA0001_normal.webp",
+            "/assets/img/products/kitchen/kitchen (7)/IMG-20210617-WA0002_normal.webp",
+            "/assets/img/products/kitchen/kitchen (7)/IMG-20210617-WA0003_normal.webp",
+            "/assets/img/products/kitchen/kitchen (7)/IMG-20210617-WA0004_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (8)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (8)/20200910_201353_normal.webp",
+            "/assets/img/products/kitchen/kitchen (8)/20200910_215449_normal.webp",
+            "/assets/img/products/kitchen/kitchen (8)/20200910_215501_normal.webp",
+            "/assets/img/products/kitchen/kitchen (8)/20200910_215513_normal.webp",
+            "/assets/img/products/kitchen/kitchen (8)/20200910_215525_normal.webp",
+            "/assets/img/products/kitchen/kitchen (8)/20200910_215555_normal.webp",
+            "/assets/img/products/kitchen/kitchen (8)/20200910_215559_normal.webp",
+            "/assets/img/products/kitchen/kitchen (8)/20200910_215614_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "kitchen (9)",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/kitchen/kitchen (9)/00001096_normal.webp",
+            "/assets/img/products/kitchen/kitchen (9)/00001097_normal.webp",
+            "/assets/img/products/kitchen/kitchen (9)/00001098_normal.webp",
+            "/assets/img/products/kitchen/kitchen (9)/00001099_normal.webp",
+            "/assets/img/products/kitchen/kitchen (9)/00001100_normal.webp",
+            "/assets/img/products/kitchen/kitchen (9)/00001101_normal.webp"
+        ],
+        "lowResImages": [],
+        "category": "kitchen"
+    },
+    {
+        "title": "office",
+        "description": "This is a description file.",
+        "images": [
+            "/assets/img/products/office/office/20190318_184541_normal.webp",
+            "/assets/img/products/office/office/20190318_184633_normal.webp",
+            "/assets/img/products/office/office/20190318_184634_normal.webp",
+            "/assets/img/products/office/office/20190318_190155_normal.webp",
+            "/assets/img/products/office/office/20190318_190157_normal.webp",
+            "/assets/img/products/office/office/20190318_190159_normal.webp",
+            "/assets/img/products/office/office/20190318_190209_normal.webp",
+            "/assets/img/products/office/office/20190318_190211_normal.webp",
+            "/assets/img/products/office/office/20190318_212826_normal.webp",
+            "/assets/img/products/office/office/20190318_212830_normal.webp",
+            "/assets/img/products/office/office/20190318_212845_normal.webp",
+            "/assets/img/products/office/office/20190318_213030_normal.webp",
+            "/assets/img/products/office/office/20190318_213037_normal.webp",
+            "/assets/img/products/office/office/20190318_221909_normal.webp",
+            "/assets/img/products/office/office/20190318_221929_normal.webp",
+            "/assets/img/products/office/office/20190318_221941_normal.webp",
+            "/assets/img/products/office/office/20190318_221951_normal.webp",
+            "/assets/img/products/office/office/20190318_221956_normal.webp",
+            "/assets/img/products/office/office/20190318_222009_normal.webp",
+            "/assets/img/products/office/office/20190318_222022_normal.webp"
+        ],
+        "lowResImages": [],
         "category": "office"
     },
     {
-        "title": "office00 (2)",
+        "title": "office (2)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/office00 (2)/00000124_normal.webp",
-            "/assets/img/products/office/office00 (2)/00000125_normal.webp",
-            "/assets/img/products/office/office00 (2)/00000126_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/office/office00 (2)/00000124_half.webp",
-            "/assets/img/products/office/office00 (2)/00000125_half.webp",
-            "/assets/img/products/office/office00 (2)/00000126_half.webp"
-        ],
-        "category": "office"
-    },
-    {
-        "title": "office00 (4)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/office/office00 (4)/00000556_normal.webp",
-            "/assets/img/products/office/office00 (4)/00000557_normal.webp"
+            "/assets/img/products/office/office (2)/00000556_normal.webp",
+            "/assets/img/products/office/office (2)/00000557_normal.webp"
         ],
         "lowResImages": [],
         "category": "office"
     },
     {
-        "title": "משרד עץ מלא מבריק",
+        "title": "office (3)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_184541_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_184633_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_190211_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_212826_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_212845_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_213030_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_221941_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_222009_normal.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_222022_normal.webp"
+            "/assets/img/products/office/office (3)/00000124_normal.webp",
+            "/assets/img/products/office/office (3)/00000125_normal.webp",
+            "/assets/img/products/office/office (3)/00000126_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_184541_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_184633_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_190211_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_212826_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_212845_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_213030_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_221941_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_222009_half.webp",
-            "/assets/img/products/office/משרד עץ מלא מבריק/20190318_222022_half.webp"
-        ],
+        "lowResImages": [],
         "category": "office"
     },
     {
-        "title": "משרד קו אדום",
+        "title": "New folder",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/office/משרד קו אדום/00000556_normal.webp",
-            "/assets/img/products/office/משרד קו אדום/00000557_normal.webp"
+            "/assets/img/products/other/New folder/00000064_normal.webp",
+            "/assets/img/products/other/New folder/00000141_normal.webp",
+            "/assets/img/products/other/New folder/00000548_normal.webp",
+            "/assets/img/products/other/New folder/00000565_normal.webp",
+            "/assets/img/products/other/New folder/00000572_normal.webp",
+            "/assets/img/products/other/New folder/00000573_normal.webp",
+            "/assets/img/products/other/New folder/00000741_normal.webp",
+            "/assets/img/products/other/New folder/00000794_normal.webp",
+            "/assets/img/products/other/New folder/00000812_normal.webp",
+            "/assets/img/products/other/New folder/00001220_normal.webp",
+            "/assets/img/products/other/New folder/00001518_normal.webp",
+            "/assets/img/products/other/New folder/20171123_210452_normal.webp",
+            "/assets/img/products/other/New folder/20191129_190659_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/office/משרד קו אדום/00000556_half.webp",
-            "/assets/img/products/office/משרד קו אדום/00000557_half.webp"
-        ],
-        "category": "office"
-    },
-    {
-        "title": "other00 (10)",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0007_normal.webp",
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0008_normal.webp",
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0009_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0007_half.webp",
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0008_half.webp",
-            "/assets/img/products/other/other00 (10)/IMG-20190124-WA0009_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (11)",
+        "title": "other",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (11)/20200615_192720_normal.webp",
-            "/assets/img/products/other/other00 (11)/20200615_231403_normal.webp",
-            "/assets/img/products/other/other00 (11)/20200615_231426_normal.webp",
-            "/assets/img/products/other/other00 (11)/20200615_231433_normal.webp"
+            "/assets/img/products/other/other/00000167_normal.webp",
+            "/assets/img/products/other/other/00000168_normal.webp",
+            "/assets/img/products/other/other/00000169_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (11)/20200615_192720_half.webp",
-            "/assets/img/products/other/other00 (11)/20200615_231403_half.webp",
-            "/assets/img/products/other/other00 (11)/20200615_231426_half.webp",
-            "/assets/img/products/other/other00 (11)/20200615_231433_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (12)",
+        "title": "other (10)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (12)/20200905_222204_normal.webp",
-            "/assets/img/products/other/other00 (12)/20200905_222257_normal.webp"
+            "/assets/img/products/other/other (10)/00000137_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (12)/20200905_222204_half.webp",
-            "/assets/img/products/other/other00 (12)/20200905_222257_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (13)",
+        "title": "other (11)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (13)/20171211_132559_normal.webp"
+            "/assets/img/products/other/other (11)/00000630_normal.webp",
+            "/assets/img/products/other/other (11)/00000631_normal.webp",
+            "/assets/img/products/other/other (11)/00000632_normal.webp",
+            "/assets/img/products/other/other (11)/00000633_normal.webp",
+            "/assets/img/products/other/other (11)/00000634_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (13)/20171211_132559_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (14)",
+        "title": "other (12)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (14)/20171211_132559_normal.webp"
+            "/assets/img/products/other/other (12)/00000809_normal.webp",
+            "/assets/img/products/other/other (12)/00000810_normal.webp",
+            "/assets/img/products/other/other (12)/00000811_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (14)/20171211_132559_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (15)",
+        "title": "other (13)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (15)/20171123_210452_normal.webp"
+            "/assets/img/products/other/other (13)/IMG-20190124-WA0007_normal.webp",
+            "/assets/img/products/other/other (13)/IMG-20190124-WA0008_normal.webp",
+            "/assets/img/products/other/other (13)/IMG-20190124-WA0009_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (15)/20171123_210452_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (16)",
+        "title": "other (14)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (16)/00001516_normal.webp",
-            "/assets/img/products/other/other00 (16)/00001517_normal.webp"
+            "/assets/img/products/other/other (14)/20200615_192720_normal.webp",
+            "/assets/img/products/other/other (14)/20200615_231403_normal.webp",
+            "/assets/img/products/other/other (14)/20200615_231426_normal.webp",
+            "/assets/img/products/other/other (14)/20200615_231433_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (16)/00001516_half.webp",
-            "/assets/img/products/other/other00 (16)/00001517_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (17)",
+        "title": "other (15)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (17)/20171211_132559_normal.webp"
+            "/assets/img/products/other/other (15)/20200905_222204_normal.webp",
+            "/assets/img/products/other/other (15)/20200905_222257_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (17)/20171211_132559_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (18)",
+        "title": "other (17)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (18)/00000167_normal.webp",
-            "/assets/img/products/other/other00 (18)/00000168_normal.webp",
-            "/assets/img/products/other/other00 (18)/00000169_normal.webp"
+            "/assets/img/products/other/other (17)/20171211_132559_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (18)/00000167_half.webp",
-            "/assets/img/products/other/other00 (18)/00000168_half.webp",
-            "/assets/img/products/other/other00 (18)/00000169_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (19)",
+        "title": "other (18)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (19)/20191028_222633_normal.webp",
-            "/assets/img/products/other/other00 (19)/20191028_222638_normal.webp",
-            "/assets/img/products/other/other00 (19)/20191028_222657_normal.webp"
+            "/assets/img/products/other/other (18)/20171123_210452_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (19)/20191028_222633_half.webp",
-            "/assets/img/products/other/other00 (19)/20191028_222638_half.webp",
-            "/assets/img/products/other/other00 (19)/20191028_222657_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (2)",
+        "title": "other (19)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (2)/20190219_210145_normal.webp",
-            "/assets/img/products/other/other00 (2)/20190219_210150_normal.webp",
-            "/assets/img/products/other/other00 (2)/20190219_210213_normal.webp",
-            "/assets/img/products/other/other00 (2)/20190219_210628_normal.webp"
+            "/assets/img/products/other/other (19)/00001516_normal.webp",
+            "/assets/img/products/other/other (19)/00001517_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (2)/20190219_210145_half.webp",
-            "/assets/img/products/other/other00 (2)/20190219_210150_half.webp",
-            "/assets/img/products/other/other00 (2)/20190219_210213_half.webp",
-            "/assets/img/products/other/other00 (2)/20190219_210628_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (20)",
+        "title": "other (2)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (20)/00001310_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001311_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001312_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001313_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001314_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001315_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001316_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001317_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001318_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001319_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001320_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001321_normal.webp",
-            "/assets/img/products/other/other00 (20)/00001322_normal.webp"
+            "/assets/img/products/other/other (2)/20191028_222633_normal.webp",
+            "/assets/img/products/other/other (2)/20191028_222638_normal.webp",
+            "/assets/img/products/other/other (2)/20191028_222657_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (20)/00001310_half.webp",
-            "/assets/img/products/other/other00 (20)/00001311_half.webp",
-            "/assets/img/products/other/other00 (20)/00001312_half.webp",
-            "/assets/img/products/other/other00 (20)/00001313_half.webp",
-            "/assets/img/products/other/other00 (20)/00001314_half.webp",
-            "/assets/img/products/other/other00 (20)/00001315_half.webp",
-            "/assets/img/products/other/other00 (20)/00001316_half.webp",
-            "/assets/img/products/other/other00 (20)/00001317_half.webp",
-            "/assets/img/products/other/other00 (20)/00001318_half.webp",
-            "/assets/img/products/other/other00 (20)/00001319_half.webp",
-            "/assets/img/products/other/other00 (20)/00001320_half.webp",
-            "/assets/img/products/other/other00 (20)/00001321_half.webp",
-            "/assets/img/products/other/other00 (20)/00001322_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (3)",
+        "title": "other (3)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (3)/20181218_213516_normal.webp",
-            "/assets/img/products/other/other00 (3)/20181218_213527_normal.webp",
-            "/assets/img/products/other/other00 (3)/20181218_214542_normal.webp",
-            "/assets/img/products/other/other00 (3)/20181218_214554_normal.webp"
+            "/assets/img/products/other/other (3)/00001310_normal.webp",
+            "/assets/img/products/other/other (3)/00001311_normal.webp",
+            "/assets/img/products/other/other (3)/00001312_normal.webp",
+            "/assets/img/products/other/other (3)/00001313_normal.webp",
+            "/assets/img/products/other/other (3)/00001314_normal.webp",
+            "/assets/img/products/other/other (3)/00001315_normal.webp",
+            "/assets/img/products/other/other (3)/00001316_normal.webp",
+            "/assets/img/products/other/other (3)/00001317_normal.webp",
+            "/assets/img/products/other/other (3)/00001318_normal.webp",
+            "/assets/img/products/other/other (3)/00001319_normal.webp",
+            "/assets/img/products/other/other (3)/00001320_normal.webp",
+            "/assets/img/products/other/other (3)/00001321_normal.webp",
+            "/assets/img/products/other/other (3)/00001322_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (3)/20181218_213516_half.webp",
-            "/assets/img/products/other/other00 (3)/20181218_213527_half.webp",
-            "/assets/img/products/other/other00 (3)/20181218_214542_half.webp",
-            "/assets/img/products/other/other00 (3)/20181218_214554_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (5)",
+        "title": "other (4)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (5)/00000805_normal.webp",
-            "/assets/img/products/other/other00 (5)/00000806_normal.webp",
-            "/assets/img/products/other/other00 (5)/00000807_normal.webp",
-            "/assets/img/products/other/other00 (5)/00000808_normal.webp"
+            "/assets/img/products/other/other (4)/IMG-20181207-WA0000_normal.webp",
+            "/assets/img/products/other/other (4)/IMG-20181207-WA0001_normal.webp",
+            "/assets/img/products/other/other (4)/IMG-20181207-WA0002_normal.webp",
+            "/assets/img/products/other/other (4)/IMG-20181207-WA0003_normal.webp",
+            "/assets/img/products/other/other (4)/IMG-20181207-WA0004_normal.webp",
+            "/assets/img/products/other/other (4)/IMG-20181207-WA0005_normal.webp",
+            "/assets/img/products/other/other (4)/IMG-20181207-WA0006_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (5)/00000805_half.webp",
-            "/assets/img/products/other/other00 (5)/00000806_half.webp",
-            "/assets/img/products/other/other00 (5)/00000807_half.webp",
-            "/assets/img/products/other/other00 (5)/00000808_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (6)",
+        "title": "other (5)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (6)/00000780_normal.webp",
-            "/assets/img/products/other/other00 (6)/00000781_normal.webp",
-            "/assets/img/products/other/other00 (6)/00000782_normal.webp"
+            "/assets/img/products/other/other (5)/20190219_210145_normal.webp",
+            "/assets/img/products/other/other (5)/20190219_210150_normal.webp",
+            "/assets/img/products/other/other (5)/20190219_210213_normal.webp",
+            "/assets/img/products/other/other (5)/20190219_210628_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (6)/00000780_half.webp",
-            "/assets/img/products/other/other00 (6)/00000781_half.webp",
-            "/assets/img/products/other/other00 (6)/00000782_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (7)",
+        "title": "other (6)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (7)/00000137_normal.webp"
+            "/assets/img/products/other/other (6)/20181218_213516_normal.webp",
+            "/assets/img/products/other/other (6)/20181218_213527_normal.webp",
+            "/assets/img/products/other/other (6)/20181218_214542_normal.webp",
+            "/assets/img/products/other/other (6)/20181218_214554_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (7)/00000137_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "other00 (8)",
+        "title": "other (7)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/other00 (8)/00000630_normal.webp",
-            "/assets/img/products/other/other00 (8)/00000631_normal.webp",
-            "/assets/img/products/other/other00 (8)/00000632_normal.webp",
-            "/assets/img/products/other/other00 (8)/00000633_normal.webp",
-            "/assets/img/products/other/other00 (8)/00000634_normal.webp"
+            "/assets/img/products/other/other (7)/20190205_133824_normal.webp",
+            "/assets/img/products/other/other (7)/20190205_133835_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/other00 (8)/00000630_half.webp",
-            "/assets/img/products/other/other00 (8)/00000631_half.webp",
-            "/assets/img/products/other/other00 (8)/00000632_half.webp",
-            "/assets/img/products/other/other00 (8)/00000633_half.webp",
-            "/assets/img/products/other/other00 (8)/00000634_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "חדר ילדים מדרגות",
+        "title": "other (8)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/חדר ילדים מדרגות/00000809_normal.webp",
-            "/assets/img/products/other/חדר ילדים מדרגות/00000810_normal.webp",
-            "/assets/img/products/other/חדר ילדים מדרגות/00000811_normal.webp"
+            "/assets/img/products/other/other (8)/00000805_normal.webp",
+            "/assets/img/products/other/other (8)/00000806_normal.webp",
+            "/assets/img/products/other/other (8)/00000807_normal.webp",
+            "/assets/img/products/other/other (8)/00000808_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/חדר ילדים מדרגות/00000809_half.webp",
-            "/assets/img/products/other/חדר ילדים מדרגות/00000810_half.webp",
-            "/assets/img/products/other/חדר ילדים מדרגות/00000811_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     },
     {
-        "title": "חדר כביסה צפוף",
+        "title": "other (9)",
         "description": "This is a description file.",
         "images": [
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0000_normal.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0001_normal.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0002_normal.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0003_normal.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0004_normal.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0005_normal.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0006_normal.webp"
+            "/assets/img/products/other/other (9)/00000780_normal.webp",
+            "/assets/img/products/other/other (9)/00000781_normal.webp",
+            "/assets/img/products/other/other (9)/00000782_normal.webp"
         ],
-        "lowResImages": [
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0000_half.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0001_half.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0002_half.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0003_half.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0004_half.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0005_half.webp",
-            "/assets/img/products/other/חדר כביסה צפוף/IMG-20181207-WA0006_half.webp"
-        ],
-        "category": "other"
-    },
-    {
-        "title": "חצי אי למטבח בוצ'ר",
-        "description": "This is a description file.",
-        "images": [
-            "/assets/img/products/other/חצי אי למטבח בוצ'ר/20190205_133824_normal.webp",
-            "/assets/img/products/other/חצי אי למטבח בוצ'ר/20190205_133835_normal.webp"
-        ],
-        "lowResImages": [
-            "/assets/img/products/other/חצי אי למטבח בוצ'ר/20190205_133824_half.webp",
-            "/assets/img/products/other/חצי אי למטבח בוצ'ר/20190205_133835_half.webp"
-        ],
+        "lowResImages": [],
         "category": "other"
     }
 ]
