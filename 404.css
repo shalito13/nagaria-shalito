@@ -1,0 +1,48 @@
+.bgimg-404 {
+    background-image: image-set('../../../assets/img/404-forest_half.webp' 1x);
+    height: 94vh;
+    background-position: 0% 18%;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+
+    animation-name: backgroundColorPalette;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.middle {
+    position: absolute;
+    top: 13%;
+    margin-top: 15%;
+    left: 50%;
+    min-width: 222px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    margin-top: 86%;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
