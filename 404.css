@@ -1,5 +1,5 @@
 .bgimg-404 {
-    background-image: image-set('../../../assets/img/404-forest_half.webp' 1x);
+    background-image: url('./404-forest_half.webp');
     height: 94vh;
     background-position: 0% 18%;
     background-size: cover;
@@ -39,7 +39,7 @@
 }
 
 h1 {
-    margin-top: 86%;
+    margin-top: 28vh;
 }
 
 hr {
