@@ -1,125 +1,125 @@
 {
-    "bathroom": {
-        "categoryImage": "Bathroom_SQR.JPG.png",
-        "works": []
-    },
-    "buffet": {
-        "categoryImage": "Buffet_SQR.png",
-        "works": [
-            {
-                "workName": "buffet (1)",
-                "images": [
-                    "00000927_half.webp",
-                    "00000927_normal.webp",
-                    "00000927_thumbnail.webp",
-                    "00000928_half.webp",
-                    "00000928_normal.webp",
-                    "00000928_thumbnail.webp",
-                    "00000929_half.webp",
-                    "00000929_normal.webp",
-                    "00000929_thumbnail.webp",
-                    "00000930_normal.webp",
-                    "00000930_thumbnail.webp",
-                    "00000932_half.webp",
-                    "00000932_normal.webp",
-                    "00000932_thumbnail.webp",
-                    "low_res_00000927_thumbnail.webp",
-                    "low_res_00000928_thumbnail.webp",
-                    "low_res_00000929_thumbnail.webp",
-                    "low_res_00000930_thumbnail.webp",
-                    "low_res_00000932_thumbnail.webp"
-                ]
-            },
-            {
-                "workName": "buffet (2)",
-                "images": [
-                    "20200905_222329_half.webp",
-                    "20200905_222329_normal.webp",
-                    "20200905_222329_thumbnail.webp",
-                    "20200912_173846_half.webp",
-                    "20200912_173846_normal.webp",
-                    "20200912_173846_thumbnail.webp",
-                    "low_res_20200905_222329_thumbnail.webp",
-                    "low_res_20200912_173846_thumbnail.webp"
-                ]
-            },
-            {
-                "workName": "buffet (3)",
-                "images": [
-                    "00000519_half.webp",
-                    "00000519_normal.webp",
-                    "00000519_thumbnail.webp",
-                    "low_res_00000519_thumbnail.webp"
-                ]
-            }
+  "bathroom": {
+    "categoryImage": "Bathroom_SQR.JPG.png",
+    "works": []
+  },
+  "buffet": {
+    "categoryImage": "Buffet_SQR.png",
+    "works": [
+      {
+        "workName": "buffet (1)",
+        "images": [
+          "00000927_half.webp",
+          "00000927_normal.webp",
+          "00000927_thumbnail.webp",
+          "00000928_half.webp",
+          "00000928_normal.webp",
+          "00000928_thumbnail.webp",
+          "00000929_half.webp",
+          "00000929_normal.webp",
+          "00000929_thumbnail.webp",
+          "00000930_normal.webp",
+          "00000930_thumbnail.webp",
+          "00000932_half.webp",
+          "00000932_normal.webp",
+          "00000932_thumbnail.webp",
+          "low_res_00000927_thumbnail.webp",
+          "low_res_00000928_thumbnail.webp",
+          "low_res_00000929_thumbnail.webp",
+          "low_res_00000930_thumbnail.webp",
+          "low_res_00000932_thumbnail.webp"
         ]
-    },
-    "closet": {
-        "categoryImage": "Closet_SQR.png",
-        "works": [
-            {
-                "workName": "closet (1)",
-                "images": [
-                    "00000627-LAPTOP-T36I76BJ_half.webp",
-                    "00000627-LAPTOP-T36I76BJ_normal.webp",
-                    "00000627-LAPTOP-T36I76BJ_thumbnail.webp",
-                    "00000627_half.webp",
-                    "00000627_normal.webp",
-                    "00000627_thumbnail.webp",
-                    "00000628_half.webp",
-                    "00000628_normal.webp",
-                    "00000628_thumbnail.webp",
-                    "00000629_half.webp",
-                    "00000629_normal.webp",
-                    "00000629_thumbnail.webp",
-                    "low_res_00000627-LAPTOP-T36I76BJ_thumbnail.webp",
-                    "low_res_00000627_thumbnail.webp",
-                    "low_res_00000628_thumbnail.webp",
-                    "low_res_00000629_thumbnail.webp"
-                ]
-            },
-            {
-                "workName": "closet (2)",
-                "images": [
-                    "00000128_half.webp",
-                    "00000128_normal.webp",
-                    "00000128_thumbnail.webp",
-                    "00000129_half.webp",
-                    "00000129_normal.webp",
-                    "00000129_thumbnail.webp",
-                    "00000130_half.webp",
-                    "00000130_normal.webp",
-                    "00000130_thumbnail.webp",
-                    "low_res_00000128_thumbnail.webp",
-                    "low_res_00000129_thumbnail.webp",
-                    "low_res_00000130_thumbnail.webp"
-                ]
-            },
-            {
-                "workName": "closet (3)",
-                "images": [
-                    "00000714_half.webp",
-                    "00000714_normal.webp",
-                    "00000714_thumbnail.webp",
-                    "00000715_half.webp",
-                    "00000715_normal.webp",
-                    "00000715_thumbnail.webp",
-                    "low_res_00000714_thumbnail.webp",
-                    "low_res_00000715_thumbnail.webp"
-                ]
-            }
+      },
+      {
+        "workName": "buffet (2)",
+        "images": [
+          "20200905_222329_half.webp",
+          "20200905_222329_normal.webp",
+          "20200905_222329_thumbnail.webp",
+          "20200912_173846_half.webp",
+          "20200912_173846_normal.webp",
+          "20200912_173846_thumbnail.webp",
+          "low_res_20200905_222329_thumbnail.webp",
+          "low_res_20200912_173846_thumbnail.webp"
         ]
-    },
-    "closet_room": {
-        "categoryImage": "Closet_Room_SQR.png",
-        "works": []
-    },
-    "kitchen": {
-        "categoryImage": "Kitchen_SQR.png",
-        "works": []
-    },
-    "other": {
-        "categoryImage": "Other_SQR.png",
-        "works": []
-    }
+      },
+      {
+        "workName": "buffet (3)",
+        "images": [
+          "00000519_half.webp",
+          "00000519_normal.webp",
+          "00000519_thumbnail.webp",
+          "low_res_00000519_thumbnail.webp"
+        ]
+      }
+    ]
+  },
+  "closet": {
+    "categoryImage": "Closet_SQR.png",
+    "works": [
+      {
+        "workName": "closet (1)",
+        "images": [
+          "00000627-LAPTOP-T36I76BJ_half.webp",
+          "00000627-LAPTOP-T36I76BJ_normal.webp",
+          "00000627-LAPTOP-T36I76BJ_thumbnail.webp",
+          "00000627_half.webp",
+          "00000627_normal.webp",
+          "00000627_thumbnail.webp",
+          "00000628_half.webp",
+          "00000628_normal.webp",
+          "00000628_thumbnail.webp",
+          "00000629_half.webp",
+          "00000629_normal.webp",
+          "00000629_thumbnail.webp",
+          "low_res_00000627-LAPTOP-T36I76BJ_thumbnail.webp",
+          "low_res_00000627_thumbnail.webp",
+          "low_res_00000628_thumbnail.webp",
+          "low_res_00000629_thumbnail.webp"
+        ]
+      },
+      {
+        "workName": "closet (2)",
+        "images": [
+          "00000128_half.webp",
+          "00000128_normal.webp",
+          "00000128_thumbnail.webp",
+          "00000129_half.webp",
+          "00000129_normal.webp",
+          "00000129_thumbnail.webp",
+          "00000130_half.webp",
+          "00000130_normal.webp",
+          "00000130_thumbnail.webp",
+          "low_res_00000128_thumbnail.webp",
+          "low_res_00000129_thumbnail.webp",
+          "low_res_00000130_thumbnail.webp"
+        ]
+      },
+      {
+        "workName": "closet (3)",
+        "images": [
+          "00000714_half.webp",
+          "00000714_normal.webp",
+          "00000714_thumbnail.webp",
+          "00000715_half.webp",
+          "00000715_normal.webp",
+          "00000715_thumbnail.webp",
+          "low_res_00000714_thumbnail.webp",
+          "low_res_00000715_thumbnail.webp"
+        ]
+      }
+    ]
+  },
+  "closet_room": {
+    "categoryImage": "Closet_Room_SQR.png",
+    "works": []
+  },
+  "kitchen": {
+    "categoryImage": "Kitchen_SQR.png",
+    "works": []
+  },
+  "other": {
+    "categoryImage": "Other_SQR.png",
+    "works": []
+  }
 }
