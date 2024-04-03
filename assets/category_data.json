@@ -1,125 +1,232 @@
 {
   "bathroom": {
-    "categoryImage": "Bathroom_SQR.JPG.png",
-    "works": []
+    "categoryImage": "Bathroom_SQR.webp",
+    "works": [
+      {
+        "workName": "bathroom (1)",
+        "images": [
+          "00000131.webp",
+          "00000132 (2).webp",
+          "00000132.webp",
+          "00000133.webp",
+          "00000134.webp"
+        ]
+      },
+      {
+        "workName": "bathroom (2)",
+        "images": ["00000584.webp"]
+      }
+    ]
   },
   "buffet": {
-    "categoryImage": "Buffet_SQR.png",
+    "categoryImage": "Buffet_SQR.webp",
     "works": [
       {
         "workName": "buffet (1)",
         "images": [
-          "00000927_half.webp",
-          "00000927_normal.webp",
-          "00000927_thumbnail.webp",
-          "00000928_half.webp",
-          "00000928_normal.webp",
-          "00000928_thumbnail.webp",
-          "00000929_half.webp",
-          "00000929_normal.webp",
-          "00000929_thumbnail.webp",
-          "00000930_normal.webp",
-          "00000930_thumbnail.webp",
-          "00000932_half.webp",
-          "00000932_normal.webp",
-          "00000932_thumbnail.webp",
-          "low_res_00000927_thumbnail.webp",
-          "low_res_00000928_thumbnail.webp",
-          "low_res_00000929_thumbnail.webp",
-          "low_res_00000930_thumbnail.webp",
-          "low_res_00000932_thumbnail.webp"
+          "buffet (1).webp",
+          "buffet (2).webp",
+          "buffet (3).webp",
+          "buffet (4).webp",
+          "buffet (5).webp"
         ]
       },
       {
         "workName": "buffet (2)",
         "images": [
-          "20200905_222329_half.webp",
-          "20200905_222329_normal.webp",
-          "20200905_222329_thumbnail.webp",
-          "20200912_173846_half.webp",
-          "20200912_173846_normal.webp",
-          "20200912_173846_thumbnail.webp",
-          "low_res_20200905_222329_thumbnail.webp",
-          "low_res_20200912_173846_thumbnail.webp"
+          "buffet (1).webp",
+          "buffet (10).webp",
+          "buffet (11).webp",
+          "buffet (12).webp",
+          "buffet (13).webp",
+          "buffet (14).webp",
+          "buffet (15).webp",
+          "buffet (16).webp",
+          "buffet (2).webp",
+          "buffet (3).webp",
+          "buffet (4).webp",
+          "buffet (5).webp",
+          "buffet (6).webp",
+          "buffet (7).webp",
+          "buffet (8).webp",
+          "buffet (9).webp"
         ]
       },
       {
         "workName": "buffet (3)",
         "images": [
-          "00000519_half.webp",
-          "00000519_normal.webp",
-          "00000519_thumbnail.webp",
-          "low_res_00000519_thumbnail.webp"
+          "buffet (1).webp",
+          "buffet (2).webp",
+          "buffet (3).webp",
+          "buffet (4).webp",
+          "buffet (5).webp",
+          "buffet (6).webp",
+          "buffet (7).webp"
         ]
       }
     ]
   },
   "closet": {
-    "categoryImage": "Closet_SQR.png",
+    "categoryImage": "Closet_SQR.webp",
     "works": [
       {
-        "workName": "closet (1)",
-        "images": [
-          "00000627-LAPTOP-T36I76BJ_half.webp",
-          "00000627-LAPTOP-T36I76BJ_normal.webp",
-          "00000627-LAPTOP-T36I76BJ_thumbnail.webp",
-          "00000627_half.webp",
-          "00000627_normal.webp",
-          "00000627_thumbnail.webp",
-          "00000628_half.webp",
-          "00000628_normal.webp",
-          "00000628_thumbnail.webp",
-          "00000629_half.webp",
-          "00000629_normal.webp",
-          "00000629_thumbnail.webp",
-          "low_res_00000627-LAPTOP-T36I76BJ_thumbnail.webp",
-          "low_res_00000627_thumbnail.webp",
-          "low_res_00000628_thumbnail.webp",
-          "low_res_00000629_thumbnail.webp"
-        ]
-      },
-      {
         "workName": "closet (2)",
-        "images": [
-          "00000128_half.webp",
-          "00000128_normal.webp",
-          "00000128_thumbnail.webp",
-          "00000129_half.webp",
-          "00000129_normal.webp",
-          "00000129_thumbnail.webp",
-          "00000130_half.webp",
-          "00000130_normal.webp",
-          "00000130_thumbnail.webp",
-          "low_res_00000128_thumbnail.webp",
-          "low_res_00000129_thumbnail.webp",
-          "low_res_00000130_thumbnail.webp"
-        ]
+        "images": ["00000703.webp", "00000704.webp"]
       },
       {
-        "workName": "closet (3)",
-        "images": [
-          "00000714_half.webp",
-          "00000714_normal.webp",
-          "00000714_thumbnail.webp",
-          "00000715_half.webp",
-          "00000715_normal.webp",
-          "00000715_thumbnail.webp",
-          "low_res_00000714_thumbnail.webp",
-          "low_res_00000715_thumbnail.webp"
-        ]
+        "workName": "closet (4)",
+        "images": ["00000484.webp"]
+      },
+      {
+        "workName": "closet (5)",
+        "images": ["00000714.webp", "00000715.webp"]
       }
     ]
   },
   "closet_room": {
-    "categoryImage": "Closet_Room_SQR.png",
-    "works": []
+    "categoryImage": "Closet_Room_SQR.webp",
+    "works": [
+      {
+        "workName": "closet_room (1)",
+        "images": [
+          "closet_room (1).webp",
+          "closet_room (10).webp",
+          "closet_room (11).webp",
+          "closet_room (12).webp",
+          "closet_room (13).webp",
+          "closet_room (14).webp",
+          "closet_room (15).webp",
+          "closet_room (16).webp",
+          "closet_room (17).webp",
+          "closet_room (18).webp",
+          "closet_room (19).webp",
+          "closet_room (2).webp",
+          "closet_room (20).webp",
+          "closet_room (21).webp",
+          "closet_room (3).webp",
+          "closet_room (4).webp",
+          "closet_room (5).webp",
+          "closet_room (6).webp",
+          "closet_room (7).webp",
+          "closet_room (8).webp",
+          "closet_room (9).webp"
+        ]
+      },
+      {
+        "workName": "closet_room (2)",
+        "images": [
+          "20230928_114509.webp",
+          "20230928_114515.webp",
+          "20230928_114522.webp",
+          "20230928_114524.webp",
+          "20230928_114954.webp",
+          "20230929_131044.webp",
+          "20230929_131045.webp",
+          "20230929_131050.webp",
+          "20231003_155456.webp",
+          "20231003_155458.webp",
+          "20231003_155500.webp",
+          "20231003_155508.webp",
+          "20231003_164840.webp",
+          "20231003_165130.webp",
+          "20231003_165133.webp",
+          "20231003_165503.webp",
+          "20231003_165542.webp",
+          "20231003_165546.webp",
+          "20231005_173121.webp",
+          "20231005_173222.webp",
+          "20231005_180318.webp",
+          "20231005_180328.webp"
+        ]
+      },
+      {
+        "workName": "closet_room (3)",
+        "images": [
+          "closet_room (1).webp",
+          "closet_room (10).webp",
+          "closet_room (11).webp",
+          "closet_room (12).webp",
+          "closet_room (2).webp",
+          "closet_room (3).webp",
+          "closet_room (4).webp",
+          "closet_room (5).webp",
+          "closet_room (6).webp",
+          "closet_room (7).webp",
+          "closet_room (8).webp",
+          "closet_room (9).webp"
+        ]
+      }
+    ]
   },
   "kitchen": {
-    "categoryImage": "Kitchen_SQR.png",
-    "works": []
+    "categoryImage": "Kitchen_SQR.webp",
+    "works": [
+      {
+        "workName": "kitchen (10)",
+        "images": [
+          "20200801_191544.webp",
+          "20200808_191918.webp",
+          "20200808_191931.webp",
+          "20200808_192054.webp",
+          "20200808_192102.webp",
+          "20200808_192218.webp"
+        ]
+      },
+      {
+        "workName": "kitchen (34)",
+        "images": [
+          "IMG-20210617-WA0004.webp",
+          "IMG-20220901-WA0029.webp",
+          "IMG-20220901-WA0030.webp",
+          "IMG-20220901-WA0031.webp",
+          "IMG-20220901-WA0033.webp"
+        ]
+      },
+      {
+        "workName": "kitchen (9)",
+        "images": [
+          "20210730_201624.webp",
+          "20210730_201647.webp",
+          "20210730_201722.webp",
+          "20210816_142334 (2).webp",
+          "20210816_142334.webp",
+          "20210816_142442.webp",
+          "20210816_142452.webp",
+          "IMG-20220901-WA0035.webp",
+          "IMG-20220901-WA0036.webp",
+          "IMG-20220901-WA0037.webp",
+          "IMG-20220901-WA0038.webp",
+          "IMG-20220901-WA0039.webp"
+        ]
+      }
+    ]
+  },
+  "office": {
+    "categoryImage": "Office_SQR.webp",
+    "works": [
+      {
+        "workName": "office (1)",
+        "images": [
+          "20230125_141133.webp",
+          "20230125_141201.webp",
+          "20230125_143305.webp",
+          "20230125_143307.webp",
+          "20230125_143310.webp",
+          "20230125_143314.webp"
+        ]
+      },
+      {
+        "workName": "office (2)",
+        "images": ["00000124.webp", "00000125.webp", "00000126.webp"]
+      },
+      {
+        "workName": "office (4)",
+        "images": ["00000556.webp", "00000557.webp"]
+      }
+    ]
   },
   "other": {
-    "categoryImage": "Other_SQR.png",
+    "categoryImage": "Other_SQR.webp",
     "works": []
   }
 }
