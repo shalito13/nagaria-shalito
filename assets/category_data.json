@@ -1,10 +1,9 @@
 {
   "BATHROOM": {
-    "categoryImage": "mobile_Bathroom_SQR.webp",
+    "categoryImage": "thumbnail_Bathroom_SQR.webp",
     "works": [
       {
-        "workName": "bathroom (1)",
-        "info": "",
+        "workName": "bath_01",
         "images": [
           "desktop_00000131.webp",
           "desktop_00000132 (2).webp",
@@ -15,11 +14,14 @@
           "thumbnail_00000131.webp",
           "thumbnail_00000132 (2).webp",
           "thumbnail_00000134.webp"
-        ]
+        ],
+        "folderName": "bath_01",
+        "displayName": "The Bath Gem",
+        "info": "A unique bathroom cabinet wrapped in warm and inviting butcher block, featuring a rounded triangular sink that blends seamlessly into the design. A perfect harmony of craftsmanship and functionality, crafted by our talented designer.",
+        "tags": ["designer"]
       },
       {
-        "workName": "bathroom (3)",
-        "info": "",
+        "workName": "bath_02",
         "images": [
           "desktop_00000700.webp",
           "desktop_00000701 (2).webp",
@@ -57,10 +59,14 @@
           "thumbnail_P1210097.webp",
           "thumbnail_P1210098.webp",
           "thumbnail_P1210102.webp"
-        ]
+        ],
+        "folderName": "bath_02",
+        "displayName": "Cocoa Coffee Vanity",
+        "info": "An elegant bathroom cabinet with a warm butcher block countertop and a softly rounded oval sink, paired with an open-shelf unit. A timeless design in cocoa and coffee tones, crafted by our talented designer.",
+        "tags": ["designer"]
       },
       {
-        "workName": "bathroom (4)",
+        "workName": "bath_03",
         "images": [
           "desktop_20220619_165246.webp",
           "desktop_20220812_145305.webp",
@@ -83,10 +89,14 @@
           "thumbnail_IMG-20221103-WA0012.webp",
           "thumbnail_IMG-20221103-WA0013.webp",
           "thumbnail_IMG-20221103-WA0014.webp"
-        ]
+        ],
+        "folderName": "bath_03",
+        "displayName": "Green Elegance Vanity",
+        "info": "A stunning bathroom cabinet with a green body, black countertop, and matching black faucet, complemented by a soft pink rounded sink and a circular mirror. Beside it, a wooden open-shelf cabinet with green doors, and an additional cabinet near the washing machine with a green interior. A breathtaking design by our talented designer.",
+        "tags": ["designer"]
       },
       {
-        "workName": "bathroom (5)",
+        "workName": "bath_04",
         "images": [
           "desktop_IMG-20220510-WA0004.webp",
           "desktop_IMG-20220812-WA0003.webp",
@@ -94,10 +104,13 @@
           "mobile_IMG-20220812-WA0003.webp",
           "thumbnail_IMG-20220510-WA0004.webp",
           "thumbnail_IMG-20220812-WA0003.webp"
-        ]
+        ],
+        "folderName": "bath_04",
+        "displayName": "Natural Wood Vanity",
+        "info": "A bathroom cabinet in a natural wood finish, featuring a sleek black sink and faucet. The sink is elegantly shaped like a soft oval, blending perfectly into the warm tones of the design. Another masterpiece by our talented designer."
       },
       {
-        "workName": "bathroom (6)",
+        "workName": "bath_05",
         "images": [
           "desktop_20200202_213131.webp",
           "desktop_20200202_213155.webp",
@@ -105,15 +118,18 @@
           "mobile_20200202_213155.webp",
           "thumbnail_20200202_213131.webp",
           "thumbnail_20200202_213155.webp"
-        ]
+        ],
+        "folderName": "bath_05",
+        "displayName": "Simple Comfort Vanity",
+        "info": "A practical and simple bathroom cabinet set, featuring a low cabinet with an open shelf beneath and a tall, closed cabinet extending from floor to ceiling. Designed for maximum convenience and understated elegance."
       }
     ]
   },
   "BUFFET": {
-    "categoryImage": "mobile_Buffet_SQR.webp",
+    "categoryImage": "thumbnail_Buffet_SQR.webp",
     "works": [
       {
-        "workName": "buffet (1)",
+        "workName": "buffet_01",
         "images": [
           "desktop_00000927.webp",
           "desktop_00000928.webp",
@@ -130,10 +146,11 @@
           "thumbnail_00000929.webp",
           "thumbnail_00000930.webp",
           "thumbnail_00000932.webp"
-        ]
+        ],
+        "folderName": "buffet_01"
       },
       {
-        "workName": "buffet (3)",
+        "workName": "buffet_02",
         "images": [
           "desktop_00000712.webp",
           "desktop_16.webp",
@@ -186,10 +203,11 @@
           "thumbnail_P1210103.webp",
           "thumbnail_P1210104 - Copy.webp",
           "thumbnail_P1210104.webp"
-        ]
+        ],
+        "folderName": "buffet_02"
       },
       {
-        "workName": "buffet (4)",
+        "workName": "buffet_03",
         "images": [
           "desktop_20230109_151145.webp",
           "desktop_20230109_151149.webp",
@@ -218,10 +236,11 @@
           "thumbnail_20230109_180558.webp",
           "thumbnail_20230109_180612.webp",
           "thumbnail_20230109_180620.webp"
-        ]
+        ],
+        "folderName": "buffet_03"
       },
       {
-        "workName": "buffet (5)",
+        "workName": "buffet_04",
         "images": [
           "desktop_20220427_203250.webp",
           "desktop_20220427_203454.webp",
@@ -244,10 +263,11 @@
           "thumbnail_IMG-20221103-WA0006.webp",
           "thumbnail_IMG-20221103-WA0010.webp",
           "thumbnail_IMG-20221103-WA0011.webp"
-        ]
+        ],
+        "folderName": "buffet_04"
       },
       {
-        "workName": "buffet (6)",
+        "workName": "buffet_05",
         "images": [
           "desktop_20231015_153324.webp",
           "desktop_20231115_160151.webp",
@@ -270,10 +290,11 @@
           "thumbnail_20231115_160202.webp",
           "thumbnail_20231115_160205.webp",
           "thumbnail_20231115_160212.webp"
-        ]
+        ],
+        "folderName": "buffet_05"
       },
       {
-        "workName": "buffet (7)",
+        "workName": "buffet_06",
         "images": [
           "desktop_20200905_222329.webp",
           "desktop_20200912_173846.webp",
@@ -281,10 +302,11 @@
           "mobile_20200912_173846.webp",
           "thumbnail_20200905_222329.webp",
           "thumbnail_20200912_173846.webp"
-        ]
+        ],
+        "folderName": "buffet_06"
       },
       {
-        "workName": "buffet (8)",
+        "workName": "buffet_07",
         "images": [
           "desktop_00001064.webp",
           "desktop_00001067.webp",
@@ -292,20 +314,22 @@
           "mobile_00001067.webp",
           "thumbnail_00001064.webp",
           "thumbnail_00001067.webp"
-        ]
+        ],
+        "folderName": "buffet_07"
       },
       {
-        "workName": "buffet (9)",
+        "workName": "buffet_08",
         "images": [
           "desktop_00000519.webp",
           "mobile_00000519.webp",
           "thumbnail_00000519.webp"
-        ]
+        ],
+        "folderName": "buffet_08"
       }
     ]
   },
   "CLOSET": {
-    "categoryImage": "mobile_Closet_SQR.webp",
+    "categoryImage": "thumbnail_Closet_SQR.webp",
     "works": [
       {
         "workName": "closet (1)",
@@ -319,7 +343,8 @@
           "thumbnail_20181231_160253.webp",
           "thumbnail_20181231_160308.webp",
           "thumbnail_20181231_160320.webp"
-        ]
+        ],
+        "folderName": "closet (1)"
       },
       {
         "workName": "closet (2)",
@@ -330,7 +355,8 @@
           "mobile_00000704.webp",
           "thumbnail_00000703.webp",
           "thumbnail_00000704.webp"
-        ]
+        ],
+        "folderName": "closet (2)"
       },
       {
         "workName": "closet (3)",
@@ -341,7 +367,8 @@
           "mobile_20200202_213155.webp",
           "thumbnail_20200202_213131.webp",
           "thumbnail_20200202_213155.webp"
-        ]
+        ],
+        "folderName": "closet (3)"
       },
       {
         "workName": "closet (4)",
@@ -349,7 +376,8 @@
           "desktop_00000484.webp",
           "mobile_00000484.webp",
           "thumbnail_00000484.webp"
-        ]
+        ],
+        "folderName": "closet (4)"
       },
       {
         "workName": "closet (5)",
@@ -357,7 +385,8 @@
           "desktop_00000715.webp",
           "mobile_00000715.webp",
           "thumbnail_00000715.webp"
-        ]
+        ],
+        "folderName": "closet (5)"
       },
       {
         "workName": "closet (6)",
@@ -371,7 +400,8 @@
           "thumbnail_00000128.webp",
           "thumbnail_00000129.webp",
           "thumbnail_00000130.webp"
-        ]
+        ],
+        "folderName": "closet (6)"
       },
       {
         "workName": "closet (8)",
@@ -394,7 +424,8 @@
           "thumbnail_PC140055.webp",
           "thumbnail_PC140056.webp",
           "thumbnail_PC140057.webp"
-        ]
+        ],
+        "folderName": "closet (8)"
       },
       {
         "workName": "closet_room (3)",
@@ -435,12 +466,13 @@
           "thumbnail_P1210067.webp",
           "thumbnail_P1210068.webp",
           "thumbnail_P1210069.webp"
-        ]
+        ],
+        "folderName": "closet_room (3)"
       }
     ]
   },
   "CLOSET_ROOM": {
-    "categoryImage": "mobile_Closet_Room_SQR.webp",
+    "categoryImage": "thumbnail_Closet_Room_SQR.webp",
     "works": [
       {
         "workName": "closet_room (1)",
@@ -520,7 +552,8 @@
           "thumbnail_20230606_141631.webp",
           "thumbnail_20230606_141655.webp",
           "thumbnail_20230606_141702.webp"
-        ]
+        ],
+        "folderName": "closet_room (1)"
       },
       {
         "workName": "closet_room (2)",
@@ -606,7 +639,8 @@
           "thumbnail_20231005_173222.webp",
           "thumbnail_20231005_180318.webp",
           "thumbnail_20231005_180328.webp"
-        ]
+        ],
+        "folderName": "closet_room (2)"
       },
       {
         "workName": "\u05d7\u05d3\u05e8 \u05d0\u05e8\u05d5\u05e0\u05d5\u05ea \u05e8\u05de\u05dc\u05d4",
@@ -671,16 +705,16 @@
           "thumbnail_20240207_163524.webp",
           "thumbnail_20240207_163525.webp",
           "thumbnail_20240207_163527.webp"
-        ]
+        ],
+        "folderName": "\u05d7\u05d3\u05e8 \u05d0\u05e8\u05d5\u05e0\u05d5\u05ea \u05e8\u05de\u05dc\u05d4"
       }
     ]
   },
   "KITCHEN": {
-    "categoryImage": "mobile_Kitchen_SQR.webp",
+    "categoryImage": "thumbnail_Kitchen_SQR.webp",
     "works": [
       {
         "workName": "kitchen (1)",
-        "info": "",
         "images": [
           "desktop_00000649.webp",
           "desktop_00000650.webp",
@@ -712,11 +746,11 @@
           "thumbnail_00000656.webp",
           "thumbnail_00000657.webp",
           "thumbnail_00000658.webp"
-        ]
+        ],
+        "folderName": "kitchen (1)"
       },
       {
         "workName": "kitchen (10)",
-        "info": " ",
         "images": [
           "desktop_20200801_191540.webp",
           "desktop_20200808_191918.webp",
@@ -733,7 +767,8 @@
           "thumbnail_20200808_192054.webp",
           "thumbnail_20200808_192102.webp",
           "thumbnail_20200808_192218.webp"
-        ]
+        ],
+        "folderName": "kitchen (10)"
       },
       {
         "workName": "kitchen (11)",
@@ -756,7 +791,8 @@
           "thumbnail_00001307.webp",
           "thumbnail_00001308.webp",
           "thumbnail_00001309.webp"
-        ]
+        ],
+        "folderName": "kitchen (11)"
       },
       {
         "workName": "kitchen (12)",
@@ -782,7 +818,8 @@
           "thumbnail_20200910_215555.webp",
           "thumbnail_20200910_215559.webp",
           "thumbnail_20200910_215614.webp"
-        ]
+        ],
+        "folderName": "kitchen (12)"
       },
       {
         "workName": "kitchen (13)",
@@ -841,7 +878,8 @@
           "thumbnail_IMG-20220901-WA0082.webp",
           "thumbnail_IMG-20220901-WA0083.webp",
           "thumbnail_main_20200405_195402.webp"
-        ]
+        ],
+        "folderName": "kitchen (13)"
       },
       {
         "workName": "kitchen (14)",
@@ -855,7 +893,8 @@
           "thumbnail_20201114_174059.webp",
           "thumbnail_20201114_174113.webp",
           "thumbnail_20201114_174125.webp"
-        ]
+        ],
+        "folderName": "kitchen (14)"
       },
       {
         "workName": "kitchen (15)",
@@ -872,7 +911,8 @@
           "thumbnail_20171124_122246.webp",
           "thumbnail_20171124_122351.webp",
           "thumbnail_20171124_122457.webp"
-        ]
+        ],
+        "folderName": "kitchen (15)"
       },
       {
         "workName": "kitchen (16)",
@@ -892,7 +932,8 @@
           "thumbnail_00000164.webp",
           "thumbnail_00000165.webp",
           "thumbnail_00000166.webp"
-        ]
+        ],
+        "folderName": "kitchen (16)"
       },
       {
         "workName": "kitchen (17)",
@@ -978,7 +1019,8 @@
           "thumbnail_P5110173.webp",
           "thumbnail_P5110175.webp",
           "thumbnail_P5110176.webp"
-        ]
+        ],
+        "folderName": "kitchen (17)"
       },
       {
         "workName": "kitchen (18)",
@@ -1031,7 +1073,8 @@
           "thumbnail_P7050032.webp",
           "thumbnail_P7050033.webp",
           "thumbnail_P7050034.webp"
-        ]
+        ],
+        "folderName": "kitchen (18)"
       },
       {
         "workName": "kitchen (19)",
@@ -1042,7 +1085,8 @@
           "mobile_5ae0c444-1df2-4876-aa24-f9fdcc7bf415.webp",
           "thumbnail_2bc57149-2e5b-437a-8795-e67abb312059.webp",
           "thumbnail_5ae0c444-1df2-4876-aa24-f9fdcc7bf415.webp"
-        ]
+        ],
+        "folderName": "kitchen (19)"
       },
       {
         "workName": "kitchen (20)",
@@ -1068,7 +1112,8 @@
           "thumbnail_P5010129.webp",
           "thumbnail_P5010130.webp",
           "thumbnail_P5010131.webp"
-        ]
+        ],
+        "folderName": "kitchen (20)"
       },
       {
         "workName": "kitchen (21)",
@@ -1085,7 +1130,8 @@
           "thumbnail_00001500.webp",
           "thumbnail_00001513.webp",
           "thumbnail_00001515.webp"
-        ]
+        ],
+        "folderName": "kitchen (21)"
       },
       {
         "workName": "kitchen (22)",
@@ -1129,7 +1175,8 @@
           "thumbnail_IMG-20221027-WA0006.webp",
           "thumbnail_IMG-20221027-WA0007.webp",
           "thumbnail_IMG-20221027-WA0009.webp"
-        ]
+        ],
+        "folderName": "kitchen (22)"
       },
       {
         "workName": "kitchen (23)",
@@ -1161,7 +1208,8 @@
           "thumbnail_20230522_155104.webp",
           "thumbnail_20230522_155145.webp",
           "thumbnail_20230522_155206.webp"
-        ]
+        ],
+        "folderName": "kitchen (23)"
       },
       {
         "workName": "kitchen (24)",
@@ -1193,7 +1241,8 @@
           "thumbnail_IMG-20220901-WA0065.webp",
           "thumbnail_IMG-20220901-WA0066.webp",
           "thumbnail_IMG-20220901-WA0075.webp"
-        ]
+        ],
+        "folderName": "kitchen (24)"
       },
       {
         "workName": "kitchen (26)",
@@ -1219,7 +1268,8 @@
           "thumbnail_IMG-20220901-WA0072.webp",
           "thumbnail_IMG-20220901-WA0073.webp",
           "thumbnail_IMG-20220901-WA0074.webp"
-        ]
+        ],
+        "folderName": "kitchen (26)"
       },
       {
         "workName": "kitchen (27)",
@@ -1257,7 +1307,8 @@
           "thumbnail_20230125_164506.webp",
           "thumbnail_20230125_164512.webp",
           "thumbnail_20230125_164649.webp"
-        ]
+        ],
+        "folderName": "kitchen (27)"
       },
       {
         "workName": "kitchen (29)",
@@ -1274,7 +1325,8 @@
           "thumbnail_00000143.webp",
           "thumbnail_00000144.webp",
           "thumbnail_00000145.webp"
-        ]
+        ],
+        "folderName": "kitchen (29)"
       },
       {
         "workName": "kitchen (3)",
@@ -1297,7 +1349,8 @@
           "thumbnail_20180607_121501.webp",
           "thumbnail_20180607_121516.webp",
           "thumbnail_20180607_121537.webp"
-        ]
+        ],
+        "folderName": "kitchen (3)"
       },
       {
         "workName": "kitchen (30)",
@@ -1356,7 +1409,8 @@
           "thumbnail_P7190073.webp",
           "thumbnail_P7190075.webp",
           "thumbnail_P7190076.webp"
-        ]
+        ],
+        "folderName": "kitchen (30)"
       },
       {
         "workName": "kitchen (34)",
@@ -1379,7 +1433,8 @@
           "thumbnail_IMG-20220901-WA0031.webp",
           "thumbnail_IMG-20220901-WA0033.webp",
           "thumbnail_IMG-20220901-WA0034.webp"
-        ]
+        ],
+        "folderName": "kitchen (34)"
       },
       {
         "workName": "kitchen (35)",
@@ -1402,7 +1457,8 @@
           "thumbnail_00001099.webp",
           "thumbnail_00001100.webp",
           "thumbnail_00001101.webp"
-        ]
+        ],
+        "folderName": "kitchen (35)"
       },
       {
         "workName": "kitchen (36)",
@@ -1437,7 +1493,8 @@
           "thumbnail_20180809_141938.webp",
           "thumbnail_20180809_142004.webp",
           "thumbnail_20180809_142022.webp"
-        ]
+        ],
+        "folderName": "kitchen (36)"
       },
       {
         "workName": "kitchen (37)",
@@ -1463,7 +1520,8 @@
           "thumbnail_20190628_105915.webp",
           "thumbnail_20190628_105920.webp",
           "thumbnail_20190628_105925.webp"
-        ]
+        ],
+        "folderName": "kitchen (37)"
       },
       {
         "workName": "kitchen (38)",
@@ -1492,7 +1550,8 @@
           "thumbnail_20200607_122356.webp",
           "thumbnail_20200607_122431.webp",
           "thumbnail_20200607_122450.webp"
-        ]
+        ],
+        "folderName": "kitchen (38)"
       },
       {
         "workName": "kitchen (39)",
@@ -1566,7 +1625,8 @@
           "thumbnail_20180209_221108.webp",
           "thumbnail_20180209_221219.webp",
           "thumbnail_20180209_221227.webp"
-        ]
+        ],
+        "folderName": "kitchen (39)"
       },
       {
         "workName": "kitchen (40)",
@@ -1583,7 +1643,8 @@
           "thumbnail_00001500.webp",
           "thumbnail_00001513.webp",
           "thumbnail_main_00001515.webp"
-        ]
+        ],
+        "folderName": "kitchen (40)"
       },
       {
         "workName": "kitchen (41)",
@@ -1609,7 +1670,8 @@
           "thumbnail_20171227_214911.webp",
           "thumbnail_20171227_214930.webp",
           "thumbnail_main_20171227_214716.webp"
-        ]
+        ],
+        "folderName": "kitchen (41)"
       },
       {
         "workName": "kitchen (42)",
@@ -1638,7 +1700,8 @@
           "thumbnail_20200422_141841.webp",
           "thumbnail_20200422_141916.webp",
           "thumbnail_20200425_180536.webp"
-        ]
+        ],
+        "folderName": "kitchen (42)"
       },
       {
         "workName": "kitchen (43)",
@@ -1649,7 +1712,8 @@
           "mobile_P9090033.webp",
           "thumbnail_P9090030.webp",
           "thumbnail_P9090033.webp"
-        ]
+        ],
+        "folderName": "kitchen (43)"
       },
       {
         "workName": "kitchen (44)",
@@ -1675,7 +1739,8 @@
           "thumbnail_11705502_10207442136680047_2540974920362268929_o.webp",
           "thumbnail_11713868_10207442140000130_6793707842229696433_o.webp",
           "thumbnail_11722318_10207442134719998_2083789825194816529_o.webp"
-        ]
+        ],
+        "folderName": "kitchen (44)"
       },
       {
         "workName": "kitchen (45)",
@@ -1695,7 +1760,8 @@
           "thumbnail_20200618_184130.webp",
           "thumbnail_20200618_184158.webp",
           "thumbnail_20200618_184238.webp"
-        ]
+        ],
+        "folderName": "kitchen (45)"
       },
       {
         "workName": "kitchen (46)",
@@ -1706,7 +1772,8 @@
           "mobile_20200401_214932.webp",
           "thumbnail_20200401_214905.webp",
           "thumbnail_20200401_214932.webp"
-        ]
+        ],
+        "folderName": "kitchen (46)"
       },
       {
         "workName": "kitchen (47)",
@@ -1723,7 +1790,8 @@
           "thumbnail_20190823_192339.webp",
           "thumbnail_20190823_192400.webp",
           "thumbnail_20190823_192418.webp"
-        ]
+        ],
+        "folderName": "kitchen (47)"
       },
       {
         "workName": "kitchen (48)",
@@ -1737,7 +1805,8 @@
           "thumbnail_20191002_234553.webp",
           "thumbnail_20191002_234610.webp",
           "thumbnail_20191002_234614.webp"
-        ]
+        ],
+        "folderName": "kitchen (48)"
       },
       {
         "workName": "kitchen (49)",
@@ -1745,7 +1814,8 @@
           "desktop_00000792.webp",
           "mobile_00000792.webp",
           "thumbnail_00000792.webp"
-        ]
+        ],
+        "folderName": "kitchen (49)"
       },
       {
         "workName": "kitchen (50)",
@@ -1786,7 +1856,8 @@
           "thumbnail_20181229_201505.webp",
           "thumbnail_20181229_201529.webp",
           "thumbnail_20181229_201543.webp"
-        ]
+        ],
+        "folderName": "kitchen (50)"
       },
       {
         "workName": "kitchen (51)",
@@ -1806,7 +1877,8 @@
           "thumbnail_20180605_221639.webp",
           "thumbnail_20180605_221654.webp",
           "thumbnail_20180605_221717.webp"
-        ]
+        ],
+        "folderName": "kitchen (51)"
       },
       {
         "workName": "kitchen (52)",
@@ -1832,7 +1904,8 @@
           "thumbnail_20171227_214839.webp",
           "thumbnail_20171227_214911.webp",
           "thumbnail_20171227_214930.webp"
-        ]
+        ],
+        "folderName": "kitchen (52)"
       },
       {
         "workName": "kitchen (53)",
@@ -1846,7 +1919,8 @@
           "thumbnail_00000767.webp",
           "thumbnail_00000768.webp",
           "thumbnail_00000769.webp"
-        ]
+        ],
+        "folderName": "kitchen (53)"
       },
       {
         "workName": "kitchen (54)",
@@ -1857,7 +1931,8 @@
           "mobile_00000171.webp",
           "thumbnail_00000170.webp",
           "thumbnail_00000171.webp"
-        ]
+        ],
+        "folderName": "kitchen (54)"
       },
       {
         "workName": "kitchen (55)",
@@ -1886,7 +1961,8 @@
           "thumbnail_00000747.webp",
           "thumbnail_00000748.webp",
           "thumbnail_00000749.webp"
-        ]
+        ],
+        "folderName": "kitchen (55)"
       },
       {
         "workName": "kitchen (56)",
@@ -1900,7 +1976,8 @@
           "thumbnail_00000723.webp",
           "thumbnail_00000724.webp",
           "thumbnail_00000725.webp"
-        ]
+        ],
+        "folderName": "kitchen (56)"
       },
       {
         "workName": "kitchen (6)",
@@ -1926,7 +2003,8 @@
           "thumbnail_20180312_194247.webp",
           "thumbnail_20180312_194254.webp",
           "thumbnail_20180312_194338.webp"
-        ]
+        ],
+        "folderName": "kitchen (6)"
       },
       {
         "workName": "kitchen (7)",
@@ -1952,7 +2030,8 @@
           "thumbnail_00001509.webp",
           "thumbnail_00001510.webp",
           "thumbnail_00001511.webp"
-        ]
+        ],
+        "folderName": "kitchen (7)"
       },
       {
         "workName": "kitchen (8)",
@@ -1966,7 +2045,8 @@
           "thumbnail_00000545.webp",
           "thumbnail_00000546.webp",
           "thumbnail_00000547.webp"
-        ]
+        ],
+        "folderName": "kitchen (8)"
       },
       {
         "workName": "kitchen (9)",
@@ -2031,7 +2111,8 @@
           "thumbnail_IMG-20220901-WA0038.webp",
           "thumbnail_IMG-20220901-WA0039.webp",
           "thumbnail_IMG-20230110-WA0008.webp"
-        ]
+        ],
+        "folderName": "kitchen (9)"
       },
       {
         "workName": "New folder",
@@ -2084,12 +2165,13 @@
           "thumbnail_20230522_155145.webp",
           "thumbnail_20230522_155203.webp",
           "thumbnail_20230522_155206.webp"
-        ]
+        ],
+        "folderName": "New folder"
       }
     ]
   },
   "OFFICE": {
-    "categoryImage": "desktop_Office_SQR.webp",
+    "categoryImage": "thumbnail_Office_SQR.webp",
     "works": [
       {
         "workName": "office (1)",
@@ -2127,7 +2209,23 @@
           "thumbnail_20230125_143307.webp",
           "thumbnail_20230125_143310.webp",
           "thumbnail_20230125_143314.webp"
-        ]
+        ],
+        "folderName": "office (1)"
+      },
+      {
+        "workName": "office (2)",
+        "images": [
+          "desktop_00000124.webp",
+          "desktop_00000125.webp",
+          "desktop_00000126.webp",
+          "mobile_00000124.webp",
+          "mobile_00000125.webp",
+          "mobile_00000126.webp",
+          "thumbnail_00000124.webp",
+          "thumbnail_00000125.webp",
+          "thumbnail_00000126.webp"
+        ],
+        "folderName": "office (2)"
       },
       {
         "workName": "office (3)",
@@ -2135,7 +2233,11 @@
           "desktop_20190318_184541.webp",
           "desktop_20190318_184633.webp",
           "desktop_20190318_184634.webp",
+          "desktop_20190318_190155.webp",
+          "desktop_20190318_190157.webp",
+          "desktop_20190318_190159.webp",
           "desktop_20190318_190209.webp",
+          "desktop_20190318_190211.webp",
           "desktop_20190318_212826.webp",
           "desktop_20190318_212830.webp",
           "desktop_20190318_212845.webp",
@@ -2154,7 +2256,11 @@
           "mobile_20190318_184541.webp",
           "mobile_20190318_184633.webp",
           "mobile_20190318_184634.webp",
+          "mobile_20190318_190155.webp",
+          "mobile_20190318_190157.webp",
+          "mobile_20190318_190159.webp",
           "mobile_20190318_190209.webp",
+          "mobile_20190318_190211.webp",
           "mobile_20190318_212826.webp",
           "mobile_20190318_212830.webp",
           "mobile_20190318_212845.webp",
@@ -2173,7 +2279,11 @@
           "thumbnail_20190318_184541.webp",
           "thumbnail_20190318_184633.webp",
           "thumbnail_20190318_184634.webp",
+          "thumbnail_20190318_190155.webp",
+          "thumbnail_20190318_190157.webp",
+          "thumbnail_20190318_190159.webp",
           "thumbnail_20190318_190209.webp",
+          "thumbnail_20190318_190211.webp",
           "thumbnail_20190318_212826.webp",
           "thumbnail_20190318_212830.webp",
           "thumbnail_20190318_212845.webp",
@@ -2189,7 +2299,8 @@
           "thumbnail_IMG-20190124-WA0007.webp",
           "thumbnail_IMG-20190124-WA0008.webp",
           "thumbnail_IMG-20190124-WA0009.webp"
-        ]
+        ],
+        "folderName": "office (3)"
       },
       {
         "workName": "office (4)",
@@ -2200,7 +2311,8 @@
           "mobile_00000557.webp",
           "thumbnail_00000556.webp",
           "thumbnail_00000557.webp"
-        ]
+        ],
+        "folderName": "office (4)"
       },
       {
         "workName": "office (5)",
@@ -2223,8 +2335,13 @@
           "thumbnail_P6140010.webp",
           "thumbnail_P6140011.webp",
           "thumbnail_P6140012.webp"
-        ]
+        ],
+        "folderName": "office (5)"
       }
     ]
+  },
+  "OTHER": {
+    "categoryImage": "thumbnail_Other_SQR.webp",
+    "works": []
   }
 }

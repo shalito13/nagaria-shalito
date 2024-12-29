@@ -5,6 +5,7 @@
   "Catalog": "Каталог работ",
   "About Us": "О нас",
   "about": "О нас",
+  "about us": "О нас",
   "Contact Us": "Связаться с нами",
   "Contact": "Контакты",
   "OFFICE": "Рабочие кабинеты",
@@ -13,6 +14,7 @@
   "BATHROOM": "Ванные комнаты",
   "BUFFET": "Буфеты",
   "KITCHEN": "Кухни",
+  "OTHER": "Другие",
   "In carpentry, as in life, attention to detail is key.": "В столярном деле, как и в жизни, внимание к деталям — ключ к успеху.",
   "That's the difference between mediocrity and greatness.": "Это то, что отличает посредственность от величия.",
   "We are a carpentry business serving the community for over 30 years.": "Мы занимаемся столярным делом уже более 30 лет.",
@@ -32,13 +34,29 @@
   "Send us a message on WhatsApp": "Напишите нам в WhatsApp",
   "For contact:": "Для связи:",
   "Questions?": "Вопросы?",
-
+  "No image available": "Изображение недоступно",
   "back to categories": "Назад к категориям",
+  "No works here, coming soon!": "Здесь пока нет работ, скоро появятся!",
 
   "Personalized Carpentry Solutions": "Индивидуальные столярные решения",
   "Designed for Your Home": "Создано для вашего дома",
   "View Catalog!": "Смотреть каталог!",
   "Visit Us or Get in Touch": "Приходите к нам или свяжитесь с нами!",
 
-  "Transform your home with Shalito Carpentry – experts in custom kitchens, cabinets, and countertops. Explore our comprehensive catalog of high-quality carpentry solutions tailored to your needs. Contact us today to start designing your dream space and visit our homepage for more information about our services.": "Преобразите свой дом с мастерской Шалито – экспертами в создании индивидуальных кухонь, шкафов и столешниц. Ознакомьтесь с нашим каталогом высококачественных столярных решений, адаптированных к вашим потребностям. Свяжитесь с нами сегодня, чтобы начать проектировать пространство вашей мечты, и посетите наш сайт для получения дополнительной информации о наших услугах."
+  "Transform your home with Shalito Carpentry – experts in custom kitchens, cabinets, and countertops. Explore our comprehensive catalog of high-quality carpentry solutions tailored to your needs. Contact us today to start designing your dream space and visit our homepage for more information about our services.": "Преобразите свой дом с мастерской Шалито – экспертами в создании индивидуальных кухонь, шкафов и столешниц. Ознакомьтесь с нашим каталогом высококачественных столярных решений, адаптированных к вашим потребностям. Свяжитесь с нами сегодня, чтобы начать проектировать пространство вашей мечты, и посетите наш сайт для получения дополнительной информации о наших услугах.",
+
+  "The Bath Gem": "Жемчужина Ванной",
+  "A unique bathroom cabinet wrapped in warm and inviting butcher block, featuring a rounded triangular sink that blends seamlessly into the design. A perfect harmony of craftsmanship and functionality, crafted by our talented designer.": "ארון אמבטיה ייחודי המצופה בבוצ'ר בלוק חמים ומזמין, עם כיור משולש מעוגל המשתלב בהרמוניה עיצובית. יצירה מושלמת של אומנות ופרקטיות Уникальный шкаф для ванной, покрытый теплым и уютным слоем из бучерного блока, с круглым треугольным умывальником, идеально вписывающимся в дизайн. Искусство и функциональность в гармонии от нашего талантливого дизайнера.",
+
+  "Cocoa Coffee Vanity": "Шоколадно-Кофейная Ванна",
+  "An elegant bathroom cabinet with a warm butcher block countertop and a softly rounded oval sink, paired with an open-shelf unit. A timeless design in cocoa and coffee tones, crafted by our talented designer.": "Элегантный шкаф для ванной с теплой столешницей из бучерного блока и плавно закругленной овальной раковиной, дополненный открытым шкафом с полками. Классический дизайн в тонах шоколада и кофе от нашей талантливой дизайнерши.",
+
+  "Green Elegance Vanity": "Зелёная Элегантность Ванной",
+  "A stunning bathroom cabinet with a green body, black countertop, and matching black faucet, complemented by a soft pink rounded sink and a circular mirror. Beside it, a wooden open-shelf cabinet with green doors, and an additional cabinet near the washing machine with a green interior. A breathtaking design by our talented designer.": "Потрясающий шкаф для ванной с зелёным корпусом, чёрной столешницей и таким же чёрным краном, дополненный мягкой розовой закруглённой раковиной и круглым зеркалом. Рядом находится открытый шкаф с деревянными полками и зелёными дверцами, а также дополнительный шкаф возле стиральной машины с зелёным интерьером. Великолепный дизайн от нашей талантливой дизайнерши.",
+
+  "Natural Wood Vanity": "Ванна из Натурального Дерева",
+  "A bathroom cabinet in a natural wood finish, featuring a sleek black sink and faucet. The sink is elegantly shaped like a soft oval, blending perfectly into the warm tones of the design. Another masterpiece by our talented designer.": "Шкаф для ванной из натурального дерева с элегантной черной раковиной и краном. Раковина имеет мягкую овальную форму, идеально сочетающуюся с теплыми тонами дизайна. Ещё один шедевр от нашей талантливой дизайнерши.",
+
+  "Simple Comfort Vanity": "Простота и Комфорт Ванной",
+  "A practical and simple bathroom cabinet set, featuring a low cabinet with an open shelf beneath and a tall, closed cabinet extending from floor to ceiling. Designed for maximum convenience and understated elegance.": "Практичный и простой набор шкафов для ванной: низкий шкаф с открытой полкой внизу и высокий закрытый шкаф от пола до потолка. Создан для максимального удобства и сдержанной элегантности."
 }

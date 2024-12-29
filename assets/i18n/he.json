@@ -5,6 +5,7 @@
   "Catalog": "קטלוג עבודות",
   "About Us": "קצת עלינו",
   "about": "קצת עלינו",
+  "about us": "קצת עלינו",
   "Contact Us": "צור קשר",
   "Contact": "צור קשר",
   "OFFICE": "חדרי עבודה",
@@ -13,6 +14,7 @@
   "BATHROOM": "ארונות אמבטיה",
   "BUFFET": "מזנונים",
   "KITCHEN": "מטבחים",
+  "OTHER": "אחר",
   "In carpentry, as in life, attention to detail is key.": "בנגרות, כמו בחיים, תשומת לב לפרטים היא המפתח.",
   "That's the difference between mediocrity and greatness.": "זה ההבדל בין בינוניות לגדולה.",
   "We are a carpentry business serving the community for over 30 years.": "אנחנו עסק נגרות המשרת את הקהילה כבר למעלה מ-30 שנה.",
@@ -32,13 +34,29 @@
   "Send us a message on WhatsApp": "שלחו לנו הודעה בוואטסאפ",
   "For contact:": "ליצירת קשר התקשרו:",
   "Questions?": "שאלות?",
-
+  "No image available": "התמונה לא זמינה",
   "back to categories": "חזרה לקטגוריות",
+  "No works here, coming soon!": "אין עבודות כאן, בקרוב יהיו!",
 
   "Personalized Carpentry Solutions": "פתרונות נגרות מותאמים אישית",
   "Designed for Your Home": "עבור הבית שלך",
   "View Catalog!": "לקטלוג!",
   "Visit Us or Get in Touch": "בקרו אותנו או צרו קשר!",
 
-  "Transform your home with Shalito Carpentry – experts in custom kitchens, cabinets, and countertops. Explore our comprehensive catalog of high-quality carpentry solutions tailored to your needs. Contact us today to start designing your dream space and visit our homepage for more information about our services.": "נגריית שליטו, שדרג את הבית שלך, מתמחים במטבחים בהתאמה אישית, ארונות ומזנונים. חקור את הקטלוג המקיף שלנו, פתרונות נגרות איכותיים המותאמים לצרכיך."
+  "Transform your home with Shalito Carpentry – experts in custom kitchens, cabinets, and countertops. Explore our comprehensive catalog of high-quality carpentry solutions tailored to your needs. Contact us today to start designing your dream space and visit our homepage for more information about our services.": "נגריית שליטו, שדרג את הבית שלך, מתמחים במטבחים בהתאמה אישית, ארונות ומזנונים. חקור את הקטלוג המקיף שלנו, פתרונות נגרות איכותיים המותאמים לצרכיך.",
+
+  "The Bath Gem": "פנינת האמבט",
+  "A unique bathroom cabinet wrapped in warm and inviting butcher block, featuring a rounded triangular sink that blends seamlessly into the design. A perfect harmony of craftsmanship and functionality, crafted by our talented designer.": "ארון אמבטיה ייחודי המצופה בבוצ'ר בלוק חמים ומזמין, עם כיור משולש מעוגל המשתלב בהרמוניה עיצובית. יצירה מושלמת של אומנות ופרקטיות מבית המעצבת שלנו.",
+
+  "Cocoa Coffee Vanity": "ניחוח שוקו קפה",
+  "An elegant bathroom cabinet with a warm butcher block countertop and a softly rounded oval sink, paired with an open-shelf unit. A timeless design in cocoa and coffee tones, crafted by our talented designer.": "ארון אמבטיה מהודר עם משטח בוצ'ר בלוק חמים וכיור מעוגל בצורת אליפסה עדינה, לצד ארון פתוח עם מדפים מרווחים. עיצוב מושלם בגווני שוקו וקפה, יצירה קלאסית מבית המעצבת שלנו.",
+
+  "Green Elegance Vanity": "אלגנטיות ירוקה באמבטיה",
+  "A stunning bathroom cabinet with a green body, black countertop, and matching black faucet, complemented by a soft pink rounded sink and a circular mirror. Beside it, a wooden open-shelf cabinet with green doors, and an additional cabinet near the washing machine with a green interior. A breathtaking design by our talented designer.": "ארון אמבטיה מרשים עם גוף ירוק, מחסה שחור וברז תואם שחור, יחד עם כיור ורוד עדין מעוגל ומראה עגולה. לצדו, ארון מדפים פתוח בגוון עץ ודלתות ירוקות, וכן ארון נוסף ליד מכונת הכביסה עם פנים ירוקות. עיצוב משגע מבית המעצבת שלנו.",
+
+  "Natural Wood Vanity": "ניחוח טבעי באמבטיה",
+  "A bathroom cabinet in a natural wood finish, featuring a sleek black sink and faucet. The sink is elegantly shaped like a soft oval, blending perfectly into the warm tones of the design. Another masterpiece by our talented designer.": "ארון אמבטיה בגימור עץ טבעי, עם כיור וברז שחורים אלגנטיים. הכיור מעוצב בצורה אליפטית רכה שמשתלבת בהרמוניה עם גווני העץ החמימים. יצירה נוספת מבית המעצבת שלנו.",
+
+  "Simple Comfort Vanity": "נוחות פשוטה באמבטיה",
+  "A practical and simple bathroom cabinet set, featuring a low cabinet with an open shelf beneath and a tall, closed cabinet extending from floor to ceiling. Designed for maximum convenience and understated elegance.": "סט ארונות אמבטיה פשוט ונוח, הכולל ארון נמוך עם מדף פתוח מתחתיו לצד ארון גבוה וסגור מהרצפה ועד התקרה. עיצוב פרקטי שמשלב נוחות עם אלגנטיות מינימליסטית."
 }
