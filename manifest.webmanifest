@@ -1,0 +1,16 @@
+{
+  "name": "נגריית שליטו",
+  "short_name": "נגריית שליטו",
+  "description": "נגרייה משפחתית באשדוד: מטבחים, ארונות קיר, חדרי ארונות וריהוט לפי מידה",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "minimal-ui",
+  "background_color": "#161412",
+  "theme_color": "#161412",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
