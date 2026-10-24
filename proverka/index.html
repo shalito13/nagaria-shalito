@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-xSbhN7JzlJvgO5hQVVUfAkFWJb9EKwLDQnBa12sLQPE='; style-src 'sha256-pjHhr75iMjC0amikme5EJuvSckuHCCdkSXe4bcFuf9Q=' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-gMCemQ2bmve4GeIEvF5DsLJdvtgOM3NjWXLmuBMNIKI='; style-src 'sha256-pjHhr75iMjC0amikme5EJuvSckuHCCdkSXe4bcFuf9Q=' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="robots" content="noindex, nofollow">
 <title>Проверка работ Шалито</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -150,10 +150,15 @@ function commit(slug){
   refresh();
 }
 
-function openLb(src){$('lbimg').src=src;$('lb').hidden=false;$('lbclose').focus()}
-$('lbclose').onclick=()=>{$('lb').hidden=true};
-$('lb').onclick=e=>{if(e.target.id==='lb')$('lb').hidden=true};
-document.addEventListener('keydown',e=>{if(e.key==='Escape')$('lb').hidden=true});
+// The phone's Back button closes the photo instead of leaving the page: opening a photo adds a history step.
+let opener=null;
+function hideLb(){if($('lb').hidden)return;$('lb').hidden=true;if(opener)opener.focus({preventScroll:true})}
+function openLb(src){opener=document.activeElement;$('lbimg').src=src;$('lb').hidden=false;$('lbclose').focus();try{history.pushState({lb:1},'')}catch(e){}}
+function closeLb(){if($('lb').hidden)return;if(history.state&&history.state.lb)history.back();else hideLb()}
+window.addEventListener('popstate',hideLb);
+$('lbclose').onclick=closeLb;
+$('lb').onclick=e=>{if(e.target.id==='lb'||e.target.id==='lbimg')closeLb()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb()});
 
 function render(){
   const list=$('list');let cat='';let wrap=null;
