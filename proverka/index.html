@@ -5,7 +5,7 @@
 <script>if(location.protocol==='http:'&&/^(www\.)?shalito\.net$/.test(location.hostname))location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-vGX50E2Ibci8VT+3yoqjskpLfE+8YunYyYPNZ0g9xlo='; style-src 'sha256-+6Ck1Oo9PTlY/jXaN3H8sz0Ua0RjoOV2FuhaAHvA2D0='; font-src 'none'; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-2okiVo30jvCHEBuPeQorNIcFiXy4rNjKhd5hEThJn9s='; style-src 'sha256-+6Ck1Oo9PTlY/jXaN3H8sz0Ua0RjoOV2FuhaAHvA2D0='; font-src 'none'; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="robots" content="noindex, nofollow">
 <title>Проверка работ Шалито</title>
 <style>
@@ -216,7 +216,7 @@ body.fs-off .fs-only{display:none!important}
 <a class="barsend" id="barsend" href="#" target="_blank" rel="noopener" hidden>Отправить</a>
 <div class="lb" id="lb" hidden><img id="lbimg" alt="" src="/favicon.svg"><button type="button" id="lbclose">Закрыть ✕</button></div>
 <script>// FamilySync (family-v2): saves everything the parents type to our server by itself. No send step.
-// It sends the whole local state of the four stores (shared by /semya/, /teksty/, /proverka/) when it differs from what
+// It sends the whole local state of the stores (shared by /semya/, /teksty/, /proverka/, /tegi/) when it differs from what
 // the server last confirmed: after 4 s of quiet, at most once per 20 s, at once when the page is hidden or closed, and
 // again after a failure (on the next change, when the phone is back online, and every 60 s).
 // localStorage stays the main store; the server copy is for Arik. The first load after this update sends everything
@@ -225,7 +225,7 @@ body.fs-off .fs-only{display:none!important}
 const FS=(()=>{
   const URL_='https://shalito-family.arikshalito.workers.dev/family/save',KEY_='WqWPf_0E7VFQNYpX73VCKAxR4-vMwPH4';
   const PAGE=document.documentElement.dataset.page||'semya';
-  const STORES={texts:'shalito-texts-v1',review:'shalito-father-review-v1',semya:'shalito-semya-v1',help:'shalito-help-v1'};
+  const STORES={texts:'shalito-texts-v1',review:'shalito-father-review-v1',semya:'shalito-semya-v1',help:'shalito-help-v1',tags:'shalito-tags-v1'};
   const DKEY='shalito-family-device',AKEY='shalito-family-acked';
   const QUIET=4000,GAP=20000,RETRY=60000;
   const on=/^https?:\/\//.test(URL_)&&!/^__/.test(KEY_);

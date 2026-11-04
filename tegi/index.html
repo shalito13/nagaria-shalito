@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="ru" data-page="tegi">
+<head>
+<meta charset="utf-8">
+<script>if(location.protocol==='http:'&&/^(www\.)?shalito\.net$/.test(location.hostname))location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-+waFo4frh1oYWkrNxaMiJ+XDOa6KvJspdlkN7buAHMc='; style-src 'sha256-Af4WO3YNnfjQaIwCMKUzn3rddT/gCkp/59qBvvmS+5k='; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Признаки работ Шалито</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>/* /semya/ v2 (family-v2-autosave): readable for weak eyes. Light only, text >= 7:1 on every tint, body 20px / 1.6,
+   ~60ch lines, system sans, targets >= 48px, reflow at 320 CSS px, zoom 400 %, text 200 %.
+   Card colours: waiting = light blue / light sand (alternating), answered = green with a side bar, "Не понял" = lilac. */
+:root{
+  color-scheme:light;
+  --bg:#ffffff; --ink:#14110e; --muted:#3d362f; --edge:#6f6255; --dark:#161412;
+  --blue:#e4eefb; --blue-edge:#5f86bd; --sand:#fcefcf; --sand-edge:#a87f22; --navy:#1d3a5e;
+  --green:#0e5530; --green-soft:#e1f3e4; --lilac:#efe6f8; --lilac-edge:#5e3d8a;
+  --red:#9e1529; --ins:#cfeed8; --ins-ink:#0b3d22; --wa:#0a5f31; --focus:#1748c4;
+  --font:system-ui, Roboto, "Segoe UI", Arial, sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:1.25rem;line-height:1.6;margin:0;overflow-wrap:anywhere}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--dark)}
+.wrap{max-width:calc(60ch + 2rem);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--focus)!important;outline-offset:3px!important}
+.bar :focus-visible{outline-color:#fff!important}
+
+header.top{background:var(--dark);color:#f3ede4}
+header.top .wrap{padding-block:24px 20px}
+h1{font-size:2rem;line-height:1.25;margin:0 0 6px}
+.sub{color:#ece5da;margin:0}
+.sub.ok{color:#9fe0b4;font-weight:700}
+
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--dark);color:#f3ede4;font-size:min(1.25rem,22px)}
+.bar .wrap{display:flex;align-items:center;gap:6px 14px;padding-block:8px;flex-wrap:wrap}
+.count{font-weight:700;font-variant-numeric:tabular-nums}
+.saved{font-size:min(1.125rem,20px);color:#ece5da}
+.saved[data-s="idle"]{color:#9fe0b4;font-weight:700}
+.saved[data-s="fail"]{color:#ffd2d8;font-weight:700}
+.next{font:inherit;font-weight:700;color:var(--dark);background:#f3ede4;border:0;border-radius:999px;padding:8px 18px;cursor:pointer;min-height:48px;min-width:48px;margin-inline-start:auto}
+
+.how{border:2px solid var(--edge);border-radius:14px;padding:18px 20px;margin-block:20px}
+.how h2{font-size:1.5rem;line-height:1.3;margin:0 0 10px}
+.how ol{margin:0;padding-inline-start:1.3em;display:grid;gap:12px}
+.okword{color:var(--green)}
+.legend{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:8px}
+.legend li{display:flex;align-items:center;gap:12px}
+.sw{flex:0 0 44px;height:30px;border-radius:8px;border:2px solid var(--edge)}
+.sw-todo{background:linear-gradient(90deg,var(--blue) 50%,var(--sand) 50%);border-color:var(--navy)}
+.sw-done{background:var(--green-soft);border-color:var(--green);border-inline-start-width:10px}
+.sw-help{background:var(--lilac);border-color:var(--lilac-edge);border-inline-start-width:10px}
+.toc{display:grid;gap:8px;margin-top:16px}
+.toc a{display:flex;justify-content:space-between;gap:10px;align-items:center;color:var(--ink);text-decoration:none;border:2px solid var(--edge);border-radius:12px;padding:12px 14px;min-height:48px;font-weight:700}
+.toc b{font-weight:400;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap;font-size:1.125rem}
+
+.part{scroll-margin-top:max(84px,5rem)}
+.cat{font-size:1.625rem;font-weight:700;line-height:1.3;margin:38px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--edge)}
+h3.cat{font-size:1.5rem;margin-top:30px}
+.intro{margin:0 0 16px;color:var(--muted)}
+.list{display:grid;gap:20px}
+
+/* Cards */
+.card{border-radius:14px;border:2px solid var(--blue-edge);background:var(--blue);padding:16px;display:grid;gap:14px;scroll-margin-top:max(84px,5rem)}
+.card[data-tint="b"]{background:var(--sand);border-color:var(--sand-edge)}
+.card[data-state="done"]{background:var(--green-soft);border-color:var(--green);border-inline-start-width:12px}
+.card[data-state="help"]{background:var(--lilac);border-color:var(--lilac-edge);border-inline-start-width:12px}
+.head{display:flex;gap:14px;align-items:flex-start}
+.num{flex:0 0 auto;min-width:3rem;height:3rem;padding:0 .4rem;border-radius:999px;background:var(--navy);color:#fff;font-weight:800;font-size:1.375rem;display:grid;place-items:center;font-variant-numeric:tabular-nums}
+.card[data-state="done"] .num{background:var(--green)}
+.card[data-state="help"] .num{background:var(--lilac-edge)}
+.ht{display:grid;gap:2px;min-width:0}
+.kind{margin:0;font-size:1.125rem;color:var(--muted)}
+.title{font-size:1.375rem;font-weight:700;line-height:1.35;margin:0;text-wrap:balance}
+.mark{margin:0;font-size:1.125rem;font-weight:700;color:var(--muted)}
+.mark[data-m="ok"]{color:var(--green)}
+.mark[data-m="fail"]{color:var(--red)}
+.sumry{margin:0;display:grid;gap:4px}
+.toggle{font:inherit;font-size:1.125rem;font-weight:700;justify-self:start;background:#fff;color:var(--ink);border:2px solid var(--edge);border-radius:12px;padding:8px 16px;cursor:pointer;min-height:48px}
+.inner{display:grid;gap:16px}
+.qtext{margin:0}
+.q{font-weight:700;margin:0;font-size:1.375rem}
+.rlabel{margin:0 0 -12px;font-size:1.125rem;font-weight:700;color:var(--muted)}
+.rtext{margin:0;background:#fff;border-radius:10px;padding:10px 14px;border:1px solid var(--edge)}
+.open{margin:0;background:#fff;border:2px dashed var(--edge);border-radius:12px;padding:10px 14px;font-size:1.125rem}
+.link{color:var(--ink);font-size:1.125rem;justify-self:start;padding-block:10px}
+
+.cover{display:block;width:100%;aspect-ratio:4/3;background:#ddd;border:0;padding:0;cursor:zoom-in;border-radius:10px;overflow:hidden}
+.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.strip{display:flex;gap:10px;overflow-x:auto;padding:4px 0;margin-top:-6px}
+.strip button{flex:0 0 auto;width:96px;height:72px;padding:0;border:0;border-radius:6px;overflow:hidden;cursor:zoom-in;background:#ddd}
+.strip img{width:100%;height:100%;object-fit:cover;display:block}
+
+.f{display:grid;gap:6px}
+.f label{font-weight:700;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.f label small{font-weight:400;color:var(--muted);font-size:1.125rem}
+.f .tag{font-size:1.125rem;font-weight:700;color:var(--green);background:#fff;border:1px solid currentColor;border-radius:8px;padding:0 8px}
+textarea{display:block;width:100%;font:inherit;line-height:1.5;padding:12px 14px;border-radius:12px;border:2px solid var(--edge);background:#fff;color:var(--ink);resize:vertical;min-height:3.4em;field-sizing:content}
+textarea::placeholder{color:var(--muted);opacity:1;font-style:italic}
+textarea.t1{font-weight:700}
+textarea.big{min-height:8em}
+.f[data-changed] textarea{border-color:var(--green);border-width:3px}
+.was{margin:0;padding:10px 12px;border-radius:10px;background:#fff;border:1px dashed var(--edge);font-size:1.125rem}
+.was b{display:block;font-size:1.125rem;color:var(--muted);margin-bottom:2px}
+.was del{color:var(--red);text-decoration-thickness:2px}
+.was ins{text-decoration:none;background:var(--ins);color:var(--ins-ink);border-radius:4px;padding:0 2px}
+.edit{display:grid;gap:16px}
+
+.actions{display:flex;flex-wrap:wrap;gap:10px}
+.go,.okbtn,.editbtn,.helpbtn,.addnote,.undo{font:inherit;font-weight:700;cursor:pointer;border-radius:12px;padding:10px 18px;min-height:56px;min-width:48px;text-align:center}
+.go,.okbtn{background:var(--green);color:#fff;border:3px solid var(--green);flex:1 1 12rem}
+.okbtn[aria-pressed="true"]{background:#fff;color:var(--green)}
+.editbtn{background:#fff;color:var(--ink);border:3px solid var(--edge);flex:1 1 8rem}
+.helpbtn{background:#fff;color:var(--lilac-edge);border:3px solid var(--lilac-edge);flex:0 1 auto}
+.helpbtn[aria-pressed="true"]{background:var(--lilac-edge);color:#fff}
+.addnote,.undo{background:#fff;color:var(--ink);border:2px solid var(--edge);justify-self:start;min-height:48px;font-size:1.125rem}
+
+.choices{display:grid;gap:10px}
+.choices button{font:inherit;text-align:start;padding:12px 16px;border-radius:12px;border:2px solid var(--edge);background:#fff;color:var(--ink);cursor:pointer;display:flex;gap:12px;align-items:center;min-height:56px;line-height:1.35}
+.choices button .dot{flex:0 0 28px;height:28px;border-radius:50%;border:2px solid var(--edge);display:grid;place-items:center;font-size:1rem;font-weight:700}
+.choices button[aria-pressed="true"]{border-width:3px;border-color:var(--green);font-weight:700}
+.choices button[aria-pressed="true"] .dot{border-color:var(--green);background:var(--green)}
+.choices button[aria-pressed="true"] .dot::after{content:"✓";color:#fff}
+
+.finish{border:2px solid var(--edge);border-radius:16px;padding:22px 18px;margin-block:40px 60px;display:grid;gap:14px}
+.finish h2{font-size:1.625rem;margin:0}
+.flat{margin:0}
+.wa summary{cursor:pointer;color:var(--ink);font-size:1.125rem;text-decoration:underline;padding-block:12px;min-height:48px}
+.wabody{display:grid;gap:12px;padding-top:8px}
+.send{font:inherit;font-size:1.125rem;font-weight:700;color:#fff;background:var(--wa);border-radius:12px;padding:14px 18px;text-align:center;text-decoration:none;display:block}
+.copy{font:inherit;font-size:1.125rem;background:#fff;border:2px solid var(--edge);color:var(--ink);border-radius:12px;padding:10px 16px;cursor:pointer;min-height:48px}
+pre.report{white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;border:1px solid var(--edge);border-radius:10px;padding:12px;font:inherit;font-size:1.125rem;margin:0;max-height:300px;overflow:auto}
+
+.lb{position:fixed;inset:0;z-index:20;background:rgba(0,0,0,.92);display:grid;place-items:center;padding:calc(16px + env(safe-area-inset-top,0px)) 16px calc(16px + env(safe-area-inset-bottom,0px))}
+.lb img{max-width:100%;max-height:80vh;border-radius:8px}
+.lb button{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));right:calc(12px + env(safe-area-inset-right,0px));font:inherit;font-size:1.125rem;font-weight:700;background:#fff;color:#111;border:0;border-radius:24px;padding:10px 18px;min-height:48px}
+main.wrap{padding-bottom:40px}
+
+/* Short screen (phone page zoom about 190 % or more, landscape, desktop zoom 200-400 %): the bar scrolls away. */
+@media (max-height:480px){
+  .bar{position:static}
+  .card,.part{scroll-margin-top:12px}
+  .lb img{max-height:70vh}
+}
+@media (max-width:400px){
+  .how,.finish{padding:16px 12px}
+  .card{padding:14px 12px}
+  .num{min-width:2.5rem;height:2.5rem;font-size:1.25rem}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+/* /tegi/ (tags-v1): appended to the /semya/ styles. Chips are >= 48px targets, text 7:1. */
+.prog{flex:1 0 100%;height:10px;border-radius:999px;background:#4a423a;overflow:hidden}
+.prog span{display:block;height:100%;width:0;background:#9fe0b4}
+.alldone{font-weight:700;color:var(--green);font-size:1.375rem}
+.sub2{margin:0;font-size:1.125rem;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.chip{font:inherit;font-size:1.125rem;line-height:1.3;cursor:pointer;border-radius:999px;padding:10px 16px;min-height:48px;display:inline-flex;align-items:center;gap:8px;text-align:start}
+.chip.on{background:var(--green);color:#fff;border:2px solid var(--green);font-weight:700}
+.chip.on::after{content:"✕";font-size:1rem;opacity:.9}
+.chip.off{background:#fff;color:var(--ink);border:2px solid var(--edge)}
+.chip.off::before{content:"+";font-weight:800}
+.chip.mine{border-style:dashed}
+.none{margin:0;color:var(--muted);font-style:italic}
+.adder{display:grid;gap:12px;background:#fff;border:2px solid var(--edge);border-radius:12px;padding:12px}
+.adder label{font-weight:700}
+.adder input{display:block;width:100%;font:inherit;padding:12px 14px;border-radius:12px;border:2px solid var(--edge);background:#fff;color:var(--ink);min-height:56px}
+.adder input::placeholder{color:var(--muted);opacity:1;font-style:italic}
+.adder .hint{margin:0;font-size:1.125rem;color:var(--muted)}
+.newtag{font:inherit;font-weight:700;cursor:pointer;border-radius:12px;padding:10px 16px;min-height:56px;background:var(--navy);color:#fff;border:0;justify-self:start;text-align:start}
+.addbtn{font:inherit;font-weight:700;cursor:pointer;border-radius:12px;padding:10px 18px;min-height:56px;background:#fff;color:var(--ink);border:3px solid var(--navy);justify-self:start}
+.donebtn{font:inherit;font-weight:800;font-size:1.375rem;cursor:pointer;border-radius:14px;padding:14px 18px;min-height:64px;background:var(--green);color:#fff;border:3px solid var(--green);width:100%}
+.folded{display:flex;gap:12px;align-items:center;width:100%;font:inherit;text-align:start;background:none;border:0;padding:0;cursor:pointer;color:var(--ink)}
+.folded img{flex:0 0 72px;width:72px;height:54px;object-fit:cover;border-radius:6px;background:#ddd}
+.folded .ft{display:grid;gap:2px;min-width:0}
+.folded .ft b{font-size:1.125rem}
+.folded .ft span{font-size:1.125rem;color:var(--muted)}
+.card.small{padding:10px 12px;gap:8px}
+.card.small .num{min-width:2.5rem;height:2.5rem;font-size:1.125rem}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <h1>Признаки работ</h1>
+  <p class="sub">По этим словам клиенты найдут работы на сайте.</p>
+  <p class="sub ok" id="autonote">Всё сохраняется само. Отправлять ничего не надо.</p>
+</div></header>
+
+<div class="bar"><div class="wrap">
+  <span class="count" id="count" role="status">Готово 0 из 0</span>
+  <span class="saved" id="saved" role="status" aria-live="polite"></span>
+  <button class="next" id="next" type="button">Дальше ↓</button>
+  <div class="prog" aria-hidden="true"><span id="progfill"></span></div>
+</div></div>
+
+<main class="wrap">
+  <section class="how">
+    <h2>Как это сделать</h2>
+    <ol>
+      <li>Посмотрите фото. Нажмите на фото, чтобы увеличить.</li>
+      <li>Зелёные слова мы уже выбрали. Если слово не подходит, нажмите на него, и оно уйдёт.</li>
+      <li>Чего-то не хватает? Нажмите <b>«+ Добавить признак»</b>. Выберите из списка или напишите своё.</li>
+      <li>Нажмите большую кнопку <b>«Готово»</b>. Работа уйдёт вниз, в зелёный список.</li>
+    </ol>
+  </section>
+
+  <section class="part" id="s1" aria-labelledby="h1s">
+    <h2 class="cat" id="h1s">Ждут вас <span id="c1"></span></h2>
+    <div class="list" id="todo"></div>
+    <p class="flat alldone" id="alldone" hidden>Все работы готовы. Спасибо!</p>
+  </section>
+
+  <section class="part" id="s2" aria-labelledby="h2s">
+    <h2 class="cat" id="h2s">Готово <span id="c2"></span></h2>
+    <p class="intro">Чтобы изменить, нажмите на работу.</p>
+    <div class="list" id="done"></div>
+  </section>
+
+  <section class="finish" id="finish">
+    <h2>Вот и всё</h2>
+    <p class="flat">Всё, что вы выбрали, уже сохранено. Можно закрыть страницу и вернуться, когда удобно.</p>
+  </section>
+</main>
+<div class="lb" id="lb" hidden><img id="lbimg" alt="" src="/favicon.svg"><button type="button" id="lbclose">Закрыть ✕</button></div>
+<script>const PROJECTS=[{"s":"printed-glass-grey-wood-01","n":1,"cr":"Кухни","t":"Кухня под серое дерево со стеклом с принтом","g":["wood-look","printed-glass","pull-out-baskets","grey","white"],"p":["/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-03-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-01-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-02-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-04-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-05-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-06-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-07-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-08-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-09-480.webp","/img/kitchens/printed-glass-grey-wood-01/printed-glass-grey-wood-01-10-480.webp"]},{"s":"cappuccino-matte-dining-table-03","n":2,"cr":"Кухни","t":"Кухня цвета капучино с обеденным столом","g":["corner","handleless","matte","dining-table","beige"],"p":["/img/kitchens/cappuccino-matte-dining-table-03/cappuccino-matte-dining-table-03-05-480.webp","/img/kitchens/cappuccino-matte-dining-table-03/cappuccino-matte-dining-table-03-01-480.webp","/img/kitchens/cappuccino-matte-dining-table-03/cappuccino-matte-dining-table-03-02-480.webp","/img/kitchens/cappuccino-matte-dining-table-03/cappuccino-matte-dining-table-03-03-480.webp","/img/kitchens/cappuccino-matte-dining-table-03/cappuccino-matte-dining-table-03-04-480.webp","/img/kitchens/cappuccino-matte-dining-table-03/cappuccino-matte-dining-table-03-06-480.webp"]},{"s":"taupe-gloss-burgundy-top-06","n":3,"cr":"Кухни","t":"Кухня цвета капучино с бордовой столешницей при монтаже","g":["corner","gloss","profile-handles","beige","dark-top"],"p":["/img/kitchens/taupe-gloss-burgundy-top-06/taupe-gloss-burgundy-top-06-01-480.webp","/img/kitchens/taupe-gloss-burgundy-top-06/taupe-gloss-burgundy-top-06-02-480.webp","/img/kitchens/taupe-gloss-burgundy-top-06/taupe-gloss-burgundy-top-06-03-480.webp","/img/kitchens/taupe-gloss-burgundy-top-06/taupe-gloss-burgundy-top-06-04-480.webp","/img/kitchens/taupe-gloss-burgundy-top-06/taupe-gloss-burgundy-top-06-05-480.webp","/img/kitchens/taupe-gloss-burgundy-top-06/taupe-gloss-burgundy-top-06-06-480.webp","/img/kitchens/taupe-gloss-burgundy-top-06/taupe-gloss-burgundy-top-06-07-480.webp"]},{"s":"aubergine-gloss-flower-glass-07","n":4,"cr":"Кухни","t":"Глянцевая кухня цвета баклажана со стеклом с цветами","g":["corner","gloss","printed-glass","purple"],"p":["/img/kitchens/aubergine-gloss-flower-glass-07/aubergine-gloss-flower-glass-07-06-480.webp","/img/kitchens/aubergine-gloss-flower-glass-07/aubergine-gloss-flower-glass-07-01-480.webp","/img/kitchens/aubergine-gloss-flower-glass-07/aubergine-gloss-flower-glass-07-02-480.webp","/img/kitchens/aubergine-gloss-flower-glass-07/aubergine-gloss-flower-glass-07-03-480.webp","/img/kitchens/aubergine-gloss-flower-glass-07/aubergine-gloss-flower-glass-07-04-480.webp","/img/kitchens/aubergine-gloss-flower-glass-07/aubergine-gloss-flower-glass-07-05-480.webp","/img/kitchens/aubergine-gloss-flower-glass-07/aubergine-gloss-flower-glass-07-07-480.webp"]},{"s":"striped-wood-look-straight-08","n":5,"cr":"Кухни","t":"Прямая кухня с полосатыми фасадами под дерево","g":["straight","wood-look","profile-handles","printed-glass"],"p":["/img/kitchens/striped-wood-look-straight-08/striped-wood-look-straight-08-02-480.webp","/img/kitchens/striped-wood-look-straight-08/striped-wood-look-straight-08-01-480.webp","/img/kitchens/striped-wood-look-straight-08/striped-wood-look-straight-08-03-480.webp"]},{"s":"blue-shaker-wine-rack-09","n":6,"cr":"Кухни","t":"Серо-голубая кухня с деревянными витринами","g":["corner","shaker","glass-doors","wine-rack","bar","blue"],"p":["/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-06-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-01-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-02-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-03-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-04-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-05-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-07-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-08-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-09-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-10-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-11-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-12-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-13-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-14-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-15-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-16-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-17-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-18-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-19-480.webp","/img/kitchens/blue-shaker-wine-rack-09/blue-shaker-wine-rack-09-20-480.webp"]},{"s":"white-gloss-dark-counter-10","n":7,"cr":"Кухни","t":"Белая угловая кухня с тёмной столешницей","g":["corner","gloss","handleless","white","dark-top"],"p":["/img/kitchens/white-gloss-dark-counter-10/white-gloss-dark-counter-10-02-480.webp","/img/kitchens/white-gloss-dark-counter-10/white-gloss-dark-counter-10-01-480.webp","/img/kitchens/white-gloss-dark-counter-10/white-gloss-dark-counter-10-03-480.webp","/img/kitchens/white-gloss-dark-counter-10/white-gloss-dark-counter-10-04-480.webp","/img/kitchens/white-gloss-dark-counter-10/white-gloss-dark-counter-10-05-480.webp"]},{"s":"lime-green-gloss-11","n":8,"cr":"Кухни","t":"Кухня в ярко-зелёном глянце","g":["corner","gloss","profile-handles","green"],"p":["/img/kitchens/lime-green-gloss-11/lime-green-gloss-11-03-480.webp","/img/kitchens/lime-green-gloss-11/lime-green-gloss-11-01-480.webp","/img/kitchens/lime-green-gloss-11/lime-green-gloss-11-02-480.webp","/img/kitchens/lime-green-gloss-11/lime-green-gloss-11-04-480.webp","/img/kitchens/lime-green-gloss-11/lime-green-gloss-11-05-480.webp","/img/kitchens/lime-green-gloss-11/lime-green-gloss-11-06-480.webp"]},{"s":"blue-led-display-cabinet-12","n":9,"cr":"Кухни","t":"Светло-серая кухня с подсвеченной витриной","g":["corner","handleless","glass-doors","led","grey"],"p":["/img/kitchens/blue-led-display-cabinet-12/blue-led-display-cabinet-12-04-480.webp","/img/kitchens/blue-led-display-cabinet-12/blue-led-display-cabinet-12-01-480.webp","/img/kitchens/blue-led-display-cabinet-12/blue-led-display-cabinet-12-02-480.webp","/img/kitchens/blue-led-display-cabinet-12/blue-led-display-cabinet-12-03-480.webp","/img/kitchens/blue-led-display-cabinet-12/blue-led-display-cabinet-12-05-480.webp","/img/kitchens/blue-led-display-cabinet-12/blue-led-display-cabinet-12-06-480.webp","/img/kitchens/blue-led-display-cabinet-12/blue-led-display-cabinet-12-07-480.webp"]},{"s":"classic-white-glass-vitrines-13","n":10,"cr":"Кухни","t":"Классическая белая кухня с витринами","g":["straight","classic","shaker","glass-doors","white"],"p":["/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-08-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-01-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-02-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-03-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-04-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-05-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-06-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-07-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-09-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-10-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-11-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-12-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-13-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-14-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-15-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-16-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-17-480.webp","/img/kitchens/classic-white-glass-vitrines-13/classic-white-glass-vitrines-13-18-480.webp"]},{"s":"light-oak-black-counter-14","n":11,"cr":"Кухни","t":"Кухня под светлое дерево с чёрной столешницей","g":["u-shape","wood-look","printed-glass","dark-top"],"p":["/img/kitchens/light-oak-black-counter-14/light-oak-black-counter-14-02-480.webp","/img/kitchens/light-oak-black-counter-14/light-oak-black-counter-14-01-480.webp","/img/kitchens/light-oak-black-counter-14/light-oak-black-counter-14-03-480.webp"]},{"s":"grey-tall-wall-smoke-glass-16","n":12,"cr":"Кухни","t":"Кухня с островом и стеной высоких шкафов","g":["island","tall-units","printed-glass","grey"],"p":["/img/kitchens/grey-tall-wall-smoke-glass-16/grey-tall-wall-smoke-glass-16-01-480.webp","/img/kitchens/grey-tall-wall-smoke-glass-16/grey-tall-wall-smoke-glass-16-02-480.webp","/img/kitchens/grey-tall-wall-smoke-glass-16/grey-tall-wall-smoke-glass-16-03-480.webp","/img/kitchens/grey-tall-wall-smoke-glass-16/grey-tall-wall-smoke-glass-16-04-480.webp","/img/kitchens/grey-tall-wall-smoke-glass-16/grey-tall-wall-smoke-glass-16-05-480.webp"]},{"s":"white-gloss-peninsula-corner-pullouts-17","n":13,"cr":"Кухни","t":"Белая кухня с островом и угловыми механизмами","g":["island","gloss","white","handleless","corner-mechanism","roller-shutter"],"p":["/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-19-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-01-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-02-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-03-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-04-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-05-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-06-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-07-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-08-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-09-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-10-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-11-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-12-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-13-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-14-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-15-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-16-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-17-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-18-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-20-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-21-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-22-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-23-480.webp","/img/kitchens/white-gloss-peninsula-corner-pullouts-17/white-gloss-peninsula-corner-pullouts-17-24-480.webp"]},{"s":"white-island-orchid-glass-18","n":14,"cr":"Кухни","t":"Белая кухня с островом и стеклом с орхидеями","g":["island","printed-glass","pantry","pull-out-baskets","roller-shutter","white"],"p":["/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-01-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-02-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-03-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-04-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-05-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-06-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-07-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-08-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-09-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-10-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-11-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-12-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-13-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-14-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-15-480.webp","/img/kitchens/white-island-orchid-glass-18/white-island-orchid-glass-18-16-480.webp"]},{"s":"wood-shaker-white-glass-uppers-19","n":15,"cr":"Кухни","t":"Кухня под дерево со стеклянными шкафами","g":["corner","shaker","wood-look","glass-doors","white","dark-top"],"p":["/img/kitchens/wood-shaker-white-glass-uppers-19/wood-shaker-white-glass-uppers-19-01-480.webp","/img/kitchens/wood-shaker-white-glass-uppers-19/wood-shaker-white-glass-uppers-19-02-480.webp"]},{"s":"grey-wood-pantry-baskets-20","n":16,"cr":"Кухни","t":"Кухня под серое дерево с выдвижными корзинами","g":["gloss","wood-look","printed-glass","pull-out-baskets","grey","white"],"p":["/img/kitchens/grey-wood-pantry-baskets-20/grey-wood-pantry-baskets-20-07-480.webp","/img/kitchens/grey-wood-pantry-baskets-20/grey-wood-pantry-baskets-20-01-480.webp","/img/kitchens/grey-wood-pantry-baskets-20/grey-wood-pantry-baskets-20-02-480.webp","/img/kitchens/grey-wood-pantry-baskets-20/grey-wood-pantry-baskets-20-03-480.webp","/img/kitchens/grey-wood-pantry-baskets-20/grey-wood-pantry-baskets-20-04-480.webp","/img/kitchens/grey-wood-pantry-baskets-20/grey-wood-pantry-baskets-20-05-480.webp","/img/kitchens/grey-wood-pantry-baskets-20/grey-wood-pantry-baskets-20-06-480.webp"]},{"s":"light-oak-installation-grey-top-22","n":17,"cr":"Кухни","t":"Кухня под светлое дерево в процессе монтажа","g":["corner","wood-look","profile-handles"],"p":["/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-10-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-01-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-02-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-03-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-04-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-05-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-06-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-07-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-08-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-09-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-11-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-12-480.webp","/img/kitchens/light-oak-installation-grey-top-22/light-oak-installation-grey-top-22-13-480.webp"]},{"s":"cream-ushape-magic-corner-24","n":18,"cr":"Кухни","t":"Кремовая кухня с системами хранения","g":["u-shape","handleless","printed-glass","corner-mechanism","inner-drawers","cream"],"p":["/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-09-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-01-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-02-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-03-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-04-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-05-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-06-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-07-480.webp","/img/kitchens/cream-ushape-magic-corner-24/cream-ushape-magic-corner-24-08-480.webp"]},{"s":"rustic-grey-oak-orchid-glass-27","n":19,"cr":"Кухни","t":"Кухня под серое дерево в процессе монтажа","g":["wood-look","printed-glass","tall-units","grey"],"p":["/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-07-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-01-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-02-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-03-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-04-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-05-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-06-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-08-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-09-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-10-480.webp","/img/kitchens/rustic-grey-oak-orchid-glass-27/rustic-grey-oak-orchid-glass-27-11-480.webp"]},{"s":"white-shaker-double-sink-30","n":20,"cr":"Кухни","t":"Белая рамочная кухня с двойной мойкой","g":["corner","shaker","white"],"p":["/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-07-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-01-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-02-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-03-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-04-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-05-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-06-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-08-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-09-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-10-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-11-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-12-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-13-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-14-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-15-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-16-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-17-480.webp","/img/kitchens/white-shaker-double-sink-30/white-shaker-double-sink-30-18-480.webp"]},{"s":"ivory-walnut-island-34","n":21,"cr":"Кухни","t":"Кухня цвета слоновой кости и ореха с островом","g":["island","handleless","wood-look","cream"],"p":["/img/kitchens/ivory-walnut-island-34/ivory-walnut-island-34-03-480.webp","/img/kitchens/ivory-walnut-island-34/ivory-walnut-island-34-01-480.webp","/img/kitchens/ivory-walnut-island-34/ivory-walnut-island-34-02-480.webp","/img/kitchens/ivory-walnut-island-34/ivory-walnut-island-34-04-480.webp","/img/kitchens/ivory-walnut-island-34/ivory-walnut-island-34-05-480.webp","/img/kitchens/ivory-walnut-island-34/ivory-walnut-island-34-06-480.webp"]},{"s":"oak-look-protective-film-36","n":22,"cr":"Кухни","t":"Кухня под светлое дерево до отделки","g":["wood-look","profile-handles","inner-drawers","pull-out-baskets","lift-up"],"p":["/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-04-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-01-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-02-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-03-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-05-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-06-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-07-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-08-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-09-480.webp","/img/kitchens/oak-look-protective-film-36/oak-look-protective-film-36-10-480.webp"]},{"s":"white-gloss-brick-wall-vitrine-37","n":23,"cr":"Кухни","t":"Белая кухня с кирпичной стеной и витриной","g":["u-shape","gloss","handleless","bar","glass-doors","white"],"p":["/img/kitchens/white-gloss-brick-wall-vitrine-37/white-gloss-brick-wall-vitrine-37-03-480.webp","/img/kitchens/white-gloss-brick-wall-vitrine-37/white-gloss-brick-wall-vitrine-37-01-480.webp","/img/kitchens/white-gloss-brick-wall-vitrine-37/white-gloss-brick-wall-vitrine-37-02-480.webp","/img/kitchens/white-gloss-brick-wall-vitrine-37/white-gloss-brick-wall-vitrine-37-04-480.webp","/img/kitchens/white-gloss-brick-wall-vitrine-37/white-gloss-brick-wall-vitrine-37-05-480.webp","/img/kitchens/white-gloss-brick-wall-vitrine-37/white-gloss-brick-wall-vitrine-37-06-480.webp","/img/kitchens/white-gloss-brick-wall-vitrine-37/white-gloss-brick-wall-vitrine-37-07-480.webp"]},{"s":"red-sphere-glass-backsplash-38","n":24,"cr":"Кухни","t":"Кухня со стеклянным фартуком с красными шарами","g":["straight","gloss","printed-glass","tall-units","white","grey"],"p":["/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-01-480.webp","/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-02-480.webp","/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-03-480.webp","/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-04-480.webp","/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-05-480.webp","/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-06-480.webp","/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-07-480.webp","/img/kitchens/red-sphere-glass-backsplash-38/red-sphere-glass-backsplash-38-08-480.webp"]},{"s":"wood-island-print-wall-39","n":25,"cr":"Кухни","t":"Белая кухня с деревянным островом и стеной с принтом","g":["island","handleless","printed-glass","white"],"p":["/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-08-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-01-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-02-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-03-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-04-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-05-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-06-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-07-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-09-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-10-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-11-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-12-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-13-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-14-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-15-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-16-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-17-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-18-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-19-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-20-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-21-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-22-480.webp","/img/kitchens/wood-island-print-wall-39/wood-island-print-wall-39-23-480.webp"]},{"s":"cream-shaker-glazed-uppers-40","n":26,"cr":"Кухни","t":"Кремовая кухня с застеклёнными шкафами","g":["straight","shaker","classic","glass-doors","cream"],"p":["/img/kitchens/cream-shaker-glazed-uppers-40/cream-shaker-glazed-uppers-40-02-480.webp","/img/kitchens/cream-shaker-glazed-uppers-40/cream-shaker-glazed-uppers-40-01-480.webp","/img/kitchens/cream-shaker-glazed-uppers-40/cream-shaker-glazed-uppers-40-03-480.webp","/img/kitchens/cream-shaker-glazed-uppers-40/cream-shaker-glazed-uppers-40-04-480.webp"]},{"s":"white-kitchen-protective-film-41","n":27,"cr":"Кухни","t":"Белая кухня в день монтажа","g":["corner","tall-units","white"],"p":["/img/kitchens/white-kitchen-protective-film-41/white-kitchen-protective-film-41-07-480.webp","/img/kitchens/white-kitchen-protective-film-41/white-kitchen-protective-film-41-01-480.webp","/img/kitchens/white-kitchen-protective-film-41/white-kitchen-protective-film-41-02-480.webp","/img/kitchens/white-kitchen-protective-film-41/white-kitchen-protective-film-41-03-480.webp","/img/kitchens/white-kitchen-protective-film-41/white-kitchen-protective-film-41-04-480.webp","/img/kitchens/white-kitchen-protective-film-41/white-kitchen-protective-film-41-05-480.webp","/img/kitchens/white-kitchen-protective-film-41/white-kitchen-protective-film-41-06-480.webp"]},{"s":"dark-kitchen-during-install-42","n":28,"cr":"Кухни","t":"Тёмная кухня в процессе монтажа","g":["corner","profile-handles","tall-units","dark"],"p":["/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-05-480.webp","/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-01-480.webp","/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-02-480.webp","/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-03-480.webp","/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-04-480.webp","/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-06-480.webp","/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-07-480.webp","/img/kitchens/dark-kitchen-during-install-42/dark-kitchen-during-install-42-08-480.webp"]},{"s":"black-top-cream-l-43","n":29,"cr":"Кухни","t":"Кремовая кухня с чёрной столешницей","g":["corner","cream","dark-top"],"p":["/img/kitchens/black-top-cream-l-43/black-top-cream-l-43-01-480.webp","/img/kitchens/black-top-cream-l-43/black-top-cream-l-43-02-480.webp"]},{"s":"grey-top-corner-carousel-44","n":30,"cr":"Кухни","t":"Кремово-серая кухня с угловыми механизмами","g":["corner","gloss","corner-mechanism","drawers","cream","grey"],"p":["/img/kitchens/grey-top-corner-carousel-44/grey-top-corner-carousel-44-02-480.webp","/img/kitchens/grey-top-corner-carousel-44/grey-top-corner-carousel-44-01-480.webp","/img/kitchens/grey-top-corner-carousel-44/grey-top-corner-carousel-44-03-480.webp","/img/kitchens/grey-top-corner-carousel-44/grey-top-corner-carousel-44-04-480.webp","/img/kitchens/grey-top-corner-carousel-44/grey-top-corner-carousel-44-05-480.webp","/img/kitchens/grey-top-corner-carousel-44/grey-top-corner-carousel-44-06-480.webp","/img/kitchens/grey-top-corner-carousel-44/grey-top-corner-carousel-44-07-480.webp"]},{"s":"blush-concrete-tall-units-46","n":31,"cr":"Кухни","t":"Кухня цвета пудры и серого бетона","g":["tall-units","roller-shutter","pink","grey","dark-top"],"p":["/img/kitchens/blush-concrete-tall-units-46/blush-concrete-tall-units-46-01-480.webp","/img/kitchens/blush-concrete-tall-units-46/blush-concrete-tall-units-46-02-480.webp"]},{"s":"light-grey-microwave-niche-47","n":32,"cr":"Кухни","t":"Светло-серая кухня с нишей для микроволновки","g":["corner","profile-handles","tall-units","grey"],"p":["/img/kitchens/light-grey-microwave-niche-47/light-grey-microwave-niche-47-01-480.webp","/img/kitchens/light-grey-microwave-niche-47/light-grey-microwave-niche-47-02-480.webp","/img/kitchens/light-grey-microwave-niche-47/light-grey-microwave-niche-47-03-480.webp","/img/kitchens/light-grey-microwave-niche-47/light-grey-microwave-niche-47-04-480.webp"]},{"s":"purple-gloss-led-strip-48","n":33,"cr":"Кухни","t":"Глянцевая фиолетовая кухня с LED-подсветкой","g":["corner","gloss","printed-glass","led","purple"],"p":["/img/kitchens/purple-gloss-led-strip-48/purple-gloss-led-strip-48-02-480.webp","/img/kitchens/purple-gloss-led-strip-48/purple-gloss-led-strip-48-01-480.webp","/img/kitchens/purple-gloss-led-strip-48/purple-gloss-led-strip-48-03-480.webp"]},{"s":"lily-print-cream-kitchen-50","n":34,"cr":"Кухни","t":"Кремовая кухня со стеклянным шкафом с цветком","g":["corner","printed-glass","profile-handles","cream"],"p":["/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-10-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-01-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-02-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-03-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-04-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-05-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-06-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-07-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-08-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-09-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-11-480.webp","/img/kitchens/lily-print-cream-kitchen-50/lily-print-cream-kitchen-50-12-480.webp"]},{"s":"white-glitter-glass-pantry-51","n":35,"cr":"Кухни","t":"Белая кухня со стеклом с блёстками и кладовой","g":["corner","gloss","profile-handles","pantry","pull-out-baskets","white"],"p":["/img/kitchens/white-glitter-glass-pantry-51/white-glitter-glass-pantry-51-01-480.webp","/img/kitchens/white-glitter-glass-pantry-51/white-glitter-glass-pantry-51-02-480.webp","/img/kitchens/white-glitter-glass-pantry-51/white-glitter-glass-pantry-51-03-480.webp","/img/kitchens/white-glitter-glass-pantry-51/white-glitter-glass-pantry-51-04-480.webp","/img/kitchens/white-glitter-glass-pantry-51/white-glitter-glass-pantry-51-05-480.webp"]},{"s":"ivory-gloss-brown-top-53","n":36,"cr":"Кухни","t":"Глянцевая кухня цвета слоновой кости с коричневой столешницей","g":["corner","gloss","cream","tall-units"],"p":["/img/kitchens/ivory-gloss-brown-top-53/ivory-gloss-brown-top-53-01-480.webp","/img/kitchens/ivory-gloss-brown-top-53/ivory-gloss-brown-top-53-02-480.webp","/img/kitchens/ivory-gloss-brown-top-53/ivory-gloss-brown-top-53-03-480.webp"]},{"s":"white-uppers-dark-top-54","n":37,"cr":"Кухни","t":"П-образная кухня с тёмно-серой столешницей","g":["u-shape","gloss","white","cream","dark-top"],"p":["/img/kitchens/white-uppers-dark-top-54/white-uppers-dark-top-54-01-480.webp","/img/kitchens/white-uppers-dark-top-54/white-uppers-dark-top-54-02-480.webp"]},{"s":"cream-peninsula-grey-top-55","n":38,"cr":"Кухни","t":"Кремовая кухня с полуостровом и серой столешницей","g":["peninsula","profile-handles","roller-shutter","cream","dark-top"],"p":["/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-05-480.webp","/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-01-480.webp","/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-02-480.webp","/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-03-480.webp","/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-04-480.webp","/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-06-480.webp","/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-07-480.webp","/img/kitchens/cream-peninsula-grey-top-55/cream-peninsula-grey-top-55-08-480.webp"]},{"s":"cappuccino-gloss-slatted-bar-57","n":39,"cr":"Кухни","t":"Глянцевая кухня цвета капучино с небольшой стойкой","g":["corner","gloss","bar","profile-handles","roller-shutter","beige"],"p":["/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-03-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-01-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-02-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-04-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-05-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-06-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-07-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-08-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-09-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-10-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-11-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-12-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-13-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-14-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-15-480.webp","/img/kitchens/cappuccino-gloss-slatted-bar-57/cappuccino-gloss-slatted-bar-57-16-480.webp"]},{"s":"beige-wardrobe-mirror-door-04","n":40,"cr":"Встроенные шкафы","t":"Светлый шкаф с зеркальной дверцей","g":["mirror","matte","legs","profile-handles","beige"],"p":["/img/closets/beige-wardrobe-mirror-door-04/beige-wardrobe-mirror-door-04-01-480.webp"]},{"s":"sliding-wardrobe-glass-shelves-05","n":41,"cr":"Встроенные шкафы","t":"Шкаф-купе и стеллаж со стеклянными полками","g":["sliding-doors","glass-shelves","white"],"p":["/img/closets/sliding-wardrobe-glass-shelves-05/sliding-wardrobe-glass-shelves-05-01-480.webp"]},{"s":"oak-walk-in-pull-down-rails-01","n":42,"cr":"Гардеробные","t":"Гардеробная под дуб с опускаемыми штангами","g":["pull-down-rail","hanging","open-shelves","drawers","wood-look"],"p":["/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-15-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-01-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-02-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-03-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-04-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-05-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-06-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-07-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-08-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-09-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-10-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-11-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-12-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-13-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-14-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-16-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-17-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-18-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-19-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-20-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-21-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-22-480.webp","/img/walk-in-closets/oak-walk-in-pull-down-rails-01/oak-walk-in-pull-down-rails-01-23-480.webp"]},{"s":"dark-wood-walk-in-02","n":43,"cr":"Гардеробные","t":"Гардеробная под тёмное дерево","g":["hanging","open-shelves","wood-look","dark"],"p":["/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-19-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-01-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-02-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-03-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-04-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-05-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-06-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-07-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-08-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-09-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-10-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-11-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-12-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-13-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-14-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-15-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-16-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-17-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-18-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-20-480.webp","/img/walk-in-closets/dark-wood-walk-in-02/dark-wood-walk-in-02-21-480.webp"]},{"s":"ramla-walnut-walk-in-04","n":44,"cr":"Гардеробные","t":"Гардеробная под орех в Рамле","g":["hanging","open-shelves","drawers","wood-look","dark"],"p":["/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-12-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-01-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-02-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-03-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-04-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-05-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-06-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-07-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-08-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-09-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-10-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-11-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-13-480.webp","/img/walk-in-closets/ramla-walnut-walk-in-04/ramla-walnut-walk-in-04-14-480.webp"]},{"s":"cream-shaker-brass-knobs-09","n":45,"cr":"Гардеробные","t":"Стена шкафов кремового цвета с латунными ручками","g":["shaker","drawers","open-shelves","cream"],"p":["/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-03-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-01-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-02-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-04-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-05-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-06-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-07-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-08-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-09-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-10-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-11-480.webp","/img/walk-in-closets/cream-shaker-brass-knobs-09/cream-shaker-brass-knobs-09-12-480.webp"]},{"s":"electric-fireplace-white-console-02","n":46,"cr":"Тумбы и ТВ-стенки","t":"Подвесная тумба под ТВ с электрокамином","g":["tv-unit","fireplace","wall-hung","handleless","white"],"p":["/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-01-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-02-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-03-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-04-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-05-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-06-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-07-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-08-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-09-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-10-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-11-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-12-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-13-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-14-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-15-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-16-480.webp","/img/sideboards/electric-fireplace-white-console-02/electric-fireplace-white-console-02-17-480.webp"]},{"s":"green-wall-stepped-tv-unit-04","n":47,"cr":"Тумбы и ТВ-стенки","t":"Длинная ступенчатая тумба под ТВ с электрокамином","g":["tv-unit","fireplace"],"p":["/img/sideboards/green-wall-stepped-tv-unit-04/green-wall-stepped-tv-unit-04-01-480.webp","/img/sideboards/green-wall-stepped-tv-unit-04/green-wall-stepped-tv-unit-04-02-480.webp","/img/sideboards/green-wall-stepped-tv-unit-04/green-wall-stepped-tv-unit-04-03-480.webp","/img/sideboards/green-wall-stepped-tv-unit-04/green-wall-stepped-tv-unit-04-04-480.webp","/img/sideboards/green-wall-stepped-tv-unit-04/green-wall-stepped-tv-unit-04-05-480.webp","/img/sideboards/green-wall-stepped-tv-unit-04/green-wall-stepped-tv-unit-04-06-480.webp","/img/sideboards/green-wall-stepped-tv-unit-04/green-wall-stepped-tv-unit-04-07-480.webp"]},{"s":"oak-sideboard-sage-shelves-05","n":48,"cr":"Тумбы и ТВ-стенки","t":"Тумба под дуб с полками цвета шалфея","g":["legs","wood-look","open-shelves","green"],"p":["/img/sideboards/oak-sideboard-sage-shelves-05/oak-sideboard-sage-shelves-05-03-480.webp","/img/sideboards/oak-sideboard-sage-shelves-05/oak-sideboard-sage-shelves-05-01-480.webp","/img/sideboards/oak-sideboard-sage-shelves-05/oak-sideboard-sage-shelves-05-02-480.webp","/img/sideboards/oak-sideboard-sage-shelves-05/oak-sideboard-sage-shelves-05-04-480.webp","/img/sideboards/oak-sideboard-sage-shelves-05/oak-sideboard-sage-shelves-05-05-480.webp","/img/sideboards/oak-sideboard-sage-shelves-05/oak-sideboard-sage-shelves-05-06-480.webp","/img/sideboards/oak-sideboard-sage-shelves-05/oak-sideboard-sage-shelves-05-07-480.webp"]},{"s":"triangle-sink-dark-top-01","n":49,"cr":"Мебель для ванной","t":"Тумба для ванной с треугольной раковиной","g":["wall-hung","vessel-sink","drawers","white","dark-top"],"p":["/img/bathroom-vanities/triangle-sink-dark-top-01/triangle-sink-dark-top-01-01-480.webp","/img/bathroom-vanities/triangle-sink-dark-top-01/triangle-sink-dark-top-01-02-480.webp","/img/bathroom-vanities/triangle-sink-dark-top-01/triangle-sink-dark-top-01-03-480.webp"]},{"s":"oval-sink-open-shelves-02","n":50,"cr":"Мебель для ванной","t":"Тумба для ванной с открытыми полками для полотенец","g":["drawers","open-shelves","vessel-sink","white","dark-top"],"p":["/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-02-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-01-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-03-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-04-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-05-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-06-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-07-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-08-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-09-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-10-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-11-480.webp","/img/bathroom-vanities/oval-sink-open-shelves-02/oval-sink-open-shelves-02-12-480.webp"]},{"s":"green-vanity-pink-sink-03","n":51,"cr":"Мебель для ванной","t":"Зелёная тумба для ванной с розовой раковиной","g":["wall-hung","green","pink","dark-top"],"p":["/img/bathroom-vanities/green-vanity-pink-sink-03/green-vanity-pink-sink-03-05-480.webp","/img/bathroom-vanities/green-vanity-pink-sink-03/green-vanity-pink-sink-03-01-480.webp","/img/bathroom-vanities/green-vanity-pink-sink-03/green-vanity-pink-sink-03-02-480.webp","/img/bathroom-vanities/green-vanity-pink-sink-03/green-vanity-pink-sink-03-03-480.webp","/img/bathroom-vanities/green-vanity-pink-sink-03/green-vanity-pink-sink-03-04-480.webp","/img/bathroom-vanities/green-vanity-pink-sink-03/green-vanity-pink-sink-03-06-480.webp","/img/bathroom-vanities/green-vanity-pink-sink-03/green-vanity-pink-sink-03-07-480.webp"]},{"s":"oak-bookcase-home-office-05","n":52,"cr":"Кабинеты и офисы","t":"Книжный стеллаж и стол под дуб","g":["bookcase","desk","wood-look"],"p":["/img/offices/oak-bookcase-home-office-05/oak-bookcase-home-office-05-01-480.webp","/img/offices/oak-bookcase-home-office-05/oak-bookcase-home-office-05-02-480.webp","/img/offices/oak-bookcase-home-office-05/oak-bookcase-home-office-05-03-480.webp","/img/offices/oak-bookcase-home-office-05/oak-bookcase-home-office-05-04-480.webp","/img/offices/oak-bookcase-home-office-05/oak-bookcase-home-office-05-05-480.webp"]}];
+const VOCAB=[{"id":"island","ru":"остров"},{"id":"peninsula","ru":"полуостров"},{"id":"corner","ru":"угловая"},{"id":"u-shape","ru":"П-образная"},{"id":"straight","ru":"прямая"},{"id":"bar","ru":"барная стойка"},{"id":"dining-table","ru":"обеденный стол"},{"id":"pantry","ru":"шкаф-кладовая"},{"id":"pull-out-baskets","ru":"выдвижные корзины"},{"id":"corner-mechanism","ru":"угловой механизм"},{"id":"inner-drawers","ru":"внутренние ящики"},{"id":"drawers","ru":"ящики"},{"id":"roller-shutter","ru":"шкаф с рольставней"},{"id":"tall-units","ru":"стена высоких шкафов"},{"id":"open-shelves","ru":"открытые полки"},{"id":"glass-shelves","ru":"стеклянные полки"},{"id":"wine-rack","ru":"полка для вина"},{"id":"hanging","ru":"штанги для одежды"},{"id":"pull-down-rail","ru":"опускная штанга"},{"id":"glass-doors","ru":"стеклянные дверцы"},{"id":"lift-up","ru":"подъёмные дверцы"},{"id":"sliding-doors","ru":"раздвижные двери"},{"id":"mirror","ru":"зеркало"},{"id":"handleless","ru":"без ручек"},{"id":"profile-handles","ru":"профильные ручки"},{"id":"led","ru":"LED-подсветка"},{"id":"wall-hung","ru":"подвесная"},{"id":"legs","ru":"на ножках"},{"id":"vessel-sink","ru":"накладная раковина"},{"id":"tv-unit","ru":"ТВ-тумба"},{"id":"fireplace","ru":"электрокамин"},{"id":"desk","ru":"письменный стол"},{"id":"bookcase","ru":"книжный шкаф"},{"id":"dark-top","ru":"тёмная столешница"},{"id":"gloss","ru":"глянец"},{"id":"matte","ru":"матовые"},{"id":"shaker","ru":"фасады с рамкой"},{"id":"classic","ru":"классика"},{"id":"wood-look","ru":"под дерево"},{"id":"printed-glass","ru":"стекло с рисунком"},{"id":"white","ru":"белый"},{"id":"cream","ru":"кремовый"},{"id":"beige","ru":"бежевый"},{"id":"grey","ru":"серый"},{"id":"dark","ru":"тёмный"},{"id":"green","ru":"зелёный"},{"id":"blue","ru":"синий"},{"id":"purple","ru":"фиолетовый"},{"id":"pink","ru":"розовый"}];
+// FamilySync (family-v2): saves everything the parents type to our server by itself. No send step.
+// It sends the whole local state of the stores (shared by /semya/, /teksty/, /proverka/, /tegi/) when it differs from what
+// the server last confirmed: after 4 s of quiet, at most once per 20 s, at once when the page is hidden or closed, and
+// again after a failure (on the next change, when the phone is back online, and every 60 s).
+// localStorage stays the main store; the server copy is for Arik. The first load after this update sends everything
+// that was typed before (nothing was confirmed yet), so earlier answers that were never sent arrive now.
+// A card is "saved" when its value now equals its value in the last state the server confirmed.
+const FS=(()=>{
+  const URL_='https://shalito-family.arikshalito.workers.dev/family/save',KEY_='WqWPf_0E7VFQNYpX73VCKAxR4-vMwPH4';
+  const PAGE=document.documentElement.dataset.page||'semya';
+  const STORES={texts:'shalito-texts-v1',review:'shalito-father-review-v1',semya:'shalito-semya-v1',help:'shalito-help-v1',tags:'shalito-tags-v1'};
+  const DKEY='shalito-family-device',AKEY='shalito-family-acked';
+  const QUIET=4000,GAP=20000,RETRY=60000;
+  const on=/^https?:\/\//.test(URL_)&&!/^__/.test(KEY_);
+  const rd=(k,d)=>{try{return JSON.parse(localStorage.getItem(k)||'null')||d}catch(e){return d}};
+  const wr=(k,v)=>{try{localStorage.setItem(k,v);return true}catch(e){return false}};
+  let device=rd(DKEY,'');
+  if(typeof device!=='string'||!/^[0-9a-f]{16}$/.test(device)){
+    const b=new Uint8Array(8);crypto.getRandomValues(b);device=[...b].map(x=>x.toString(16).padStart(2,'0')).join('');wr(DKEY,JSON.stringify(device));
+  }
+  let acked=rd(AKEY,null); // {at, data} = the last state the server confirmed
+  let state=on?'idle':'off'; // idle | wait | sending | fail | off
+  let timer=0,lastSend=0,inflight=null;
+  const subs=[];
+  const snap=()=>{const d={};for(const s in STORES)d[s]=rd(STORES[s],{});return d};
+  const str=v=>v==null?'':JSON.stringify(v);
+  // A browser that never typed anything sends nothing (no empty device records).
+  const empty=d=>Object.values(d).every(o=>!o||typeof o!=='object'||!Object.keys(o).length||Object.values(o).every(v=>v&&typeof v==='object'&&!Object.keys(v).length));
+  const dirty=()=>{const d=snap();return acked?str(acked.data)!==str(d):!empty(d)};
+  function emit(){subs.forEach(f=>{try{f(state)}catch(e){}})}
+  function set(s){if(state!==s){state=s;emit()}}
+  function plan(now){
+    if(!on)return;
+    clearTimeout(timer);
+    if(!dirty()){if(state!=='sending')set('idle');return}
+    if(state!=='fail'&&state!=='sending')set('wait');
+    if(inflight)return; // the reply will plan again
+    const t=Math.max(now?0:QUIET,lastSend+GAP-Date.now(),0);
+    timer=setTimeout(()=>send(false),t);
+  }
+  function send(leaving){
+    if(!on||inflight&&!leaving)return;
+    clearTimeout(timer);
+    const data=snap(),body=JSON.stringify({k:KEY_,d:device,page:PAGE,data});
+    if(acked&&str(acked.data)===JSON.stringify(data)){set('idle');return}
+    lastSend=Date.now();
+    if(!leaving)set('sending');
+    const req=fetch(URL_,{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body,mode:'cors',credentials:'omit',cache:'no-store',
+      referrerPolicy:'no-referrer',keepalive:leaving&&body.length<60000})
+      .then(r=>r.ok?r.json():Promise.reject(r.status))
+      .then(j=>{if(!j||!j.ok)throw 0;acked={at:j.at,data};wr(AKEY,JSON.stringify(acked));set('idle')})
+      .catch(()=>{set('fail');clearTimeout(timer);timer=setTimeout(()=>send(false),RETRY)})
+      .finally(()=>{if(inflight===req)inflight=null;if(state!=='fail')plan()});
+    if(!leaving)inflight=req;
+  }
+  // value of one item now and in the last confirmed state; path = [store, key, sub?]
+  const pick=(d,p)=>p.reduce((o,k)=>o&&typeof o==='object'?o[k]:undefined,d);
+  function item(path){
+    if(!on)return 'off';
+    const cur=pick(snap(),path);
+    if(acked&&str(cur)===str(pick(acked.data,path)))return 'ok';
+    return state==='fail'?'fail':'wait';
+  }
+  if(on){
+    document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'&&dirty())send(true)});
+    window.addEventListener('pagehide',()=>{if(dirty())send(true)});
+    window.addEventListener('online',()=>{if(dirty()){lastSend=0;plan(true)}});
+    window.addEventListener('storage',e=>{if(e.key===AKEY){acked=rd(AKEY,null);emit()}});
+    setTimeout(()=>plan(),0); // first load: anything typed earlier and never confirmed goes out after the quiet time
+  }
+  return {on,device,changed:()=>plan(),item,state:()=>state,sub:f=>subs.push(f),flush:()=>send(false),
+    // help flags ("Не понял") live in their own store so all three pages share them
+    help:id=>rd(STORES.help,{})[id]||null,
+    setHelp:(id,v)=>{const h=rd(STORES.help,{});if(v)h[id]=Object.assign({},v,{t:Date.now()});else delete h[id];wr(STORES.help,JSON.stringify(h));plan()}};
+})();
+// One line of text for a card's server mark.
+const FS_MARK={ok:'✓ Сохранено',wait:'Сохраняю…',fail:'Не сохранилось, попробуем ещё',off:''};
+// /tegi/ (tags-v1): the father picks the feature tags of every project shown on the site.
+// Our suggested tags come pre-selected; he removes what is wrong and adds what is missing. Every tag he adds joins ONE
+// shared list (state.own), so on the next cards it is one tap, never typed twice (match: trimmed, case-insensitive, ё = е).
+// Store 'shalito-tags-v1' (saved to the server by sync.js as data.tags):
+//   {p: {<slug>: {sel: {<tag id>: 1, ...}, done: true|false, t}}, own: {<u-xxxxxx>: 'label'}}
+// A project without p[slug].sel still has its suggestions. "Готово" writes sel explicitly, so the server copy is complete.
+const KEY='shalito-tags-v1';
+const $=id=>document.getElementById(id);
+const el=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e};
+const btn=(cls,text)=>{const b=el('button',cls,text);b.type='button';return b};
+const read=(k,d)=>{try{return JSON.parse(localStorage.getItem(k)||'null')||d}catch(e){return d}};
+const smooth=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
+const nk=s=>String(s==null?'':s).toLowerCase().replace(/ё/g,'е').replace(/\s+/g,' ').trim();
+const MAXLEN=60;
+
+let state;
+function load(){
+  state=read(KEY,{});
+  if(!state||typeof state!=='object')state={};
+  state.p=state.p&&typeof state.p==='object'?state.p:{};
+  state.own=state.own&&typeof state.own==='object'?state.own:{};
+}
+load();
+const VMAP=Object.fromEntries(VOCAB.map(v=>[v.id,v.ru]));
+const label=id=>VMAP[id]||state.own[id]||'';
+const allIds=()=>[...VOCAB.map(v=>v.id),...Object.keys(state.own)].filter(id=>label(id));
+const R=p=>state.p[p.s];
+const sel=p=>{const r=R(p);return r&&r.sel&&typeof r.sel==='object'?Object.keys(r.sel).filter(label):p.g.slice()};
+const isDone=p=>!!(R(p)&&R(p).done);
+let localFail=false;
+function save(){
+  try{localStorage.setItem(KEY,JSON.stringify(state));localFail=false}catch(e){localFail=true}
+  FS.changed();
+}
+function setSel(p,ids){
+  const r=state.p[p.s]||(state.p[p.s]={done:false});
+  r.sel=Object.fromEntries(ids.map(i=>[i,1]));r.t=Date.now();
+  save();
+}
+function findTag(text){const k=nk(text);return allIds().find(id=>nk(label(id))===k)||null}
+function newTag(text){
+  const t=text.replace(/\s+/g,' ').trim().slice(0,MAXLEN);
+  if(!t)return null;
+  const had=findTag(t);if(had)return had;
+  let id;do{const b=new Uint8Array(3);crypto.getRandomValues(b);id='u-'+[...b].map(x=>x.toString(16).padStart(2,'0')).join('')}while(state.own[id]||VMAP[id]);
+  state.own[id]=t;return id;
+}
+
+const open={};   // slug -> a done card is unfolded right now
+const adder={};  // slug -> {on, q}
+
+// Photo viewer; the phone's Back button closes it instead of leaving the page.
+let opener=null;
+function hideLb(){if($('lb').hidden)return;$('lb').hidden=true;if(opener)opener.focus({preventScroll:true})}
+function openLb(src){opener=document.activeElement;$('lbimg').src=src;$('lb').hidden=false;$('lbclose').focus();try{history.pushState({lb:1},'')}catch(e){}}
+function closeLb(){if($('lb').hidden)return;if(history.state&&history.state.lb)history.back();else hideLb()}
+window.addEventListener('popstate',hideLb);
+$('lbclose').onclick=closeLb;
+$('lb').onclick=e=>{if(e.target.id==='lb'||e.target.id==='lbimg')closeLb()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb()});
+
+function markOf(p){
+  if(!R(p))return '';
+  const m=FS.item(['tags','p',p.s]);
+  return m==='off'?'':m;
+}
+function paintMark(card,p){
+  const m=card.querySelector('.mark');if(!m)return;
+  const ms=markOf(p);m.dataset.m=ms;m.textContent=ms?FS_MARK[ms]:'';m.hidden=!ms;
+}
+
+function head(p,small){
+  const h=el('div','head');
+  h.append(el('span','num','№'+p.n));
+  const ht=el('div','ht');
+  ht.append(el('p','kind',p.cr));
+  if(!small)ht.append(el('p','sub2','Сейчас на сайте: «'+p.t+'»'));
+  const m=el('p','mark');m.hidden=true;ht.append(m);
+  h.append(ht);return h;
+}
+
+function chipOn(p,id){
+  const b=btn('chip on'+(VMAP[id]?'':' mine'),label(id));
+  b.setAttribute('aria-label',label(id)+': убрать');
+  b.onclick=()=>{setSel(p,sel(p).filter(x=>x!==id));paint(p,'list')};
+  return b;
+}
+function chipOff(p,id){
+  const b=btn('chip off'+(VMAP[id]?'':' mine'),label(id));
+  b.setAttribute('aria-label',label(id)+': добавить');
+  b.onclick=()=>{const s=sel(p);if(!s.includes(id))setSel(p,s.concat(id));const a=adder[p.s];if(a)a.q='';paint(p,'list')};
+  return b;
+}
+function listInto(ul,ids,mk){ul.replaceChildren(...ids.map(id=>{const li=el('li');li.append(mk(id));return li}))}
+
+function matches(p,q){
+  const s=sel(p),k=nk(q);
+  const ids=allIds().filter(id=>!s.includes(id));
+  if(!k)return ids;
+  // words that start with what he typed come first ("остр": остров before полуостров)
+  const st=id=>nk(label(id)).split(/[s-]+/).some(w=>w.startsWith(k))?0:1;
+  return ids.filter(id=>nk(label(id)).includes(k)).sort((x,y)=>st(x)-st(y));
+}
+function paintMatches(p,box){
+  const a=adder[p.s],q=a.q||'';
+  const ul=box.querySelector('.mlist'),nb=box.querySelector('.newtag'),hint=box.querySelector('.hint');
+  const ids=matches(p,q);
+  listInto(ul,ids,id=>chipOff(p,id));
+  const t=q.replace(/\s+/g,' ').trim(),ex=t&&findTag(t);
+  nb.hidden=!t||!!ex;
+  nb.textContent='+ Добавить своё: «'+t+'»';
+  hint.textContent=!t?'Нажмите на слово из списка или начните писать.':ids.length?'Нашлось: '+ids.length+'. Нажмите на нужное.':ex?'Это слово уже выбрано.':'В списке такого нет. Можно добавить своё.';
+}
+
+function full(p,card){
+  card.className='card';card.dataset.tint=p.n%2?'a':'b';
+  if(isDone(p))card.dataset.state='done';else delete card.dataset.state;
+  card.replaceChildren(head(p,false));
+  const cov=btn('cover');cov.setAttribute('aria-label','Фото работы №'+p.n+', увеличить');
+  const im=el('img');im.src=p.p[0];im.alt='';im.loading='lazy';im.decoding='async';cov.append(im);cov.onclick=()=>openLb(p.p[0]);
+  card.append(cov);
+  if(p.p.length>1){
+    const st=el('div','strip');
+    p.p.slice(1).forEach((src,i)=>{const b=btn('');b.setAttribute('aria-label','Фото '+(i+2)+', увеличить');const m=el('img');m.src=src;m.alt='';m.loading='lazy';b.append(m);b.onclick=()=>openLb(src);st.append(b)});
+    card.append(st);
+  }
+  card.append(el('p','q','Признаки этой работы:'));
+  const on=el('ul','chips selected');card.append(on);
+  const none=el('p','none','Пока нет ни одного признака.');card.append(none);
+  const s=sel(p);
+  listInto(on,s,id=>chipOn(p,id));none.hidden=s.length>0;
+
+  // His own tags from other cards: one tap here.
+  const mine=Object.keys(state.own).filter(id=>label(id)&&!s.includes(id));
+  if(mine.length){
+    card.append(el('p','sub2','Ваши слова с других работ:'));
+    const ul=el('ul','chips');listInto(ul,mine,id=>chipOff(p,id));card.append(ul);
+  }
+
+  const a=adder[p.s]||(adder[p.s]={on:false,q:''});
+  if(!a.on){
+    const ab=btn('addbtn','+ Добавить признак');ab.setAttribute('aria-expanded','false');
+    ab.onclick=()=>{a.on=true;paint(p,'add')};card.append(ab);
+  }else{
+    const box=el('div','adder');
+    const id='in-'+p.s;
+    const lab=el('label',null,'Добавить признак');lab.htmlFor=id;
+    const inp=el('input');inp.id=id;inp.type='text';inp.maxLength=MAXLEN;inp.autocomplete='off';inp.setAttribute('autocapitalize','none');inp.setAttribute('enterkeyhint','done');
+    inp.placeholder='Например: остров, ящики, подсветка';inp.value=a.q;
+    box.append(lab,inp,el('p','hint'));
+    const nb=btn('newtag','');box.append(nb);
+    box.append(el('ul','chips mlist'));
+    const close=btn('addnote','Закрыть список');close.onclick=()=>{a.on=false;a.q='';paint(p,'addbtn')};box.append(close);
+    inp.oninput=()=>{a.q=inp.value;paintMatches(p,box)};
+    const addOwn=()=>{const t=inp.value;if(!t.trim())return;const tid=findTag(t)||newTag(t);if(!tid)return;const cur=sel(p);if(!cur.includes(tid))setSel(p,cur.concat(tid));else save();a.q='';paint(p,'input')};
+    nb.onclick=addOwn;
+    inp.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();const ids=matches(p,inp.value);if(ids.length===1){const cur=sel(p);setSel(p,cur.concat(ids[0]));a.q='';paint(p,'input')}else if(!findTag(inp.value))addOwn()}};
+    card.append(box);
+    paintMatches(p,box);
+  }
+  const done=btn('donebtn','Готово ✓');
+  done.onclick=()=>finish(p);
+  card.append(done);
+  paintMark(card,p);
+}
+
+function small(p,card){
+  card.className='card small';card.dataset.state='done';delete card.dataset.tint;
+  const b=btn('folded');b.setAttribute('aria-expanded','false');
+  const im=el('img');im.src=p.p[0];im.alt='';im.loading='lazy';
+  const ft=el('span','ft');
+  ft.append(el('b',null,'✓ №'+p.n+' · '+p.cr),el('span',null,sel(p).map(label).join(', ')||'без признаков'));
+  b.append(im,ft);
+  b.setAttribute('aria-label','Работа №'+p.n+', готово: '+(sel(p).map(label).join(', ')||'без признаков')+'. Открыть, изменить');
+  b.onclick=()=>{open[p.s]=true;paint(p,'card')};
+  const m=el('p','mark');m.hidden=true;
+  card.replaceChildren(b,m);
+  paintMark(card,p);
+}
+
+// Repaint one card; focus = what should get the keyboard focus afterwards.
+function paint(p,focus){
+  const card=$('p-'+p.s);
+  if(isDone(p)&&!open[p.s])small(p,card);else full(p,card);
+  if(focus==='input'||focus==='add'){const i=card.querySelector('input');if(i)i.focus({preventScroll:true})}
+  else if(focus==='addbtn'){const b=card.querySelector('.addbtn');if(b)b.focus({preventScroll:true})}
+  else if(focus==='list'){const b=card.querySelector('.donebtn');if(b&&!card.contains(document.activeElement))b.focus({preventScroll:true})}
+  else if(focus==='card'){const b=card.querySelector('.donebtn');if(b)b.focus({preventScroll:true})}
+  refresh();
+}
+
+function finish(p){
+  const r=state.p[p.s]||(state.p[p.s]={});
+  r.sel=Object.fromEntries(sel(p).map(i=>[i,1]));r.done=true;r.t=Date.now();
+  open[p.s]=false;const a=adder[p.s];if(a){a.on=false;a.q=''}
+  save();place();
+  const next=PROJECTS.find(x=>!isDone(x)&&x.n>p.n)||PROJECTS.find(x=>!isDone(x));
+  if(next){const c=$('p-'+next.s);c.scrollIntoView({behavior:smooth(),block:'start'});const f=c.querySelector('.cover');if(f)f.focus({preventScroll:true})}
+  else{$('alldone').scrollIntoView({behavior:smooth(),block:'center'})}
+}
+
+// Put every card in its list: not done on top, done (folded, green) below; each list in site order.
+function place(){
+  const todo=$('todo'),done=$('done');
+  PROJECTS.forEach(p=>{
+    let card=$('p-'+p.s);
+    if(!card){card=el('article','card');card.id='p-'+p.s}
+    (isDone(p)?done:todo).append(card);
+    if(isDone(p)&&!open[p.s])small(p,card);else full(p,card);
+  });
+  refresh();
+}
+
+const BAR={idle:'✓ Всё сохранено',wait:'Сохраняю…',sending:'Сохраняю…',fail:'Нет связи. Ответы на телефоне, сохраним позже',off:'Сохранено на телефоне'};
+function refresh(){
+  const n=PROJECTS.filter(isDone).length,all=PROJECTS.length;
+  $('count').textContent=`Готово ${n} из ${all}`;
+  $('progfill').style.width=(all?Math.round(n/all*100):0)+'%';
+  $('c1').textContent=`(${all-n})`;$('c2').textContent=`(${n})`;
+  $('alldone').hidden=n<all;
+  $('s2').hidden=n===0;
+  const s=FS.state(),sv=$('saved');
+  sv.textContent=localFail?'Не сохранилось! Не закрывайте страницу':BAR[s]||'';
+  sv.dataset.s=localFail?'fail':s;
+  $('autonote').hidden=!FS.on;
+}
+$('next').onclick=()=>{
+  const p=PROJECTS.find(x=>!isDone(x));
+  const t=p?$('p-'+p.s):$('finish');
+  t.scrollIntoView({behavior:smooth(),block:'start'});
+};
+
+FS.sub(()=>{PROJECTS.forEach(p=>{const c=$('p-'+p.s);if(c)paintMark(c,p)});refresh()});
+window.addEventListener('storage',e=>{if(e.key===KEY){load();place()}});
+place();
+</script>
+</body>
+</html>
