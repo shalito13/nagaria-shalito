@@ -5,7 +5,7 @@
 <script>if(location.protocol==='http:'&&/^(www\.)?shalito\.net$/.test(location.hostname))location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-86/6rvIOTFxZEQhNYIrrzxIEpc2yxS89ZIHwUf+hMss='; style-src 'sha256-VJwpyCr/rb+ZHE8PFfuJZfiJcZpHMA0Lp5+1nMbQtCE='; font-src 'none'; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-vGX50E2Ibci8VT+3yoqjskpLfE+8YunYyYPNZ0g9xlo='; style-src 'sha256-+6Ck1Oo9PTlY/jXaN3H8sz0Ua0RjoOV2FuhaAHvA2D0='; font-src 'none'; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="robots" content="noindex, nofollow">
 <title>Проверка работ Шалито</title>
 <style>
@@ -124,6 +124,21 @@ textarea::placeholder{color:var(--muted);opacity:1;font-style:italic}
 .send{font-size:1.25rem}
 .barsend{font-size:min(1.125rem,22px);white-space:normal;max-width:calc(100% - 32px);min-height:56px;box-shadow:0 0 0 3px #fff,0 4px 14px rgba(0,0,0,.35)}
 .meter{background:#3a332c;min-width:48px}
+.sec{font-family:var(--display);font-size:1.75rem;font-weight:700;margin:36px 0 14px;padding:12px 16px;border-radius:12px}
+.sec.todo{background:var(--amber-soft);color:#6b3f00}
+.sec.ok{background:var(--green-soft);color:#0f5a35}
+.card.fin{background:#f3f9f5;border-color:var(--green)}
+.card.fin[data-choice="notmine"]{background:#fdf3f4;border-color:var(--red)}
+.ans{margin:0;font-size:1.375rem;font-weight:700;color:#0f5a35}
+.card[data-choice="notmine"] .ans{color:#9e1529}
+.card[data-choice="hide"] .ans{color:#6b3f00}
+.card.fin.shut{display:grid;grid-template-columns:96px 1fr;align-items:start}
+.card.fin.shut .cover{aspect-ratio:1;height:100%}
+.card.fin.shut .strip,.card.fin.shut .q,.card.fin.shut .choices,.card.fin.shut .nb,.card.fin.shut .link,.card.fin.shut .chip,.card.fin.shut .mark{display:none!important}
+.card.fin.shut .title{font-size:1.25rem}
+.edit{justify-self:start;min-height:48px;padding:8px 18px;font:inherit;font-size:1.125rem;font-weight:700;border:2px solid var(--edge);border-radius:12px;background:#fff;color:var(--ink);cursor:pointer}
+.card:not(.fin) .ans,.card:not(.fin) .edit{display:none}
+
 .bar{font-size:min(1.25rem,22px)}
 .bar .wrap{gap:4px 12px;padding-block:6px}
 .saved{font-size:min(1rem,18px)}
@@ -329,14 +344,21 @@ function paintCard(slug){
   const s=status(slug);
   card.dataset.choice=state[slug].choice;card.dataset.status=s;
   const chip=card.querySelector('.chip');chip.textContent=STATUS[s]||'';chip.hidden=!s;
+  const c=CHOICES.find(x=>x.v===state[slug].choice);const an=card.querySelector('.ans');
+  if(an)an.textContent=c?(state[slug].choice==='notmine'?'✗ ':'✓ ')+c.label:'✓ Ответ: комментарий';
 }
 
 function render(){
-  const list=$('list');let cat='';let wrap=null;
-  PROJECTS.forEach((p,i)=>{
-    if(p.c!==cat){cat=p.c;list.append(el('h2','cat',p.cr));wrap=el('div','list');list.append(wrap)}
+  const list=$('list');list.replaceChildren();
+  // Not answered yet on top; answered ones below, folded small and marked done (Arik 04.11).
+  const todo=PROJECTS.filter(p=>!answered(state[p.s])),fin=PROJECTS.filter(p=>answered(state[p.s]));
+  const wt=el('div','list'),wf=el('div','list');
+  if(todo.length){list.append(el('h2','sec todo',`Осталось ответить: ${todo.length}`),wt)}
+  if(fin.length){list.append(el('h2','sec ok',`✓ Готово: ${fin.length}`),wf)}
+  [...todo,...fin].forEach(p=>{
+    const i=PROJECTS.indexOf(p),isFin=answered(state[p.s]),wrap=isFin?wf:wt;
     const a=state[p.s]||(state[p.s]={choice:'',note:'',t:0});
-    const card=el('article','card');card.id='p-'+p.s;
+    const card=el('article','card'+(isFin?' fin shut':''));card.id='p-'+p.s;
     const cover=el('button','cover');cover.type='button';cover.setAttribute('aria-label','Увеличить фото');
     const img=el('img');img.src=p.p[0];img.alt=p.t;img.loading='lazy';cover.append(img);cover.onclick=()=>openLb(p.p[0]);
     card.append(cover);
@@ -347,6 +369,7 @@ function render(){
     }
     const body=el('div','body');
     const chip=el('p','chip');chip.hidden=true;body.append(chip);
+    body.append(el('p','ans',''));
     body.append(el('div','meta',`${p.cr} · работа №${i+1} из ${PROJECTS.length} · фото: ${p.p.length}`));
     body.append(el('h3','title',p.t));
     body.append(el('p','q','Это ваша работа?'));
@@ -365,8 +388,11 @@ function render(){
     const nl=el('label','nl','Комментарий (необязательно)');nl.htmlFor='n-'+p.s;
     const ta=el('textarea');ta.id='n-'+p.s;ta.value=a.note;ta.placeholder='Например: это делал другой мастер';
     ta.oninput=()=>{a.note=ta.value;commit(p.s)};
-    const nb=el('div');nb.append(nl,ta);body.append(nb);
+    const nb=el('div','nb');nb.append(nl,ta);body.append(nb);
     const lk=el('a','link','Открыть на сайте ↗');lk.href=p.u;lk.target='_blank';lk.rel='noopener';body.append(lk);
+    const ed=el('button','edit','Изменить ответ');ed.type='button';ed.setAttribute('aria-expanded','false');
+    ed.onclick=()=>{const open=card.classList.toggle('shut');ed.textContent=open?'Изменить ответ':'Свернуть';ed.setAttribute('aria-expanded',String(!open))};
+    body.append(ed);
     card.append(body);wrap.append(card);
     paintCard(p.s);
   });
@@ -424,7 +450,7 @@ fetch('received.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{
   // Answers Arik already got come back on any phone or browser (e.g. after the http -> https move empties the old storage).
   let filled=0;
   Object.keys(received).forEach(s=>{if(PROJECTS.some(p=>p.s===s)&&!answered(state[s])){const r=received[s];state[s]={choice:r.choice||'',note:r.note||'',t:0};filled++}});
-  if(filled)saveLocal();
+  if(filled){saveLocal();render()}
   if(j.updated)$('gotnote').textContent='Арик получил ответы: '+j.updated;
   PROJECTS.forEach(p=>paintCard(p.s));refresh();
 }).catch(()=>{});
