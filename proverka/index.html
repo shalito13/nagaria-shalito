@@ -5,7 +5,7 @@
 <script>if(location.protocol==='http:'&&/^(www\.)?shalito\.net$/.test(location.hostname))location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-3fPf0BZ0KITm4SdihcYHEfDtYbJZWpFdczpTR+5i4WM='; style-src 'sha256-VJwpyCr/rb+ZHE8PFfuJZfiJcZpHMA0Lp5+1nMbQtCE='; font-src 'none'; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-86/6rvIOTFxZEQhNYIrrzxIEpc2yxS89ZIHwUf+hMss='; style-src 'sha256-VJwpyCr/rb+ZHE8PFfuJZfiJcZpHMA0Lp5+1nMbQtCE='; font-src 'none'; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="robots" content="noindex, nofollow">
 <title>Проверка работ Шалито</title>
 <style>
@@ -421,6 +421,10 @@ render();refresh();
 fetch('received.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{
   if(!j||!j.items)return;
   received=j.items;
+  // Answers Arik already got come back on any phone or browser (e.g. after the http -> https move empties the old storage).
+  let filled=0;
+  Object.keys(received).forEach(s=>{if(PROJECTS.some(p=>p.s===s)&&!answered(state[s])){const r=received[s];state[s]={choice:r.choice||'',note:r.note||'',t:0};filled++}});
+  if(filled)saveLocal();
   if(j.updated)$('gotnote').textContent='Арик получил ответы: '+j.updated;
   PROJECTS.forEach(p=>paintCard(p.s));refresh();
 }).catch(()=>{});
