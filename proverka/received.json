@@ -1,5 +1,5 @@
 {
- "updated": "24.10 20:28",
+ "updated": "04.11",
  "items": {
   "red-edge-work-counter-04": {
    "choice": "notmine",
@@ -271,6 +271,18 @@
   },
   "oak-bookcase-home-office-05": {
    "choice": "keep",
+   "note": ""
+  },
+  "narrow-bathroom-tall-cabinet-01": {
+   "choice": "notmine",
+   "note": ""
+  },
+  "stepped-bedroom-dresser-08": {
+   "choice": "notmine",
+   "note": ""
+  },
+  "wood-desk-glass-cabinets-02": {
+   "choice": "notmine",
    "note": ""
   }
  }
