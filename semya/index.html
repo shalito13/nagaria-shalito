@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="ru" data-page="semya">
+<html lang="ru" translate="no" data-page="semya">
 <head>
 <meta charset="utf-8">
+<meta name="google" content="notranslate">
 <script>if(location.protocol==='http:'&&/^(www\.)?shalito\.net$/.test(location.hostname))location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-Pq2gnPA0UmHiGkcCCIGgpXfKetA3B1wWNYJIcFrbjuw='; style-src 'sha256-L3+VNii/lSM1YyaBc6W/2do2gD/mixbd0FCQtJLHSOw='; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-rm5B7XUUl0hoaw0SqWdExznoKK1SYtCvZzmhg58Zg6Y='; style-src 'sha256-L3+VNii/lSM1YyaBc6W/2do2gD/mixbd0FCQtJLHSOw='; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer">
 <title>Всё для сайта Шалито</title>
@@ -291,7 +292,10 @@ const FS=(()=>{
     window.addEventListener('storage',e=>{if(e.key===AKEY){acked=rd(AKEY,null);emit()}});
     setTimeout(()=>plan(),0); // first load: anything typed earlier and never confirmed goes out after the quiet time
   }
-  return {on,device,changed:()=>plan(),item,state:()=>state,sub:f=>subs.push(f),flush:()=>send(false),
+  // /tegi/: what every device saved for the tags, merged by the Worker (newest per work). Read only; null when offline.
+  const shared=()=>on?fetch(URL_.replace(/\/save$/,'/tags'),{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify({k:KEY_}),
+    mode:'cors',credentials:'omit',cache:'no-store',referrerPolicy:'no-referrer'}).then(r=>r.ok?r.json():null).then(j=>j&&j.ok&&j.tags||null).catch(()=>null):Promise.resolve(null);
+  return {on,device,changed:()=>plan(),item,state:()=>state,sub:f=>subs.push(f),flush:()=>send(false),shared,
     // help flags ("Не понял") live in their own store so all three pages share them
     help:id=>rd(STORES.help,{})[id]||null,
     setHelp:(id,v)=>{const h=rd(STORES.help,{});if(v)h[id]=Object.assign({},v,{t:Date.now()});else delete h[id];wr(STORES.help,JSON.stringify(h));plan()}};
