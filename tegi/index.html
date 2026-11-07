@@ -5,7 +5,7 @@
 <script>if(location.protocol==='http:'&&/^(www\.)?shalito\.net$/.test(location.hostname))location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-HSN556MigLCLngcDX/e1AhwTNRE6ftrb+C+rxOWRnoc='; style-src 'sha256-prX9KKA2uF3o05vNX+UxpoPWPmud1QHXyQEeXH73YP4='; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="content-security-policy" content="default-src 'self'; script-src 'sha256-HYnRq9VPa1erf/6Iimb01/iFvBCSdvM9W35w/MI9Bus=' 'sha256-3qR4hGQm/WlPLFxWoRemCb5Z69iSUTSSucKI555rilQ='; style-src 'sha256-bb4YnxZhwLtq97h8Sj7Sig029yqD86IApJV/NnjGeqA='; img-src 'self' data:; connect-src 'self' https://shalito-family.arikshalito.workers.dev; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer">
 <title>Признаки работ Шалито</title>
@@ -164,7 +164,7 @@ main.wrap{padding-bottom:40px}
 .chip.on::after{content:"✕";font-size:1rem;opacity:.9}
 .chip.off{background:#fff;color:var(--ink);border:2px solid var(--edge)}
 .chip.off::before{content:"+";font-weight:800}
-.chip.mine{border-style:dashed}
+.chip.mine{border-style:solid} /* dashed now means "our suggestion" only */
 .none{margin:0;color:var(--muted);font-style:italic}
 .adder{display:grid;gap:12px;background:#fff;border:2px solid var(--edge);border-radius:12px;padding:12px}
 .adder label{font-weight:700}
@@ -197,12 +197,26 @@ html.lbopen,html.lbopen body{overflow:hidden;overscroll-behavior:none}
 .lb .lbnav:disabled{opacity:.35}
 .lb .lbnav[hidden]{display:none}
 .lbcount{position:absolute;left:0;right:0;bottom:calc(28px + env(safe-area-inset-bottom,0px));margin:0;text-align:center;color:#fff;font-weight:700;font-size:1.25rem;pointer-events:none}
+/* three states: done (green), started (amber), new (neutral, our suggestion); label + colour + icon, text 7:1 */
+.card[data-state="new"]{background:#fff;border-color:var(--edge)}
+.card[data-state="started"]{background:#fff3dc;border-color:#7a4a00;border-inline-start-width:12px}
+.card[data-state="started"] .num{background:#7a4a00}
+.stat{justify-self:start;display:inline-block;margin:0;font-size:1.125rem;font-weight:800;line-height:1.3;border-radius:999px;padding:4px 12px;border:2px solid}
+.st-done{background:#fff;color:var(--green);border-color:var(--green)}
+.st-started{background:#fff;color:#6a3f00;border-color:#7a4a00}
+.st-new{background:#f1eee9;color:var(--ink);border-color:var(--edge)}
+.legend{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:10px}
+.legend li{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:1.125rem}
+.chips.sug .chip.on{background:#fff;color:var(--green);border:3px dashed var(--green)}
+.count{font-variant-numeric:tabular-nums}
+.tally{margin:10px 0 0;font-size:1.375rem;font-weight:800;color:#fff;font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <h1>Признаки работ</h1>
   <p class="sub">По этим словам клиенты найдут работы на сайте.</p>
+  <p class="tally" id="tally" role="status"></p>
   <p class="sub ok" id="autonote">Всё сохраняется само. Отправлять ничего не надо.</p>
 </div></header>
 
@@ -218,14 +232,25 @@ html.lbopen,html.lbopen body{overflow:hidden;overscroll-behavior:none}
     <h2>Как это сделать</h2>
     <ol>
       <li>Посмотрите фото. Нажмите на фото, чтобы увеличить.</li>
-      <li>Зелёные слова мы уже выбрали. Если слово не подходит, нажмите на него, и оно уйдёт.</li>
+      <li>Слова в <b>пунктирной рамке</b> мы предложили. Если слово не подходит, нажмите на него, и оно уйдёт. Ваши слова – <b>сплошные зелёные</b>.</li>
       <li>Чего-то не хватает? Нажмите <b>«+ Добавить признак»</b>. Выберите из списка или напишите своё.</li>
       <li>Нажмите большую кнопку <b>«Готово»</b>. Работа свернётся в зелёную строку, а сразу под ней будет следующая. Чтобы исправить, нажмите <b>«Изменить»</b>.</li>
     </ol>
+    <p class="flat">У каждой работы написано, где она:</p>
+    <ul class="legend">
+      <li><span class="stat st-done">✓ Готово</span> вы уже нажали «Готово»</li>
+      <li><span class="stat st-started">◐ Начато – не закончено</span> вы что-то поменяли, но «Готово» ещё не нажали</li>
+      <li><span class="stat st-new">○ Ещё не смотрел</span> пока только наше предложение</li>
+    </ul>
+  </section>
+
+  <section class="part" id="s0" aria-labelledby="h0s" hidden>
+    <h2 class="cat" id="h0s">Начато – не закончено <span id="c0"></span></h2>
+    <div class="list" id="started"></div>
   </section>
 
   <section class="part" id="s1" aria-labelledby="h1s">
-    <h2 class="cat" id="h1s">Ждут вас <span id="c1"></span></h2>
+    <h2 class="cat" id="h1s">Ещё не смотрели <span id="c1"></span></h2>
     <div class="list" id="todo"></div>
     <p class="flat alldone" id="alldone" hidden>Все работы готовы. Спасибо!</p>
   </section>
@@ -320,7 +345,10 @@ const FS=(()=>{
     window.addEventListener('storage',e=>{if(e.key===AKEY){acked=rd(AKEY,null);emit()}});
     setTimeout(()=>plan(),0); // first load: anything typed earlier and never confirmed goes out after the quiet time
   }
-  return {on,device,changed:()=>plan(),item,state:()=>state,sub:f=>subs.push(f),flush:()=>send(false),
+  // /tegi/: what every device saved for the tags, merged by the Worker (newest per work). Read only; null when offline.
+  const shared=()=>on?fetch(URL_.replace(/\/save$/,'/tags'),{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify({k:KEY_}),
+    mode:'cors',credentials:'omit',cache:'no-store',referrerPolicy:'no-referrer'}).then(r=>r.ok?r.json():null).then(j=>j&&j.ok&&j.tags||null).catch(()=>null):Promise.resolve(null);
+  return {on,device,changed:()=>plan(),item,state:()=>state,sub:f=>subs.push(f),flush:()=>send(false),shared,
     // help flags ("Не понял") live in their own store so all three pages share them
     help:id=>rd(STORES.help,{})[id]||null,
     setHelp:(id,v)=>{const h=rd(STORES.help,{});if(v)h[id]=Object.assign({},v,{t:Date.now()});else delete h[id];wr(STORES.help,JSON.stringify(h));plan()}};
@@ -333,7 +361,11 @@ const FS_MARK={ok:'✓ Сохранено',wait:'Сохраняю…',fail:'Не
 // Store 'shalito-tags-v1' (saved to the server by sync.js as data.tags):
 //   {p: {<slug>: {sel: {<tag id>: 1, ...}, done: true|false, t}}, own: {<u-xxxxxx>: 'label'}}
 // A project without p[slug].sel still has its suggestions. "Готово" writes sel explicitly, so the server copy is complete.
-const KEY='shalito-tags-v1';
+// Shared status: on load the page asks the Worker for the tags of ALL devices (merged, newest t per work wins) and keeps
+// them in 'shalito-tags-shared-v1' (never sent back). A work shows whichever is newer, this phone's record or the shared
+// one, so Arik's phone and a new phone see what the father already did. Three states per work: done (green, folded),
+// started (amber: he changed something, no «Готово» yet), new (neutral: our suggestion, dashed chips, he has not looked).
+const KEY='shalito-tags-v1',SKEY='shalito-tags-shared-v1';
 const $=id=>document.getElementById(id);
 const el=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e};
 const btn=(cls,text)=>{const b=el('button',cls,text);b.type='button';return b};
@@ -350,10 +382,19 @@ function load(){
   state.own=state.own&&typeof state.own==='object'?state.own:{};
 }
 load();
+let shared=read(SKEY,{});
+if(!shared||typeof shared!=='object')shared={};
+shared.p=shared.p&&typeof shared.p==='object'?shared.p:{};shared.own=shared.own&&typeof shared.own==='object'?shared.own:{};
 const VMAP=Object.fromEntries(VOCAB.map(v=>[v.id,v.ru]));
-const label=id=>VMAP[id]||state.own[id]||'';
-const allIds=()=>[...VOCAB.map(v=>v.id),...Object.keys(state.own)].filter(id=>label(id));
-const R=p=>state.p[p.s];
+const label=id=>VMAP[id]||state.own[id]||shared.own[id]||'';
+const ownIds=()=>[...new Set([...Object.keys(state.own),...Object.keys(shared.own)])].filter(id=>!VMAP[id]&&label(id));
+const allIds=()=>[...VOCAB.map(v=>v.id),...ownIds()].filter(id=>label(id));
+// this phone's record or the shared one, whichever is newer (this phone wins a tie)
+const R=p=>{const l=state.p[p.s],s=shared.p[p.s];if(!s||typeof s!=='object')return l;if(!l)return s;return (+s.t||0)>(+l.t||0)?s:l};
+const stOf=p=>{const r=R(p);return !r?'new':r.done?'done':'started'};
+const STLABEL={done:'✓ Готово',started:'◐ Начато – не закончено',new:'○ Ещё не смотрел'};
+// a word from another phone that he picks here is written into this phone's list too, so every saved copy has its label
+const keepOwn=ids=>ids.forEach(id=>{if(!VMAP[id]&&!state.own[id]&&shared.own[id])state.own[id]=shared.own[id]});
 const sel=p=>{const r=R(p);return r&&r.sel&&typeof r.sel==='object'?Object.keys(r.sel).filter(label):p.g.slice()};
 const isDone=p=>!!(R(p)&&R(p).done);
 let localFail=false;
@@ -362,7 +403,8 @@ function save(){
   FS.changed();
 }
 function setSel(p,ids){
-  const r=state.p[p.s]||(state.p[p.s]={done:false});
+  if(!state.p[p.s]||R(p)!==state.p[p.s])state.p[p.s]={done:isDone(p)}; // start from the newer shared state
+  const r=state.p[p.s];keepOwn(ids);
   r.sel=Object.fromEntries(ids.map(i=>[i,1]));r.t=Date.now();
   save();
 }
@@ -371,7 +413,7 @@ function newTag(text){
   const t=text.replace(/\s+/g,' ').trim().slice(0,MAXLEN);
   if(!t)return null;
   const had=findTag(t);if(had)return had;
-  let id;do{const b=new Uint8Array(3);crypto.getRandomValues(b);id='u-'+[...b].map(x=>x.toString(16).padStart(2,'0')).join('')}while(state.own[id]||VMAP[id]);
+  let id;do{const b=new Uint8Array(3);crypto.getRandomValues(b);id='u-'+[...b].map(x=>x.toString(16).padStart(2,'0')).join('')}while(state.own[id]||shared.own[id]||VMAP[id]);
   state.own[id]=t;return id;
 }
 
@@ -454,7 +496,7 @@ LB.addEventListener('wheel',e=>e.preventDefault(),{passive:false});
 document.addEventListener('keydown',e=>{if(LB.hidden)return;if(e.key==='Escape')closeLb();else if(e.key==='ArrowRight')go(1);else if(e.key==='ArrowLeft')go(-1)});
 
 function markOf(p){
-  if(!R(p))return '';
+  if(!state.p[p.s])return ''; // only what this phone saved has a save mark
   const m=FS.item(['tags','p',p.s]);
   return m==='off'?'':m;
 }
@@ -470,6 +512,7 @@ function head(p,small){
   ht.append(el('p','kind',p.cr));
   if(!small)ht.append(el('p','sub2','Раньше на сайте: «'+p.t+'»'));
   const m=el('p','mark');m.hidden=true;ht.append(m);
+  const st=stOf(p);ht.prepend(el('p','stat st-'+st,STLABEL[st]));
   h.append(ht);return h;
 }
 
@@ -507,8 +550,8 @@ function paintMatches(p,box){
 }
 
 function full(p,card){
-  card.className='card';card.dataset.tint=p.n%2?'a':'b';
-  if(isDone(p))card.dataset.state='done';else delete card.dataset.state;
+  card.className='card';delete card.dataset.tint;
+  const st=stOf(p);card.dataset.state=st;
   card.replaceChildren();
   if(isDone(p)){const fb=btn('foldbtn','▲ Свернуть');fb.setAttribute('aria-expanded','true');fb.setAttribute('aria-label','Работа №'+p.n+': свернуть');fb.onclick=()=>{open[p.s]=false;paint(p,'fold','top')};card.append(fb)}
   card.append(head(p,false));
@@ -520,14 +563,16 @@ function full(p,card){
     p.p.slice(1).forEach((src,i)=>{const b=btn('');b.setAttribute('aria-label','Фото '+(i+2)+', увеличить');const m=el('img');m.src=src;m.alt='';m.loading='lazy';b.append(m);b.onclick=()=>openLb(p.p,i+1);st.append(b)});
     card.append(st);
   }
-  card.append(el('p','q','Признаки этой работы:'));
-  const on=el('ul','chips selected');card.append(on);
+  const sug=st==='new';
+  card.append(el('p','q',sug?'Предложение (проверьте):':'Ваши признаки:'));
+  if(sug)card.append(el('p','sub2','Это мы предложили. Лишнее нажмите, и оно уйдёт.'));
+  const on=el('ul','chips selected'+(sug?' sug':''));card.append(on);
   const none=el('p','none','Пока нет ни одного признака.');card.append(none);
   const s=sel(p);
   listInto(on,s,id=>chipOn(p,id));none.hidden=s.length>0;
 
   // His own tags from other cards: one tap here.
-  const mine=Object.keys(state.own).filter(id=>label(id)&&!s.includes(id));
+  const mine=ownIds().filter(id=>!s.includes(id));
   if(mine.length){
     card.append(el('p','sub2','Ваши слова с других работ:'));
     const ul=el('ul','chips');listInto(ul,mine,id=>chipOff(p,id));card.append(ul);
@@ -564,7 +609,7 @@ function small(p,card){
   const b=btn('folded');b.setAttribute('aria-expanded','false');
   const im=el('img');im.src=p.p[0];im.alt='';im.loading='lazy';
   const ft=el('span','ft');
-  ft.append(el('b',null,'✓ №'+p.n+' · '+p.cr),el('span',null,sel(p).map(label).join(', ')||'без признаков'),el('span','edit','Изменить ▼'));
+  ft.append(el('b',null,'✓ Готово · №'+p.n+' · '+p.cr),el('span',null,sel(p).map(label).join(', ')||'без признаков'),el('span','edit','Изменить ▼'));
   b.append(im,ft);
   b.setAttribute('aria-label','Работа №'+p.n+', готово: '+(sel(p).map(label).join(', ')||'без признаков')+'. Открыть, изменить');
   b.onclick=()=>{open[p.s]=true;paint(p,'fold','top')};
@@ -595,8 +640,9 @@ function paint(p,focus,anchor){
 
 function finish(p){
   const was=isDone(p);
+  const ids=sel(p);keepOwn(ids);
   const r=state.p[p.s]||(state.p[p.s]={});
-  r.sel=Object.fromEntries(sel(p).map(i=>[i,1]));r.done=true;r.t=Date.now();
+  r.sel=Object.fromEntries(ids.map(i=>[i,1]));r.done=true;r.t=Date.now();
   open[p.s]=false;const a=adder[p.s];if(a){a.on=false;a.q=''}
   save();
   const card=$('p-'+p.s);
@@ -608,13 +654,14 @@ function finish(p){
   else{$('alldone').scrollIntoView({behavior:smooth(),block:'center'})}
 }
 
-// Put every card in its list: not done on top, done (folded, green) below; each list in site order.
+// Put every card in its list: started on top, then not looked at, done (folded, green) below; each list in site order.
+// Cards move between lists only here (on load), never under his finger.
 function place(){
-  const todo=$('todo'),done=$('done');
+  const L={started:$('started'),new:$('todo'),done:$('done')};
   PROJECTS.forEach(p=>{
     let card=$('p-'+p.s);
     if(!card){card=el('article','card');card.id='p-'+p.s}
-    (isDone(p)?done:todo).append(card);
+    L[stOf(p)].append(card);
     if(isDone(p)&&!open[p.s])small(p,card);else full(p,card);
   });
   refresh();
@@ -622,26 +669,51 @@ function place(){
 
 const BAR={idle:'✓ Всё сохранено',wait:'Сохраняю…',sending:'Сохраняю…',fail:'Нет связи. Ответы на телефоне, сохраним позже',off:'Сохранено на телефоне'};
 function refresh(){
-  const n=PROJECTS.filter(isDone).length,all=PROJECTS.length;
+  const n=PROJECTS.filter(isDone).length,all=PROJECTS.length,y=PROJECTS.filter(p=>stOf(p)==='started').length,z=all-n-y;
   $('count').textContent=`Готово ${n} из ${all}`;
+  $('tally').textContent=`Готово ${n} · Начато ${y} · Не начато ${z}`;
   $('progfill').style.width=(all?Math.round(n/all*100):0)+'%';
-  $('c1').textContent=`(${all-n})`;$('c2').textContent=`(${n})`;
+  // section counts = cards in that list now (cards move only on the next load)
+  const k=id=>$(id).children.length;
+  $('c0').textContent=`(${k('started')})`;$('c1').textContent=`(${k('todo')})`;$('c2').textContent=`(${k('done')})`;
   $('alldone').hidden=n<all;
-  $('s2').hidden=n===0;
+  $('s0').hidden=k('started')===0;$('s1').hidden=k('todo')===0&&n<all;
+  $('s2').hidden=k('done')===0;
   const s=FS.state(),sv=$('saved');
   sv.textContent=localFail?'Не сохранилось! Не закрывайте страницу':BAR[s]||'';
   sv.dataset.s=localFail?'fail':s;
   $('autonote').hidden=!FS.on;
 }
 $('next').onclick=()=>{
-  const p=PROJECTS.find(x=>!isDone(x));
-  const t=p?$('p-'+p.s):$('finish');
+  const c=[...document.querySelectorAll('#started .card,#todo .card')].find(c=>c.dataset.state!=='done');
+  const t=c||$('finish');
   t.scrollIntoView({behavior:smooth(),block:'start'});
 };
 
 FS.sub(()=>{PROJECTS.forEach(p=>{const c=$('p-'+p.s);if(c)paintMark(c,p)});refresh()});
 window.addEventListener('storage',e=>{if(e.key===KEY){load();place()}});
 place();
+// Shared status from the server. Before he touches anything the lists are re-sorted; after that a work only repaints
+// in place (its label and colour change), so nothing jumps under his finger.
+let touched=false;
+document.addEventListener('pointerdown',()=>{touched=true},{capture:true,once:true});
+document.addEventListener('keydown',()=>{touched=true},{capture:true,once:true});
+let lastPull=0;
+function pull(){
+  lastPull=Date.now();
+  FS.shared().then(t=>{
+    if(!t||typeof t!=='object')return;
+    const key=()=>PROJECTS.map(p=>JSON.stringify(R(p)||0)).join('|'),before=key();
+    shared={p:t.p&&typeof t.p==='object'?t.p:{},own:t.own&&typeof t.own==='object'?t.own:{}};
+    try{localStorage.setItem(SKEY,JSON.stringify(shared))}catch(e){}
+    if(key()===before)return;
+    if(!touched&&LB.hidden){place();return}
+    PROJECTS.forEach(p=>{const c=$('p-'+p.s);if(c&&!c.contains(document.activeElement))(isDone(p)&&!open[p.s]?small:full)(p,c)});
+    refresh();
+  });
+}
+pull();
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&Date.now()-lastPull>120000)pull()});
 </script>
 </body>
 </html>
