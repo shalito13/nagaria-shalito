@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://shalito.net/sitemap.xml
